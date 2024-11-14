@@ -3,34 +3,33 @@ import openai
 import json
 import re
 import base64
-
 from io import BytesIO
-from pdf2image import convert_from_path
 
-from PyPDF2 import PdfReader
-import pymupdf4llm
 import pathlib
 from pdf2image import convert_from_path
-from marker.convert import convert_single_pdf
-from marker.models import load_all_models
+#from PyPDF2 import PdfReader
+# from marker.convert import convert_single_pdf
+# from marker.models import load_all_models
+#import pymupdf4llm
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 client = openai.Client()
-models = load_all_models()
+# models = load_all_models()
 
+#dont use this func anymore
 def extract_text_from_pdf(pdf_path):
     """
     Extract text from a PDF file without skipping any pages.
     """
-
+    # md_text = pymupdf4llm.to_markdown(pdf_path)
+    # pathlib.Path("./output.md"+pdf_path+".pdf").write_bytes(md_text.encode())
+    # return md_text
   
     # full_md_txt, images, out_meta = convert_single_pdf(pdf_path, models)
     # return full_md_txt
-    md_text = pymupdf4llm.to_markdown(pdf_path)
-    pathlib.Path("./output.md"+pdf_path+".pdf").write_bytes(md_text.encode())
-    return md_text
+   
 
     #text = ""
     # try: 
@@ -65,11 +64,10 @@ def extract_items(pdf_path, item_type):
     base64_images = pdf_to_base64_images(pdf_path, dpi=300)
     
     for base64_image in base64_images:
-        # Define the prompt with a base64-encoded image in data URI format
         prompt = (
             f"Extract all the {item_type} from the following page using OCR instead of plainly reading, "
             f"including their associated numbering and ensuring accurate representation of LaTeX equations "
-            f"with a high DPI OCR process (e.g., Q1a, Q1b, etc.):\n\n"
+            f"with a high DPI OCR process (e.g., Q1a, Q1b, Q1c (i), etc.)"
             f"Provide each {item_type[:-1]} separated by '<END>'."
         )
         
