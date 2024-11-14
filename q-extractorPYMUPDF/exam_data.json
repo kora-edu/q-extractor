@@ -1,0 +1,97 @@
+[
+  {
+    "query": "The image provided does not contain any questions. It appears to be the cover page of an exam booklet for Level 3 Calculus, 2013, with instructions and information about the exam. If you have another page with questions, please provide it, and I can help extract the questions from there.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(-2x^{-1} + \\frac{x^2}{2} + C\\)"
+  },
+  {
+    "query": "Q1a: \\(\\int \\frac{2x - 1}{x^3} \\, dx\\)",
+    "type": "NCEA",
+    "answer": "Q1b: \\(\\pi x - \\frac{1}{2} e^{2x} + c\\)"
+  },
+  {
+    "query": "Q1b: \\(\\int (\\pi - e^{2x}) \\, dx\\)",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[ \nv = \\frac{6 - 5}{t + 1} \n\\]  \n\\[ \nd = \\int v \\, dt = \\int \\left( \\frac{6 - 5}{t + 1} \\right) \\, dt \n\\]  \n\\[ \n= 6t - 5\\ln(t + 1) \n\\]  \n\\[ \nt = 4 \\quad d = 24 - 5\\ln5 = 15.95 \n\\]  \n\\[ \nt = 3 \\quad d = 18 - 5\\ln4 = 11.07 \n\\]  \nDistance travelled = 4.88 m"
+  },
+  {
+    "query": "Q1c: An object is moving in a straight line. The velocity of the object is given by \\(v = 6 - \\frac{5}{t + 1}\\), where \\(t\\) is the time measured in seconds from when the object started moving, and \\(v\\) is the velocity measured in metres per second. How far does the object travel in its 4th second of motion? Give the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q1d(i): \\(\\frac{dV}{dr} = kV\\)"
+  },
+  {
+    "query": "(d) A property owner assumes that the rate of increase of the value of his property at any time is proportional to the value, \\( S \\), of the property at that time.\n\n(i) Write the differential equation that expresses this statement.",
+    "type": "NCEA",
+    "answer": "Q1d(ii):  \n\\[ \n\\int \\frac{dV}{V} = \\int k \\, dt \n\\]  \n\\[ \n\\ln V = kt \n\\]  \n\\[ \nV = \\frac{1}{a} e^{kt} \n\\]  \n\\[ \n= Ae^{kt} \n\\]  \n\\[ \nt = 0 \\text{ months in May 2007} \n\\]  \nSo \\( t = 60 \\) months in May 2012  \nAnd \\( t = 78 \\) months in Nov 2013  \n\\[ \n365000 = Ae^{60k} \n\\]  \n\\[ \nA = \\frac{365000}{e^{60k}} \n\\]  \n\\[ \n382000 = \\frac{365000}{e^{60k}} \\times e^{78k} \n\\]  \n\\[ \n\\ln \\left( \\frac{382000}{365000} \\right) = \\ln(e^{18k}) \n\\]  \n\\[ \n18k = 0.044523 \n\\]  \n\\[ \nk = 0.002529 \n\\]  \n\\[ \nA = \\frac{365000}{e^{0.002529 \\times 0}} \n\\]  \n\\[ \n= 5313611 \\text{ when } t = 0 \n\\]"
+  },
+  {
+    "query": "(ii) The property was valued at $365,000 in May 2012, and at $382,000 in November 2013.\n\nSolve the differential equation in (i) to find the price the owner would have paid in May 2007 when he bought his house, given his assumption is accurate.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can help you understand the content or guide you on how to use OCR software to extract the text yourself. Would you like some guidance on that?"
+  },
+  {
+    "query": "(e) The energy required to pump water out of a tank with a circular cross-section and height \\( H \\) is given by:\n\n\\[\nE = \\int_0^H k(H-h)A(h) \\, dh\n\\]\n\nwhere\n\\( k \\) is a constant  \n\\( h \\) is the height of the water in the tank at any instant  \n\\( r \\) is the radius of the water surface at this instant  \n\\( A(h) \\) is the area of the surface of water at this instant.\n\nA cylindrical tank and a conical tank are both full of water.\n\nBoth have height \\( H \\), and the radius at the top of both tanks is \\( R \\).\n\nShow that the energy required to empty the conical tank is one sixth the energy required to empty the cylindrical tank.\n\nGive the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "The image provided does not contain any answers to extract. It appears to be a marking schedule or criteria for an exam, detailing the levels of achievement and what they represent."
+  },
+  {
+    "query": "Q2a. Use the values given in the table below to find the best approximation to \\(\\int_{1}^{2} f(x)dx\\), using the Trapezium Rule.\n\n\\[\n\\begin{array}{|c|c|c|c|c|c|c|c|}\n\\hline\nx & 1.0 & 1.2 & 1.4 & 1.6 & 1.8 & 2.0 \\\\\n\\hline\nf(x) & 1.41 & 1.56 & 1.72 & 1.89 & 2.06 & 2.24 \\\\\n\\hline\n\\end{array}\n\\]",
+    "type": "NCEA",
+    "answer": "(a) \\(\\int_{1}^{2} f(x) \\, dx = \\frac{1}{2} \\times 0.2(1.41 + 2.24 + 2(1.56 + 1.72 + 1.89 + 2.06)) = 1.81\\)"
+  },
+  {
+    "query": "Q2b. Find \\(\\int_{1}^{k} 3\\sqrt{x} \\, dx\\), giving your answer in terms of \\(k\\).",
+    "type": "NCEA",
+    "answer": "(b) \\(\\int_{0}^{k} 3(x)^{2} \\, dx = \\left[2x^{3}\\right]_{0}^{k} = 2k^{3} - 2\\)"
+  },
+  {
+    "query": "Q2c. Use integration to find the area enclosed between the graphs of the functions \\(3y = x^2\\) and \\(y = 2x\\).\n\n*You must use calculus and give the result of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "(c) \\(y = \\frac{1}{3}x^{3} = 2x\\)  \n\\(x^{2} - 6x = 0\\)  \n\\(x = 0 \\text{ or } 6\\)  \n\\(\\text{Area} = \\int_{0}^{6} \\left(2x - \\frac{1}{3}x^{3}\\right) \\, dx = \\left[x^{2} - \\frac{1}{9}x^{3}\\right]_{0}^{6} = 12\\)"
+  },
+  {
+    "query": "(d) A large tank initially contains 20 litres of diesel.\n\nThe tank is being filled at a rate of \\(\\frac{400}{(t+2)^2}\\) litres per minute, where \\(t\\) is the time in minutes since the filling started.\n\nHow much diesel will be in the tank 6 minutes after filling started?  \nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "(d) \\(\\frac{dV}{dt} = \\frac{400}{(t+2)^{2}} = 400(t+2)^{-2}\\)  \n\\(V = \\int 400(t+2)^{-2} \\, dt = \\frac{-400}{(t+2)} + c\\)  \n\\(t = 0, \\, V = 20 \\Rightarrow 20 = \\frac{-400}{2} + c\\)  \n\\(c = 220\\)  \n\\(\\text{At } t = 6, \\, V = \\frac{-400}{8} + 220 = 170 \\, L\\)"
+  },
+  {
+    "query": "(e) A curve \\( y = f(x) \\), which passes through the origin, is shown on the graph below. Its gradient at any point is given by the equation \\( f'(x) = 1 - \\frac{1}{3}x^2 \\). The line on the graph is the tangent to the curve at \\( x = -1 \\).\n\nFind the shaded area.\n\n*You must use calculus and give the result of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can help you with a description or analysis if you provide the text."
+  },
+  {
+    "query": "(a) Find \\(\\int \\csc(2x) \\cot(2x) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "(a) \\(-\\frac{1}{2} \\csc 2x + c\\)"
+  },
+  {
+    "query": "(b) Find the area enclosed between the graph of \\(y = \\sin(2x)\\), the x-axis, and the lines \\(x = \\frac{\\pi}{6}\\) and \\(x = \\frac{\\pi}{3}\\).\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "(b)  \nArea \\(= \\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} \\sin 2x \\, dx\\)  \n\\[= \\left[ -\\frac{1}{2} \\cos 2x \\right]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}}\\]  \n\\[= \\frac{1}{2}\\]"
+  },
+  {
+    "query": "(c) Find the value of \\(m\\) such that \\(\\int_{m}^{2m} \\frac{2x+5}{x^2+5x} \\, dx = \\ln 3\\).\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "(c)  \n\\[\\int_{m}^{2m} \\frac{2x+5}{x^2+5x} \\, dx = \\left[ \\ln(x^2+5x) \\right]_{m}^{2m} = \\ln 3\\]  \n\\[\\left[ \\ln(4m^2+10m) - \\ln(m^2+5m) \\right] = \\ln 3\\]  \n\\[\\ln \\frac{4m^2+10m}{m^2+5m} = \\ln 3\\]  \n\\[m^2 - 5m = 0\\]  \n\\[m = 0, 5\\]"
+  },
+  {
+    "query": "(d) The motion of an object is described by the equation \\(\\frac{dv}{dt} = -kv^2\\), where \\(v\\) is the velocity of the object in metres per second, \\(t\\) is the time in seconds, and \\(k\\) is a constant.\n\nThe initial velocity of the object is \\(u\\) metres per second.\n\nShow that, after one second, the velocity of the object is \\(v = \\frac{u}{ku + 1}\\).\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "(d)  \n\\(\\int \\frac{dv}{v^2} = \\int -k \\, dt\\)  \n\\[-\\frac{1}{v} = -kt + c\\]  \nWhen \\(t = 0, v = u\\)  \n\\[c = -\\frac{1}{u}\\]  \n\\[-\\frac{1}{v} = -kt - \\frac{1}{u}\\]  \nWhen \\(t = 1, v = \\frac{u}{1+ku}\\)"
+  },
+  {
+    "query": "(e) Ben leaves his cup of coffee on the table to cool. The room’s temperature remains constant at 18°C.\n\nThe rate at which the temperature of the coffee changes at any instant is proportional to the difference between the temperature of the coffee and the room temperature at that instant.\n\n(i) Write the differential equation that expresses this statement.",
+    "type": "NCEA",
+    "answer": "(e)(i)  \n\\(\\frac{dT}{dt} = k(T - 18)\\)"
+  },
+  {
+    "query": "(ii) The temperature of the coffee when it is poured is 65°C. After 2 minutes, its temperature is 62°C. Ben can drink the coffee when its temperature is 54°C.\n\nSolve the differential equation in (i) to find how long from when it was poured, that Ben has to wait before he can first drink the coffee.",
+    "type": "NCEA",
+    "answer": "(ii)  \n\\(\\int \\frac{dT}{T-18} = \\int k \\, dt\\)  \n\\[\\ln |T-18| = kt + c\\]  \nAt \\(t = 0, \\ln |65-18| = c = \\ln 47\\)  \nAt \\(t = 2, \\ln |62-18| = 2k + \\ln 47\\)  \n\\[k = -0.03297\\]  \n\\[\\ln 54 - \\ln 18 = -0.03297 \\times t + \\ln 47\\]  \n\\[t = 8.08 \\text{ minutes}\\]"
+  },
+  {
+    "query": "The page is blank and does not contain any questions.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, you can use OCR software to extract the text and then provide it here for further assistance."
+  }
+]

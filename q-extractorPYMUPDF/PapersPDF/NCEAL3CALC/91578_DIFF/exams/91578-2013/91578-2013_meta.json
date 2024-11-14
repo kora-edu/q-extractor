@@ -1,0 +1,54 @@
+{
+    "languages": null,
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 20,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 1,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Level 3 Calculus, 2013",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "YOU MUST HAND THIS BOOKLET TO THE SUPERVISOR AT THE END OF THE EXAMINATION.",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "91578",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "QUESTION ONE",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "QUESTION TWO",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "QUESTION THREE",
+            "level": 3,
+            "page": 7
+        }
+    ]
+}
