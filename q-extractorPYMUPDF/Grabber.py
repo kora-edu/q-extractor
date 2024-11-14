@@ -62,23 +62,24 @@ def extract_items(pdf_path, item_type):
     """
     items = []
     base64_images = pdf_to_base64_images(pdf_path, dpi=300)
-    
+
+    if (item_type.__eq__("questions")): base64_images = base64_images[1:]    #prune 1st page of questions
+
     for base64_image in base64_images:
         prompt = (
-            f"Extract all the {item_type} from the following page using OCR instead of plainly reading, "
+            f"Extract all the {item_type} from the following page using OCR instead of plainly reading"
             f"including their associated numbering and ensuring accurate representation of LaTeX equations "
-            f"with a high DPI OCR process (e.g., Q1a, Q1b, Q1c (i), etc.)"
+            f"with a high DPI OCR process (e.g., Q1a, Q1b, Q1c (i), etc.) If a question has multiple parts e.g Q1d (i), (ii) etc, the first answer for 1d is always the (i)"
             f"Provide each {item_type[:-1]} separated by '<END>'."
         )
         
         try:
-            # Send request to OpenAI API with base64 image data
             response = client.chat.completions.create(
                 model="gpt-4o",
                 messages=[
                     {
                         "role": "system",
-                        "content": f"You are an assistant that extracts {item_type} from OCR data."
+                        "content": f"You are an assistant that extracts {item_type} from OCR data within exam and marking criteria content"
                     },
                     {
                         "role": "user",
@@ -129,6 +130,7 @@ def validate_and_fix_data(json_file):
             f"Please correct any errors, clarify any ambiguities, keep and clean up LaTeX formatting, and ensure that both the question and answer are appropriate and make sense for training a language model. "
             f"If a question contains multiple parts (e.g., labeled a, b, c or i, ii, iii etc), separate each part into its own query and answer under the original question in a 'parts' json section e.g 'parts:' i) 'query: ', 'answer:' ii) .. and so on ' , filling any context gaps / blanks with appropriate information/context / solutions"
             f"Remove all question markers like (a) or Question one, and replace mathematical symbols like '\\sqrt' and '\\frac' with plain text equivalents (i.e. / or sqrt) in the following format:\n\n"
+            f"if an answer is simply an equation, leave that as the answer on its own; do not add to it"
             f"Corrected Question:\n<Your corrected question here, with LaTeX >\n\n"
             f"Corrected Answer:\n<Your corrected answer here, with LaTeX>"
         )
