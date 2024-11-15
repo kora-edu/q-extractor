@@ -1,40 +1,49 @@
 import subprocess
 import os
-# Sample questions with scientific notation
+import json
+
+data_path = 'JBdata5.json'
+with open(data_path, 'r') as f:
+    jbdata = json.load(f)
+
+
 questions = [
     {
-        "text": "Calculate the energy equivalent of a mass using $E = mc^2$. Assume m = 2 kg.",
-        "type": "written"
-    },
-    {
-        "text": "What is the value of Avogadro's number?",
-        "type": "multiple_choice",
-        "options": ["$6.022 \\times 10^{23}$", "$6.022 \\times 10^{24}$", "$3.141 \\times 10^{23}$", "$1.414 \\times 10^{23}$"]
-    },
+        "text": q["query"].strip('"'),
+        "type": "multiple_choice" if "options" in q else "written",
+        "points": 5, #temporary, each q will be assigned accordingly by model
+        "options": q.get("options", [])  #default to empty list if no options
+    }
+    for q in jbdata
 ]
 
-output_dir = os.path.join(os.path.dirname(__file__), "output")
+
+output_dir = os.path.join(os.path.dirname(__file__), "extracted_latex")
 os.makedirs(output_dir, exist_ok=True) 
+
 
 def generate_latex_code(questions):
     latex_content = r"""
-\documentclass{exam}
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
 \usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+
 \begin{document}
-\title{Automated Exam Paper}
+\title{json -> latex convert test}
+\author{}
+\date{}
 \maketitle
+\section*{Questions}
 \begin{questions}
+\pointsinrightmargin
+\bracketedpoints
 """
     for q in questions:
-        latex_content += r"\question " + q['text'] + "\n"
-        if q['type'] == 'multiple_choice':
-            latex_content += r"\begin{choices}"
-            for option in q['options']:
-                latex_content += r"\choice " + option + "\n"
-            latex_content += r"\end{choices}"
-        elif q['type'] == 'written':
-            latex_content += r"\vspace{3cm}"  # Space for answer
-        latex_content += "\n"  # Newline for each question
+        latex_content += rf"\question[{q['points']}] " + q['text'] + "\n"   
+        latex_content += r"\fillwithlines{5cm}" 
+        latex_content += "\n"  
     latex_content += r"""
 \end{questions}
 \end{document}
@@ -43,13 +52,13 @@ def generate_latex_code(questions):
 
 def save_latex_file(content, filename="exam.tex"):
     filepath = os.path.join(output_dir, filename)
-    with open(filepath, "w") as file:
+    with open(filepath, "w", encoding="utf-8") as file:  # save as UTF-8
         file.write(content)
     return filepath
 
 def compile_latex(filename="exam.tex"):
     filepath = os.path.join(output_dir, filename)
-    subprocess.run(["pdflatex", "-output-directory", output_dir, filepath], check=True)
+    subprocess.run(["lualatex", "-output-directory", output_dir, filepath], check=True)
 
 
 def generate_exam_pdf(questions):

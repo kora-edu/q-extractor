@@ -129,7 +129,7 @@ def validate_and_fix_data(json_file):
             f"Answer:\n{answer}\n\n"
             f"Please correct any errors, clarify any ambiguities, keep and clean up LaTeX formatting, and ensure that both the question and answer are appropriate and make sense for training a language model. "
             f"If a question contains multiple parts (e.g., labeled a, b, c or i, ii, iii etc), separate each part into its own query and answer under the original question in a 'parts' json section e.g 'parts:' i) 'query: ', 'answer:' ii) .. and so on ' , filling any context gaps / blanks with appropriate information/context / solutions"
-            f"Remove all question markers like (a) or Question one, and replace mathematical symbols like '\\sqrt' and '\\frac' with plain text equivalents (i.e. / or sqrt) in the following format:\n\n"
+            f"Remove all question markers like (a) or Question one"
             f"if an answer is simply an equation, leave that as the answer on its own; do not add to it"
             f"Corrected Question:\n<Your corrected question here, with LaTeX >\n\n"
             f"Corrected Answer:\n<Your corrected answer here, with LaTeX>"
