@@ -15,7 +15,7 @@
     "answer": "\"First, find \\(\\frac{1}{z}\\):\n\n\\[\n\\frac{1}{z} = \\frac{1}{1 + i} = \\frac{1 - i}{(1 + i)(1 - i)} = \\frac{1 - i}{2}\n\\]\n\nNow, calculate \\(w\\):\n\n\\[\nw = \\frac{1}{z} + i = \\frac{1 - i}{2} + i = \\frac{1}{2} - \\frac{1}{2}i + i = \\frac{1}{2} + \\frac{1}{2}i\n\\]\n\nThe argument of \\(w\\) is:\n\n\\[\n\\arg(w) = \\arg\\left(\\frac"
   },
   {
-    "query": "\"If \\( u = 6 + ki \\) and \\( v = 4 + ki \\), find \\( k \\) if \\(\\arg(u \\cdot v) = \\pi/4\\).\"",
+    "query": "\"If \\( u = 6 + ki \\) and \\( v = 4 + ki \\), find \\( k \\) if \\(\\arg(u \\cdot v) = \\frac{\\pi}{4}\\).\"",
     "type": "NCEA",
     "answer": "\"To find \\( k \\), we first calculate the product \\( uv \\):\n\n\\[ \nuv = (6 + ki)(4 + ki) = 24 + 6ki + 4ki + k^2i^2 \n\\]\n\nSince \\( i^2 = -1 \\), this simplifies to:\n\n\\[ \nuv = 24 + 10ki - k^2 \n\\]\n\nThe real part of \\( uv \\) is \\( 24 - k^2 \\) and the imaginary part is \\( 10k \\).\n\nGiven that \\(\\arg(u \\cdot v) = \\pi/4\\), the real and imaginary parts must be equal:\n\n\\[ \n24 - k^2 = 10k"
   },
