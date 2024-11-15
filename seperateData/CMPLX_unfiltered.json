@@ -1,0 +1,917 @@
+[
+  {
+    "query": "Q1 (a) Write \\(\\frac{4}{2 - \\sqrt{5}}\\) in the form \\(a + b\\sqrt{5}\\), where \\(a\\) and \\(b\\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "(a) \\(-8 - 4\\sqrt{5}\\)"
+  },
+  {
+    "query": "Q1 (b) Complex numbers \\(u\\) and \\(v\\) are represented on the Argand diagram. If \\(w = u - v\\), then show \\(w\\) on the Argand diagram below.",
+    "type": "NCEA",
+    "answer": "(b) \\(-4 + 4i\\) clearly marked on Argand diagram."
+  },
+  {
+    "query": "(c) One root of the equation \\( z^3 - 3z + p = 0 \\) is \\( z = 2 - 3i \\).\n\nIf \\( p \\) is a real number, find the value of \\( p \\) and the other roots of the equation.",
+    "type": "NCEA",
+    "answer": "(c) \n\\(z_1 = 2 - 3i \\quad \\Rightarrow \\quad z_2 = 2 + 3i\\)\n\n\\((z - 2 - 3i)(z - 2 + 3i)\\)\n\n\\(= z^2 - 4z + 13\\)\n\n\\((z^2 - 4z + 13)(z + k) = z^3 - 4z^2 + 13z + kz^2 - 4kz + 13k\\)\n\n\\(= z^3 + (k - 4)z^2 + (13 - 4k)z + 13k\\)\n\n\\(= 0\\)\n\n\\(\\Rightarrow k = 4\\)\n\n\\(\\therefore p = 52, \\text{roots } 2 + 3i, 2 - 3i, -4\\)"
+  },
+  {
+    "query": "(d) If \\( z = 1 + i \\) and \\( w = \\frac{1}{z} + i \\), find the exact value of \\(\\arg(w)\\).",
+    "type": "NCEA",
+    "answer": "(d) \n\\(w = \\frac{1}{1 + i} + i\\)\n\n\\(= \\frac{(1 - i)}{(1 + i)(1 - i)} + i\\)\n\n\\(= \\frac{(1 - i)}{2} + i\\)\n\n\\(= \\frac{1 + i}{2}\\)\n\n\\(= \\frac{1}{2} + \\frac{1}{2}i\\)\n\nArg \\((w) = \\frac{\\pi}{4} \\text{ or } 45^\\circ\\)"
+  },
+  {
+    "query": "(e) If \\( u = 6 + ki \\) and \\( v = 4 + ki \\), find \\( k \\) if \\( \\arg(u \\cdot v) = \\frac{\\pi}{4} \\).",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\( uv = (6 + ki)(4 + ki) \\)\n\\( = 24 + 10ki - k^2 \\)\n\n\\( \\text{Arg} = \\frac{\\pi}{4} \\Rightarrow \\text{Re}(uv) = \\text{Im}(uv) \\)\n\n\\( 24 - k^2 = 10k \\)\n\\( k^2 + 10k - 24 = 0 \\)\n\\( (k + 12)(k - 2) = 0 \\)\n\\( k = -12 \\) or \\( 2 \\)\n\\( k = -12 \\Rightarrow uv = -120 - 120i \\)\n\n\\( \\therefore \\text{Arg} = -\\frac{3\\pi}{4} \\neq \\frac{\\pi}{4} \\therefore k \\neq -12 \\)\n\n\\( k = 2 \\Rightarrow uv = 20 + 20i \\)\n\n\\( \\therefore \\text{Arg} = \\frac{\\pi}{4} \\)\n\n\\( \\therefore k = 2 \\)"
+  },
+  {
+    "query": "Q2 (a) What is the remainder when \\( x^3 + 4x^2 + 3x - 9 \\) is divided by \\( x + 2 \\)?",
+    "type": "NCEA",
+    "answer": "(a) Remainder found."
+  },
+  {
+    "query": "Q2 (b) If \\( u = 2 \\text{cis} \\frac{2\\pi}{3} \\) and \\( v = 6 \\text{cis} \\frac{\\pi}{2} \\), write \\( \\frac{u}{v} \\) in polar form.",
+    "type": "NCEA",
+    "answer": "(b) Or equivalent."
+  },
+  {
+    "query": "Q2 (c) Find the equation whose roots are three times those of \\( x^2 + 9x - 12 = 0 \\).",
+    "type": "NCEA",
+    "answer": "(c) Two correct terms out of \\(x^2, 27x\\) or \\(-108\\)."
+  },
+  {
+    "query": "Q1d: If \\( u = x + iy \\) and \\( au^2 + bu + c = 0 \\), prove that \\( a\\overline{u}^2 + b\\overline{u} + c = 0 \\).",
+    "type": "NCEA",
+    "answer": "(d) Expanded expression for equation in terms of \\(x\\) and \\(y\\) (i.e., 3rd line)."
+  },
+  {
+    "query": "(e) Describe fully the locus of the points representing \\( z \\) if \\(\\frac{z + 2i}{z - 2i}\\) is purely imaginary.",
+    "type": "NCEA",
+    "answer": "(e) Expanded expression with correct numerator or denominator (i.e., 3rd line)."
+  },
+  {
+    "query": "Q3 (a) Solve the equation \\( z^2 + 6z + 20 = 0 \\).\n\nExpress the solutions in the form \\( z = a + \\sqrt{b}i \\), where \\( a \\) and \\( b \\) are integers.",
+    "type": "NCEA",
+    "answer": "The page is blank, so there are no answers to extract."
+  },
+  {
+    "query": "Q3 (b) \\( p \\) and \\( q \\) are complex numbers, where \\( p = 3 + 4i \\) and \\( q = 2 - 3i \\).\n\nFind \\( p\\overline{q} \\), expressing your answer in the rectangular form \\( a + bi \\).",
+    "type": "NCEA",
+    "answer": "Q3a: \\(-3 \\pm \\sqrt{11} i\\)"
+  },
+  {
+    "query": "Q3 (c) Solve the following equation for \\( x \\) in terms of \\( p \\):\n\n\\[\n\\sqrt{x} - 3 = \\sqrt{x - p}\n\\]",
+    "type": "NCEA",
+    "answer": "Q3b:  \n\\(p = 3 + 4i\\)  \n\\(\\overline{q} = 2 + 3i\\)  \n\\(pq = -6 + 17i\\)"
+  },
+  {
+    "query": "(d) Find all the solutions of the equation \\( z^3 + n = 0 \\), where \\( n \\) is a positive real number. Write your solutions in polar form as expressions in terms of \\( n \\).",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\(\\sqrt{x} - 3 = \\sqrt{x - p}\\)  \n\\(x - 6\\sqrt{x} + 9 = x - p\\)  \n\\(6\\sqrt{x} = p + 9\\) \\((3)\\)  \n\\(36x = (p + 9)^2\\)  \n\\(x = \\frac{(p + 9)^2}{36}\\)  \nor \\(x = \\frac{p^2 + 18p + 81}{36}\\) or \\(x = \\frac{p^2}{36} + \\frac{p}{2} + \\frac{9}{4}\\)"
+  },
+  {
+    "query": "(e) Find the values of \\( k \\) for which the equation \\( 6 + x - 4\\sqrt{3}x + k = 0 \\) has no real roots.",
+    "type": "NCEA",
+    "answer": "Q3d:  \n\\(z^3 = -n\\)  \n\\(z^3 = n \\text{cis} \\pi\\)  \n\\(z_1 = \\sqrt[3]{n} \\text{cis} \\left(\\frac{\\pi}{3}\\right)\\)  \n\\(z_2 = \\sqrt[3]{n} \\text{cis} \\pi\\)  \n\\(z_3 = \\sqrt[3]{n} \\text{cis} \\left(\\frac{5\\pi}{3}\\right) = \\sqrt[3]{n} \\text{cis} \\left(-\\frac{\\pi}{3}\\right)\\)  \nAccept arguments in decimal radians: 1.047, 3.142, 5.236 or -1.047  \nAccept arguments in degrees: 60°, 180°, 300° or -60°"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions.",
+    "type": "NCEA",
+    "answer": "Q3e:  \n\\(6 + x = 4\\sqrt{3x + k}\\)  \n\\(x^2 + 12x + 36 = 16(3x + k)\\)  \n\\(x^2 - 36x + 36 - 16k = 0\\) \\((3)\\)  \nNo real roots means \\(b^2 - 4ac < 0\\)  \n\\((-36)^2 - 4(36 - 16k) < 0\\)  \n\\(1296 - 144 + 64k < 0\\)  \n\\(64k < -1152\\)  \n\\(k < -18\\)"
+  },
+  {
+    "query": "It seems there is no visible content on the page you uploaded. Please provide a page with text or questions, and I'll be happy to help extract them for you.",
+    "type": "NCEA",
+    "answer": "The page provided does not contain any questions or answers. It only includes a \"Judgement Statement\" table for score ranges in the NCEA Level 3 Calculus exam."
+  },
+  {
+    "query": "Q1 (a) Given that \\( x - 2 \\) is a factor of \\( g(x) = x^3 - 2px^2 + px - 5 \\), find the value of \\( p \\) where \\( p \\) is real.",
+    "type": "NCEA",
+    "answer": "Q1a: \\( p = \\frac{1}{2} \\) OR equivalent."
+  },
+  {
+    "query": "Q1 (b) If \\( u = 3 - 3i \\), find \\( u^4 \\) in the form \\( r \\text{cis} \\theta \\).",
+    "type": "NCEA",
+    "answer": "Q1b: \n\\[\nu^4 = \\left( \\sqrt[4]{8\\text{cis} \\frac{-\\pi}{4}} \\right)^4 = 324\\text{cis}(-\\pi) \\text{ or } 324\\text{cis}(\\pi)\n\\]\nOR equivalent."
+  },
+  {
+    "query": "Q1 (c) Solve the equation \\( x = \\sqrt{33 - 4x + 3} \\).",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\nx - 3 = \\sqrt{33} - 4x \\\\\n(x - 3)^2 = 33 - 4x \\\\\nx^2 - 2x - 24 = 0 \\\\\nx = 6 \\text{ OR } x = -4 \\\\\n\\text{CHECK: } x = 6 \\quad 6 = \\sqrt{9} + 3 \\quad \\text{TRUE} \\\\\n\\text{CHECK: } x = -4 \\quad -4 = \\sqrt{49} + 3 \\quad \\text{FALSE} \\\\\n\\text{Therefore there is one solution: } x = 6\n\\]\n\\( x = 6 \\text{ and } -4 \\) both given as solutions. OR \\( x = 6 \\text{ CRO} \\)"
+  },
+  {
+    "query": "(d) Solve the equation \\( z^4 = -4k^2i \\), where \\( k \\) is real. Write your solutions in polar form in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "Q1d: \n\\[\nz^4 = -4k^4i = 4k^2\\text{cis}\\left(-\\frac{\\pi}{2}\\right) \\text{ OR } 4k^2\\text{cis}(-90^\\circ)\n\\]\n\\[\nz_1 = \\sqrt{2}\\text{cis}\\left(\\frac{-\\pi}{8}\\right) \\text{ OR } z_1 = \\sqrt{2}\\text{cis}\\left(\\frac{15\\pi}{8}\\right)\n\\]\n\\[\nz_2 = \\sqrt{2}\\text{cis}\\left(\\frac{3\\pi}{8}\\right) \\text{ OR } z_2 = \\sqrt{2}\\text{cis}\\left(\\frac{-13\\pi}{8}\\right)\n\\]\n\\[\nz_3 = \\sqrt{2}\\text{cis}\\left(\\frac{7\\pi}{8}\\right) \\text{ OR } z_3 = \\sqrt{2}\\text{cis}\\left(\\frac{-9\\pi}{8}\\right)\n\\]\n\\[\nz_4 = \\sqrt{2}\\text{cis}\\left(\\frac{11\\pi}{8}\\right) \\text{ OR } z_4 = \\sqrt{2}\\text{cis}\\left(\\frac{-5\\pi}{8}\\right)\n\\]\nOne correct solution. OR 4 correct arguments in degrees or radians."
+  },
+  {
+    "query": "(e) Find the equation of the locus described by \\( |z - 1 + 2i| = |z + 1| \\).",
+    "type": "NCEA",
+    "answer": "Q1e: \n\\[\n\\text{Let } z = x + yi \\\\\n|x + yi - 1 + 2i| = |y + i y + 1| \\\\\n|(x - 1) + (y + 2)i| = |(x + 1) + yi| \\\\\n\\sqrt{(x - 1)^2 + (y + 2)^2} = \\sqrt{(x + 1)^2 + y^2} \\\\\n(x - 1)^2 + (y + 2)^2 = (x + 1)^2 + y^2 \\\\\nx^2 - 2x + 1 + y^2 + 4y + 4 = x^2 + 2x + 1 + y^2 \\\\\n-2x + 4y + 5 = 2x + 1 \\\\\n4y - 4x + 4 = 0 \\quad y - x + 1 = 0 \\text{ or } y = x - 1\n\\]\nCorrect 3rd line. Correct 5th line. Correct expression for locus."
+  },
+  {
+    "query": "Q2 (a) Solve the equation \\(x^2 - 4x + 16 = 0\\).  \nGive your solutions in the form \\(a \\pm \\sqrt{b} \\, i\\), where \\(a\\) and \\(b\\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\( x = 2 \\pm 2\\sqrt{3}i \\) or \\( x = 2 \\pm \\sqrt{12}i \\)"
+  },
+  {
+    "query": "Q2 (b) Given that \\(w = 2 \\text{cis} \\frac{\\pi}{3}\\), find \\(w^4\\).  \nGive your answer in the form \\(a + bi\\), where \\(a\\) and \\(b\\) are real.",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\( w = 2 \\text{cis} \\frac{\\pi}{3} \\)  \n\\( w^4 = 16 \\text{cis} \\frac{4\\pi}{3} \\) OR \\( w^4 = 16 \\text{cis}(240^\\circ) \\)  \n\\( w^4 = -8 - 8\\sqrt{3}i \\) OR \\( w^4 = -8 - 13.86i \\)"
+  },
+  {
+    "query": "Q2 (c) \\(w = 2 - 3i\\) is a solution of the equation \\(3w^3 - 14w^2 + Aw - 26 = 0\\), where \\(A\\) is real.  \nFind the value of \\(A\\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\( w_1 = 2 - 3i \\quad w_2 = 2 + 3i \\)  \n\\[ [w - (2 - 3i)][w - (2 + 3i)] \\]  \n\\( = w^2 - 4w + 13 \\)  \n\\(\\Rightarrow g(x) = (w^2 - 4w + 13)(kw + c) \\)  \n\\(\\Rightarrow k = 3 \\quad c = -2 \\)  \nCoefficient of \\( w \\)  \n\\(-4c + 13k = 47 \\)  \n\\(\\Rightarrow A = 47 \\) OR \\( A = \\frac{94 - 14i}{2 - 3i} \\)  \n\\( w_3 = \\frac{2}{3} \\)"
+  },
+  {
+    "query": "(d) A complex number \\( z \\) satisfies \\( |z - 3 - 4i| = 2 \\).\n\n(i) Sketch the locus of points that represents \\( z \\) on the Argand diagram below.",
+    "type": "NCEA",
+    "answer": "Q2 (d)(i)  \nCircle centre (3,4), radius 2"
+  },
+  {
+    "query": "(ii) What is the maximum value of \\( \\text{Re}(z) \\)?",
+    "type": "NCEA",
+    "answer": "Q2 (d)(ii)  \n5"
+  },
+  {
+    "query": "(e) The complex number \\( z \\) is given by \\( z = \\frac{1+3i}{p+qi} \\), where \\( p \\) and \\( q \\) are real and \\( p > q > 0 \\).\n\nGiven that \\( \\text{Arg}(z) = \\frac{\\pi}{4} \\), show that \\( p - 2q = 0 \\).",
+    "type": "NCEA",
+    "answer": "Q2 (e)  \n\\(\\frac{1 + 3i}{p + pi} = \\frac{p - qi + 3pi + 3q}{p^2 + q^2} = \\frac{p + 3q + (3p - qi)i}{p^2 + q^2} \\)  \n\\(\\text{Arg}(z) = \\frac{\\pi}{4} \\Rightarrow \\tan(\\text{Arg}(z)) = 1 \\)  \n\\(\\text{Re}(z) = \\text{Im}(z) \\text{ if } \\text{Arg}(z) = \\frac{\\pi}{4} \\)  \n\\(\\tan\\left(\\frac{\\pi}{4}\\right) = \\frac{3p - q}{p + 3q} \\)  \n\\( 3p - q = 1 \\)  \n\\( p + 3q \\)  \n\\( p - 2q = 0 \\)"
+  },
+  {
+    "query": "Q3 (a) Expand and simplify as far as possible the following expression:\n\n\\[\n(2 - \\sqrt{3})(5 + 2\\sqrt{3})(4 - 3\\sqrt{3})\n\\]\n\nGive your answer in the form \\( a + b\\sqrt{3} \\), where \\( a \\) and \\( b \\) are real numbers.",
+    "type": "NCEA",
+    "answer": "(a) \\( 25 - 16\\sqrt{3} \\)"
+  },
+  {
+    "query": "Q3 (b) The complex numbers \\( p \\) and \\( q \\) are represented on the Argand diagram below.\n\nIf \\( r = 2p - 3q \\), find \\( r \\) and mark it on the Argand diagram above.",
+    "type": "NCEA",
+    "answer": "(b) \\( r = -8 - 5i \\) marked correctly on diagram."
+  },
+  {
+    "query": "(c) For what values of \\( p \\), where \\( p \\) is real, does the graph of \\( y = px^2 - 4px + 1 \\) not intersect the \\( x \\)-axis?",
+    "type": "NCEA",
+    "answer": "(c)  \n\\( px^2 - 4px + 1 = 0 \\) has no real solutions \\(\\rightarrow b^2 - 4ac < 0 \\)  \n\\( 16p^2 - 4p < 0 \\)  \n\\( 4p(4p - 1) < 0 \\)  \n\\( 0 < p < \\frac{1}{4} \\)"
+  },
+  {
+    "query": "(d) Given that \\( z = 3 + 2i \\), find the value of \\( \\overline{z}^2 + \\frac{1}{z^2} \\), giving your answer in the form \\( a + bi \\), where \\( a \\) and \\( b \\) are real.",
+    "type": "NCEA",
+    "answer": "(d)  \n\\( z^2 + \\frac{1}{z^2} = (3 - 2i)^2 + \\frac{1}{(3 + 2i)^2} \\)  \n\n\\( = 5 - 12i + \\frac{1}{5 + 12i} \\)  \n\n\\( = \\frac{5}{169} - \\frac{12}{169}i \\) OR \\( \\frac{850}{169} - \\frac{2040}{169}i \\)  \nOR \\( 5.03 - 12.07i \\)"
+  },
+  {
+    "query": "(e) \\( \\alpha, \\beta, \\) and \\( \\gamma \\) are the three roots of the cubic equation \\( ax^3 + bx^2 + cx + d = 0 \\), where \\( a, b, c, \\) and \\( d \\) are real numbers.\n\n(i) Prove that \n\\[ \\alpha + \\beta + \\gamma = -\\frac{b}{a}, \\quad \\alpha\\beta + \\beta\\gamma + \\alpha\\gamma = \\frac{c}{a}, \\quad \\alpha\\beta\\gamma = -\\frac{d}{a} \\]",
+    "type": "NCEA",
+    "answer": "(e)(i)  \nRoots \\(\\alpha, \\beta, \\gamma \\Rightarrow (x - \\alpha)(x - \\beta)(x - \\gamma) = 0 \\)  \n\n\\( x^3 - (\\alpha + \\beta + \\gamma)x^2 + (\\alpha\\beta + \\beta\\gamma + \\alpha\\gamma)x - \\alpha\\beta\\gamma = 0 \\)  \n\nSince \\( ax^3 + bx^2 + cx + d = 0 \\)  \n\n\\( x^3 + \\frac{b}{a}x^2 + \\frac{c}{a}x + \\frac{d}{a} = 0 \\)  \n\nComparing coefficients  \n\nof \\( x^2 \\): \\(\\alpha + \\beta + \\gamma = -\\frac{b}{a} \\)  \n\nof \\( x \\): \\(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = \\frac{c}{a} \\)  \n\nof constant term: \\(\\alpha\\beta\\gamma = -\\frac{d}{a} \\)"
+  },
+  {
+    "query": "(ii) Hence prove that \n\\[ \\alpha^2\\beta\\gamma + \\alpha\\beta^2\\gamma + \\alpha\\beta\\gamma^2 = \\frac{bd}{a^2} \\]",
+    "type": "NCEA",
+    "answer": "(e)(ii)  \n\\(\\alpha^2\\beta\\gamma + \\alpha\\beta^2\\gamma + \\alpha\\beta\\gamma^2 = \\alpha\\beta\\gamma(\\alpha + \\beta + \\gamma) \\)  \n\n\\( = -\\frac{d}{a} \\cdot -\\frac{b}{a} \\)  \n\n\\( = \\frac{bd}{a^2} \\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "The image provided does not contain any questions or answers to extract. It only shows a table with cut scores for an exam. If you have another page with questions and answers, please provide it for further assistance."
+  },
+  {
+    "query": "Q1 (a) Solve the equation \\(x^2 - 8x + 4 = 0\\).\n\nWrite your answer in the form \\(a \\pm b\\sqrt{c}\\), where \\(a\\), \\(b\\), and \\(c\\) are integers and \\(b \\neq 1\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\( x = 4 \\pm 2\\sqrt{3} \\)"
+  },
+  {
+    "query": "Q1 (b) If \\(u = 1 + \\sqrt{3}i\\), clearly show \\(u^3\\) on the Argand diagram below.",
+    "type": "NCEA",
+    "answer": "Q1b: \\( u^3 = -8 \\) clearly marked on Argand diagram."
+  },
+  {
+    "query": "(c) \\( v \\) is the complex number \\( 3 - 7i \\)  \n\\( w \\) is the complex number \\( -4 + 6i \\).\n\nFind the real numbers \\( p \\) and \\( q \\) such that \\( pv + qw = 6.5 - 11i \\).",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[\n\\begin{align*}\np(3 - 7i) + q(-4 + 6i) &= 6.5 - 11i \\\\\n3p - 7pi - 4p + 6iq &= 6.5 - 11i \\\\\n\\Rightarrow 3p - 4q &= 6.5 \\\\\n\\text{and} \\ -7p + 6q &= -11 \\\\\np &= 0.5 \\\\\nq &= -1.25\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(d) Prove that the roots of the equation \\( 3x^2 + (2c + 1)x - (c + 3) = 0 \\) are always real for all values of \\( c \\), where \\( c \\) is real.",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\[\n\\begin{align*}\nb^2 - 4ac &= (2c + 1)^2 + 4 \\times 3 \\times (c + 3) \\\\\n&= 4c^2 + 16c + 37 \\\\\n&= 4\\left((c + 2)^2 + 21\\right) \\geq 0 \\\\\n&= (2c + 4)^2 + 21 \\geq 0 \\\\\n\\text{Since} \\ (2c + 4)^2 &\\geq 0 \\\\\n&= 4((c + 2)^2 + 21)\n\\end{align*}\n\\]  \nWhich is always positive, as \\((c + 2)^2\\) is always positive."
+  },
+  {
+    "query": "(e) If \\(x^2 + bx + c\\) and \\(x^2 + dx + e\\) have a common factor of \\((x - p)\\),\n\nprove that \\(\\frac{e - c}{b - d} = p\\), where \\(b, c, d, e,\\) and \\(p\\) are all real.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools like OnlineOCR. Once you have the text, feel free to share it here, and I can help you format or analyze it!"
+  },
+  {
+    "query": "Q2 (a) What is the remainder when \\(2x^3 + x^2 - 5x + 7\\) is divided by \\(x + 3\\)?",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n-23"
+  },
+  {
+    "query": "Q2 (b) The complex number \\(\\frac{2 + 3i}{5 + i}\\) can be expressed in the form \\(k(1 + i)\\), where \\(k\\) is a real number. Find the value of \\(k\\).",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\[\n\\frac{2 + 3i}{5 + i} \\times \\frac{(2 + 3i)(5 - i)}{(5 + i)(5 - i)} = \\frac{13 + 13i}{26} = \\frac{13}{26}(1 + i) = \\frac{1}{2}(1 + i)\n\\]\n\\[\n\\therefore k = \\frac{1}{2}\n\\]"
+  },
+  {
+    "query": "(c) Find real numbers \\( A, B \\) and \\( C \\) such that\n\n\\[\n\\frac{1}{x^2(x-1)} = \\frac{A}{x} + \\frac{B}{x^2} + \\frac{C}{(x-1)}\n\\]",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\[\n1 = A(x(x-1)) + B(x-1) + Cx^2 = Ax^2 - Ax + Bx - B + Cx^2 = (A + C)x^2 + (B - A)x - B\n\\]\n\\[\n\\therefore B = -1, A = -1, C = 1\n\\]"
+  },
+  {
+    "query": "(d) Write the complex number\n\n\\[\n\\left( \\frac{4i^7 - i}{1 + 2i} \\right)^2\n\\]\n\nin the form \\( a + bi \\), where \\( a \\) and \\( b \\) are real numbers.",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\[\n\\frac{4i^7 - i}{1 + 2i} = \\left(\\frac{-4i - i}{1 + 2i}\\right)^2 = \\left(\\frac{-5i}{1 + 2i}\\right)^2 = \\frac{-25}{-3 + 4i} = \\frac{-25(-3 - 4i)}{(-3 + 4i)(-3 - 4i)} = \\frac{75 + 100i}{25} = 3 + 4i\n\\]"
+  },
+  {
+    "query": "(e) Find the Cartesian equation of the locus described by \\(\\arg \\left( \\frac{z - 2}{z + 5} \\right) = \\frac{\\pi}{4}\\)",
+    "type": "NCEA",
+    "answer": "Q2 (e)  \n\\[\n\\frac{z - 2}{z + 5} = \\frac{x + yi - 2}{x + yi + 5} = \\frac{(x - 2) + yi}{(x + 5) + yi} = \\frac{[(x - 2) + yi][(x + 5) - yi]}{[(x + 5) + yi][(x + 5) - yi]} = \\frac{x^2 + y^2 + 3x - 10 + 7yi}{x^2 + 10x + 25 + y^2}\n\\]\n\\[\n\\text{Arg} = \\frac{\\pi}{4} \\Rightarrow x^2 + y^2 + 3x - 10 = 7y \\Rightarrow x^2 + y^2 + 3x - 10 - 7y = 0\n\\]"
+  },
+  {
+    "query": "Q3 (a) If \\( z = 4 + 2i \\) and \\( w = -1 + 3i \\), find \\(\\arg(zw)\\).",
+    "type": "NCEA",
+    "answer": "The page is blank, so there are no answers to extract."
+  },
+  {
+    "query": "Q3 (b) For what real value(s) of \\( k \\) does the equation \\( kx^2 + \\frac{x}{k} + 2 = 0 \\) have equal roots?",
+    "type": "NCEA",
+    "answer": "Q3a:  \n\\( zw = (4 + 2i)(-1 + 3i) \\)  \n\\( = -4 + 12i - 2i + 6i^2 \\)  \n\\( = -10 + 10i \\)  \n\\( \\text{Arg}(zw) = 135^\\circ = \\frac{3\\pi}{4} = 2.36 \\, \\text{rad} \\)"
+  },
+  {
+    "query": "Q3 (c) One solution of the equation \\( 3w^3 + Aw^2 - 3w + 10 = 0 \\) is \\( w = -2 \\).\n\nIf \\( A \\) is a real number, find the value of \\( A \\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Q3b:  \n\\( b^2 - 4ac = 0 \\)  \n\\( \\frac{1}{k^2} - 4 \\times k \\times 2 = 0 \\)  \n\\( \\frac{1}{k^2} = 8k \\)  \n\\( k^3 = \\frac{1}{8} \\)  \n\\( k = \\frac{1}{2} \\)"
+  },
+  {
+    "query": "Q3 (d) Solve the equation \\( z^3 = k + \\sqrt{3} \\, ki \\), where \\( k \\) is real and positive. Write your solutions in polar form in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\( f(-2) = 0 \\)  \n\\( \\Rightarrow -24 + 4A + 16 = 0 \\)  \n\\( A = 2 \\)  \n\\( 3w^3 + Aw^2 - 3w + 10 = (w + 2)(3w^2 - 4w + 5) \\)  \n\\( \\therefore (w + 2)(3w^2 - 4w + 5) = 0 \\)  \n\\( w = \\frac{4 \\pm \\sqrt{16 - 4 \\times 3 \\times 5}}{6} \\)  \n\\( = \\frac{4 \\pm \\sqrt{-44}}{6} \\)  \n\\( = \\frac{2 \\pm \\sqrt{11}i}{3} \\)  \nOr \\( w \\, 0.667 \\pm 1.1055i \\)"
+  },
+  {
+    "query": "(e) (i) Find each of the roots of the equation \\( z^5 - 1 = 0 \\).",
+    "type": "NCEA",
+    "answer": "Q3d:  \n\\( z^3 = 2k \\, \\text{cis} \\left( \\frac{\\pi}{3} \\right) \\) or Arg = 1.047 or \\( 60^\\circ \\)  \nTherefore roots are:  \n\\( z_1 = \\sqrt[3]{2k} \\, \\text{cis} \\left( \\frac{\\pi}{9} \\right) \\) or Arg = 0.349 or \\( 20^\\circ \\)  \n\\( z_2 = \\sqrt[3]{2k} \\, \\text{cis} \\left( \\frac{7\\pi}{9} \\right) \\) or Arg = 2.443 or \\( 140^\\circ \\)  \n\\( z_3 = \\sqrt[3]{2k} \\, \\text{cis} \\left( \\frac{13\\pi}{9} \\right) \\) or Arg = 4.538 or \\( 260^\\circ \\)  \nOR \\( \\sqrt[3]{2k} \\, \\text{cis} \\left( \\frac{-5\\pi}{9} \\right) \\) or Arg = -1.745 or \\( -100^\\circ \\)"
+  },
+  {
+    "query": "(ii) Let \\( p \\) be the root in part (i) with the smallest positive argument. Show that the roots in part (i) can be written as \\( 1, p, p^2, p^3, p^4 \\).",
+    "type": "NCEA",
+    "answer": "(e)(i) \n\n\\( z^5 = 1 \\)\n\n\\( z = \\text{cis}(0) \\)\n\nTherefore roots are\n\n\\( z_1 = \\text{cis}(0) \\)\n\nor 1\n\n\\( z_2 = \\text{cis}\\left(\\frac{2\\pi}{5}\\right) \\) or Arg = 1.257 or \\( 72^\\circ \\)\n\nor 0.309 + 0.951i\n\n\\( z_3 = \\text{cis}\\left(\\frac{4\\pi}{5}\\right) \\) or Arg = 2.513 or \\( 144^\\circ \\)\n\nor -0.809 + 0.588i\n\n\\( z_4 = \\text{cis}\\left(\\frac{6\\pi}{5}\\right) \\) or Arg = 3.770 or \\( 216^\\circ \\)\n\nor \\( \\text{cis}\\left(-\\frac{4\\pi}{5}\\right) \\) or Arg = -2.513 or \\( -144^\\circ \\)\n\nor -0.809 - 0.588i\n\n\\( z_5 = \\text{cis}\\left(\\frac{8\\pi}{5}\\right) \\) or Arg = 5.027 or \\( 288^\\circ \\)\n\nor \\( \\text{cis}\\left(-\\frac{2\\pi}{5}\\right) \\) or Arg = -1.257 or \\( -72^\\circ \\)\n\nor 0.309 - 0.951i"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "(e)(ii) \n\nLet \\( p = \\text{cis}\\left(\\frac{2\\pi}{5}\\right) \\) which is \\( z_2 \\) above or \\( p = 0.309 + 0.951i \\)\n\nThen\n\n\\( p^2 = \\left(\\text{cis}\\left(\\frac{2\\pi}{5}\\right)\\right)^2 = \\text{cis}\\left(\\frac{4\\pi}{5}\\right) = z_3 \\)\n\n\\( p^3 = \\left(\\text{cis}\\left(\\frac{2\\pi}{5}\\right)\\right)^3 = \\text{cis}\\left(\\frac{6\\pi}{5}\\right) = z_4 \\)\n\n\\( p^4 = \\left(\\text{cis}\\left(\\frac{2\\pi}{5}\\right)\\right)^4 = \\text{cis}\\left(\\frac{8\\pi}{5}\\right) = z_5 \\)\n\nAnd \\( z_1 = \\text{cis}(0) = 1 \\)\n\n∴ roots are 1, \\( p, p^2, p^3 \\) and \\( p^4 \\)"
+  },
+  {
+    "query": "Q1a. Complex numbers \\( p \\) and \\( q \\) are represented on the Argand diagram. If \\( s = p + q \\), then show \\( s \\) on the Argand diagram below.",
+    "type": "NCEA",
+    "answer": "Q1a: s clearly marked at (1, 2)"
+  },
+  {
+    "query": "Q1b. Dividing \\( 2x^3 + 5x^2 + Ax + 7 \\) by \\( x + 3 \\) gives a remainder of 16. What is the value of \\( A \\)?",
+    "type": "NCEA",
+    "answer": "Q1b: A = -6"
+  },
+  {
+    "query": "Q1c. Solve the equation \\( 5 - \\sqrt{x} = \\sqrt{x - p} \\) for \\( x \\) in terms of \\( p \\).",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[\n(5 - \\sqrt{x})^2 = x - p \\\\\n25 - 10\\sqrt{x} + x = x - p \\\\\n25 - 10\\sqrt{x} = -p \\\\\n10\\sqrt{x} = p + 25 \\\\\n100x = (p + 25)^2 \\\\\nx = \\frac{(p + 25)^2}{100}\n\\]"
+  },
+  {
+    "query": "(d) If \\( w = 1 + 2i \\), find the value of \\( w^2 + \\frac{w}{\\overline{w}} \\), giving your answer in the form \\( a + bi \\), where \\( a \\) and \\( b \\) are real.\n\nYou must clearly show each step of your working.",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\[\n(1 + 2i)^2 \\cdot \\frac{1 + 2i}{1 - 2i} \\\\\n= -3 + 4i + (1 + 2i)(1 + 2i) \\\\\n= -3 + 4i + \\frac{3 + 4i}{5} \\\\\n= -3 \\cdot \\frac{3}{5} + 4 \\cdot \\frac{4i}{5}\n\\]"
+  },
+  {
+    "query": "(e) The locus described by \\( |z - 2 + 3i| = |z - 1| \\) is a straight line.\n\nFind the gradient of that line.",
+    "type": "NCEA",
+    "answer": "Q1e:  \n\\[\n|x + yi - 2 + 3i| = |x + yi - 1| \\\\\n|x - 2 + (y + 3)i| = |x - 1 + yi| \\\\\n\\sqrt{(x - 2)^2 + (y + 3)^2} = \\sqrt{(x - 1)^2 + y^2} \\\\\n(x - 2)^2 + (y + 3)^2 = (x - 1)^2 + y^2 \\\\\nx^2 - 4x + 4 + y^2 + 6y + 9 = x^2 - 2x + 1 + y^2 \\\\\n-4x + 13 + 6y = -2x + 1 \\\\\n6y = 2x - 12 \\\\\ny = \\frac{1}{3}x - 2 \\\\\n\\therefore \\text{Gradient} = \\frac{1}{3}\n\\]"
+  },
+  {
+    "query": "Q2 (a) Solve the equation \\(x^2 - 6x + 12 = 0\\).\n\nWrite your answer in the form \\(a \\pm \\sqrt{b}i\\), where \\(a\\) and \\(b\\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\( x = 3t + \\sqrt{3}i \\)"
+  },
+  {
+    "query": "Q2 (b) \\(u = 2 + 3i\\) and \\(v = 5 + mi\\).\n\nFind the value of \\(m\\) if \\(uv = 22 + 7i\\).",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\((2 + 3i)(5 + mi)\\)  \n\\(= 10 + 2mi + 15i + 3mi^2\\)  \n\\(= 10 - 3m + (15 + 2m)i\\)  \n\\(= 22 + 7i\\)  \n\\(\\therefore m = -4\\)"
+  },
+  {
+    "query": "Q2 (c) Solve the equation \\(z^3 = -8k^6\\), where \\(k\\) is real.\n\nWrite your solutions in polar form in terms of \\(k\\).",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\(z^3 = 8k^3 \\text{cis}(\\pi)\\)  \n\\(z_1 = 2k \\text{cis}\\left(\\frac{\\pi}{3}\\right)\\)  \n\\(z_2 = 2k \\text{cis}(\\pi)\\)  \n\\(z_3 = 2k \\text{cis}\\left(\\frac{5\\pi}{3}\\right) \\text{ OR } z_3 = 2k \\text{cis}\\left(-\\frac{\\pi}{3}\\right)\\)"
+  },
+  {
+    "query": "(d) Prove that \\(\\left| \\frac{4 + 2i}{1 + i} \\right| = \\sqrt{10}\\).\n\nYou must clearly show each step of your working.",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\(\\left| \\frac{4 + 2i}{1 + i} \\cdot \\frac{1 - i}{1 - i} \\right| = \\left| \\frac{4 - 4i + 2i - 2i^2}{1 - i^2} \\right|\\)  \n\\(= \\left| \\frac{6 - 2i}{2} \\right|\\)  \n\\(= |3 - i|\\)  \n\\(= \\sqrt{3^2 + (-1)^2}\\)  \n\\(= \\sqrt{10}\\)"
+  },
+  {
+    "query": "(e) Find the value of \\(k\\) if the equation \\(8 - x + 2\\sqrt{2}x + k = 0\\) has equal roots.",
+    "type": "NCEA",
+    "answer": "Q2 (e)  \n\\(2\\sqrt{2x + k} = x - 8\\)  \n\\(4(2x + k) = x^2 - 16x + 64\\)  \n\\(8x + 4k = x^2 - 16x + 64\\)  \n\\(x^2 - 24x + 64 - 4k = 0\\)  \nOne solution  \n\\(\\Rightarrow 24^2 - 4 \\times 1 \\times (64 - 4k) = 0\\)  \n\\(576 - 256 + 16k = 0\\)  \n\\(320 + 16k = 0\\)  \n\\(k = -20\\)"
+  },
+  {
+    "query": "Q3 (a) Write \\(\\frac{5}{2+\\sqrt{3}}\\) in the form \\(a + b\\sqrt{c}\\).",
+    "type": "NCEA",
+    "answer": "Q3a: \\(10 - 5\\sqrt{3}\\)"
+  },
+  {
+    "query": "Q3 (b) If \\(v = 4 \\text{cis} \\frac{3\\pi}{4}\\) and \\(w = 6 \\text{cis} \\frac{2\\pi}{3}\\), write the exact value \\(\\frac{v}{w}\\) in polar form.",
+    "type": "NCEA",
+    "answer": "Q3b: \\(\\frac{2}{3} \\text{cis} \\frac{\\pi}{12}\\)"
+  },
+  {
+    "query": "Q3 (c) \\(z = 3 - 4i\\) is one solution of the equation \\(z^3 - 8z^2 + Bz - 50 = 0\\).\n\nFind the value of \\(B\\).",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\(z = 3 - 4i\\)  \n\\(z - 3 = 4i\\)  \n\\(z^2 - 6z + 9 = -16\\)  \n\\(z^2 - 6z + 25 = 0\\)  \nOther factor is \\((z - 2)\\)  \n\\((z - 2)(z^2 - 6z + 25) = z^3 - 8z^2 + 37z - 50\\)  \n\\(\\therefore B = 37\\)"
+  },
+  {
+    "query": "(d) If \\( u \\) and \\( v \\) are complex numbers, prove that \\( \\overline{uv} = \\overline{u} \\cdot \\overline{v} \\).",
+    "type": "NCEA",
+    "answer": "Q3d:  \nLet \\(u = a + bi\\) and \\(v = c + di\\)  \n\\(uv = ac + adi + bci + bdi^2\\)  \n\\(= (ac - bd) + (ad + bc)i\\)  \n\\(\\overline{uv} = (ac - bd) - (ad + bc)i\\)  \n\\(\\overline{u} = a - bi\\)  \n\\(\\overline{v} = c - di\\)  \n\\(\\overline{u} \\cdot \\overline{v} = (a - bi)(c - di)\\)  \n\\(= ac - adi - bci + bdi^2\\)  \n\\(= ac - bd - (ad + bc)i = \\overline{uv}\\)"
+  },
+  {
+    "query": "(e) \\( u \\) and \\( v \\) are two complex numbers, such that \\( |u+v|^2 = |u-v|^2 \\).\n\nProve that \\( \\overline{uv} \\) is purely imaginary.",
+    "type": "NCEA",
+    "answer": "Q3e:  \nLet \\(u = a + bi\\) and \\(v = c + di\\)  \n\\(|u + v|^2 = (a + c)^2 + (b + d)^2\\)  \n\\(= a^2 + 2ac + c^2 + b^2 + 2bd + d^2\\)  \n\\(|u - v|^2 = (a - c)^2 + (b - d)^2\\)  \n\\(= a^2 - 2ac + c^2 + b^2 - 2bd + d^2\\)  \n\\(|u + v|^2 = |u - v|^2\\)  \n\\(\\Rightarrow 2ac + 2bd = 2ac - 2bd\\)  \n\\(4ac + 4bd = 0\\)  \n\\(ac + bd = 0\\)  \n\\(uv = (a + bi)(c - di)\\)  \n\\(= ac - adi + bci - bdi^2\\)  \n\\(= (ac + bd) + (bc - ad)i\\)  \nBut from above \\(ac + bd = 0\\)  \n\\(\\therefore uv\\) is purely imaginary"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "The page does not contain any questions or answers. It only includes a table with cut scores for the NCEA Level 3 Calculus (91577) 2016 exam."
+  },
+  {
+    "query": "Q1 (a) If \\( u = 2 + 3i \\) and \\( v = 1 - 4i \\), find \\( \\overline{u} - 3v \\), giving your solution in the form \\( a + bi \\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(-1 + 9i\\)"
+  },
+  {
+    "query": "Q1 (b) Write \\( \\frac{36}{5 - \\sqrt{7}} \\) in the form \\( a + b\\sqrt{7} \\), where \\( a \\) and \\( b \\) are integers.",
+    "type": "NCEA",
+    "answer": "Q1b:  \n\\[\n\\frac{36}{5 - \\sqrt{7}} \\cdot \\frac{5 + \\sqrt{7}}{5 + \\sqrt{7}} \\\\\n= \\frac{180 + 36\\sqrt{7}}{25 - 7} \\\\\n= 10 + 2\\sqrt{7}\n\\]"
+  },
+  {
+    "query": "Q1 (c) Solve the following equation for \\( x \\) in terms of \\( p \\):  \n\\( p\\sqrt{x} - 5\\sqrt{x} = 0 \\)",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[\np\\sqrt{x-2} - 5\\sqrt{x} = 0 \\\\\np\\sqrt{x-2} = 5\\sqrt{x} \\\\\np^2(x-2) = 25x \\\\\np^2x - 2p^2 = 25x \\\\\nx(p^2 - 25) = 2p^2 \\\\\nx = \\frac{2p^2}{p^2 - 25}\n\\]"
+  },
+  {
+    "query": "Q1d One solution of the equation \\( z^3 - 2z^2 + Bz - 30 = 0 \\) is \\( z = -2 - i \\).\n\nIf \\( B \\) is a real number, find the value of \\( B \\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Q1d (i): \\(z = -2 + i\\) is also a solution  \n\\[\n(z - (-2 - i))(z - (-2 + i))(z - \\alpha) = 0 \\\\\n((z + 2) + i)((z + 2) - i)(z - \\alpha) = 0 \\\\\n(z^2 + 4z + 5)(z - \\alpha) = 0 \\\\\n\\therefore \\alpha = 6 \\\\\n(z^2 + 4z + 5)(z - 6) = 0 \\\\\nz^3 - 2z^2 - 19z - 30 = 0 \\\\\n\\therefore B = -19 \\\\\n\\text{Other 2 solutions are } z = -2 + i \\text{ and } z = 6\n\\]"
+  },
+  {
+    "query": "(e) Find the Cartesian equation of the locus described by \\( |z + 2 - 7i| = 2|z - 10 + 2i| \\).\n\nWrite your answer in the form \\( (x + A)^2 + (y + B)^2 = K \\).",
+    "type": "NCEA",
+    "answer": "Q1e:  \n\\[\n|z + 2 - 7i| = 2|z - 10 + 2i| \\\\\n\\text{Use } z = x + iy \\\\\n|x + iy + 2 - 7i| = 2|x + iy - 10 + 2i| \\\\\n|(x + 2) + (y - 7)i| = 2|(x - 10) + (y + 2)i| \\\\\n\\sqrt{(x + 2)^2 + (y - 7)^2} = 2\\sqrt{(x - 10)^2 + (y + 2)^2} \\\\\n(x + 2)^2 + (y - 7)^2 = 4((x - 10)^2 + 4(y + 2)^2) \\\\\nx^2 + 4x + 4 + y^2 - 14y + 49 \\\\\n= 4x^2 - 80x + 400 + 4y^2 + 16y + 16 \\\\\n3x^2 - 84x + 3y^2 + 30y + 363 = 0 \\\\\nx^2 - 28x + y^2 + 10y + 121 = 0 \\\\\n(x - 14)^2 + (y + 5)^2 = 100\n\\]"
+  },
+  {
+    "query": "Q2 (a) Dividing \\(x^3 - 2x^2 + 5x + d\\) by \\((x - 3)\\) gives a remainder of 13. Find the value of \\(d\\).",
+    "type": "NCEA",
+    "answer": "The image provided is a marking schedule and does not contain specific answers to questions. It outlines the criteria for different levels of achievement (e.g., N1, N2, A3, etc.) in the NCEA Level 3 Calculus exam. If you have a different page with specific questions and answers, please provide that for OCR processing."
+  },
+  {
+    "query": "Q2 (b) Simplify, as far as possible, the expression \\(\\sqrt{2k} \\left( \\sqrt{18k} - \\sqrt{8k} \\right)\\).",
+    "type": "NCEA",
+    "answer": "(a) \\(-11\\)"
+  },
+  {
+    "query": "Q2 (c) \\(z\\) and \\(w\\) are complex numbers such that \\(z = -2 + 3i\\) and \\(zw = 15 - 3i\\). Find an exact value of \\(\\arg(w)\\).",
+    "type": "NCEA",
+    "answer": "(b) \\(2k\\)"
+  },
+  {
+    "query": "Q1d: Solve the equation \\( z^4 = \\frac{m}{\\sqrt{2}} + \\frac{m}{\\sqrt{2}} i \\), where \\( m \\) is real and positive.\n\nWrite your solutions in polar form in terms of \\( m \\).",
+    "type": "NCEA",
+    "answer": "(c) \n\\[ \nw = \\frac{2w}{z} = \\frac{15 - 3i}{2 + 3i} \n\\]  \n\\[ \n= \\frac{15 - 3i}{2 - 3i} \n\\]  \n\\[ \n= \\frac{-2 + 3i}{-2 - 3i} \n\\]  \n\\[ \n= \\frac{-30 - 45i + 6i - 9}{4 + 9} \n\\]  \n\\[ \n= -3 - 3i \n\\]  \n\\[ \n\\text{Arg}(w) = \\frac{5\\pi}{4} \\text{ or } -\\frac{3\\pi}{4} \\text{ or equivalent} \n\\]"
+  },
+  {
+    "query": "(e) Find all possible values of \\( k \\) that make \\( u = \\frac{k + 4i}{1 + ki} \\) a purely real number.",
+    "type": "NCEA",
+    "answer": "(d) \n\\[ \nz^4 = \\frac{m}{\\sqrt{2}} = m \\text{cis} \\frac{\\pi}{4} \n\\]  \n\\[ \nz = \\left( m \\text{cis} \\frac{\\pi}{4} \\right)^{\\frac{1}{4}} \n\\]  \n\\[ \nz_1 = m^{\\frac{1}{4}} \\text{cis} \\frac{\\pi}{16} \n\\]  \n\\[ \nz_2 = m^{\\frac{1}{4}} \\text{cis} \\frac{9\\pi}{16} \n\\]  \n\\[ \nz_3 = m^{\\frac{1}{4}} \\text{cis} \\frac{17\\pi}{16} \\text{ or } z_3 = m^{\\frac{1}{4}} \\text{cis} -\\frac{15\\pi}{16} \n\\]  \n\\[ \nz_4 = m^{\\frac{1}{4}} \\text{cis} \\frac{25\\pi}{16} \\text{ or } z_4 = m^{\\frac{1}{4}} \\text{cis} -\\frac{7\\pi}{16} \n\\]"
+  },
+  {
+    "query": "Q3 (a) If \\( u = p^{3} \\text{cis} \\frac{\\pi}{3} \\) and \\( v = p \\text{cis} \\frac{\\pi}{8} \\), write \\( \\frac{u}{v} \\) in polar form.",
+    "type": "NCEA",
+    "answer": "(e) \n\\[ \nu = \\frac{k + 4i}{1 + ki} \n\\]  \n\\[ \n= \\frac{k + 4i}{1 - ki} \n\\]  \n\\[ \n= \\frac{k - ki + i4i + 4k}{1 + k^2} \n\\]  \n\\[ \n= \\frac{5k}{1 + k^2} + \\left( \\frac{4 - k^2}{1 + k^2} \\right) i \n\\]  \n\\[ \n\\text{Im}(u) = 0 \\Rightarrow \\frac{4 - k^2}{1 + k^2} = 0 \n\\]  \n\\[ \n4 - k^2 = 0 \n\\]  \n\\[ \nk = \\pm 2 \n\\]"
+  },
+  {
+    "query": "Q3 (b) Solve the equation \\( x^{2} - 6x + 14 = 0 \\). Give your solution in the form \\( a \\pm \\sqrt{b}i \\), where \\( a \\) and \\( b \\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "Q3 (a) \\( p^2 \\text{cis} \\left( \\frac{5\\pi}{24} \\right) \\)"
+  },
+  {
+    "query": "(c) \\(\\frac{3x^3 + 8x^2 - 2x + 11}{x+2} = 3x^2 + Ax + B + \\frac{C}{x+2}\\), where \\(A, B, \\text{and } C\\) are integers.\n\nFind the values of \\(A, B, \\text{and } C\\).",
+    "type": "NCEA",
+    "answer": "Q3 (b) \\( x = 3 \\pm \\sqrt{5} \\, i \\)"
+  },
+  {
+    "query": "(d) Solve the equation \\(\\frac{8 + x}{x} = \\sqrt{3}\\), writing your solution in the form \\(x = a + b\\sqrt{3}\\).",
+    "type": "NCEA",
+    "answer": "Q3 (c) \n\\( A = 2 \\)\n\\( B = -6 \\)\n\\( C = 23 \\)"
+  },
+  {
+    "query": "(e) \\( z \\) is a complex number such that \\( z = \\frac{a + bi}{a - bi} \\), where \\( a \\) and \\( b \\) are real numbers.\n\nProve that \\( \\frac{z^2 + 1}{2z} = \\frac{a^2 - b^2}{a^2 + b^2} \\).",
+    "type": "NCEA",
+    "answer": "Q3 (d) (i) \n\\[\n\\begin{align*}\n8 + x &= \\sqrt{3}x \\\\\n8 + x &= \\sqrt{3}x - x \\\\\n8 &= x(\\sqrt{3} - 1) \\\\\nx &= \\frac{8}{\\sqrt{3} - 1} \\\\\n&= \\frac{8}{\\sqrt{3} - 1} \\times \\frac{\\sqrt{3} + 1}{\\sqrt{3} + 1} \\\\\n&= \\frac{8\\sqrt{3} + 8}{2} \\\\\n&= 4\\sqrt{3} + 4\n\\end{align*}\n\\]\nAlternative method:\n\\[\n\\begin{align*}\n8 + x &= \\sqrt{3}x \\\\\nx^2 + 16x + 64 &= 3x^2 \\\\\n2x^2 - 16x - 64 &= 0 \\\\\nx^2 - 8x - 32 &= 0 \\\\\n(x - 4)^2 &= 48 \\\\\nx - 4 &= \\pm \\sqrt{48} \\\\\nx &= 4 \\pm \\sqrt{48} \\\\\nx &= 4 \\pm 4\\sqrt{3} \\\\\n\\text{Check: } x = 4 - 4\\sqrt{3} \\text{ is not a solution.} \\\\\n\\therefore x &= 4 + 4\\sqrt{3}\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "The page is blank and does not contain any questions.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can guide you on how to use OCR software to extract the text yourself. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to convert the image into text. If you have any questions about using these tools, feel free to ask!"
+  },
+  {
+    "query": "Q1 (a) What is the remainder when \\(2x^3 - 3x^2 + 4x + 3\\) is divided by \\(x - 2\\)?",
+    "type": "NCEA",
+    "answer": "Q1a: 15"
+  },
+  {
+    "query": "Q1 (b) If \\(u = m \\text{cis} \\frac{\\pi}{3}\\) and \\(v = m^3 \\text{cis} \\frac{2\\pi}{5}\\), find \\(uv\\) in polar form.",
+    "type": "NCEA",
+    "answer": "Q1b: \\( m^{cis} \\frac{11\\pi}{15} \\)"
+  },
+  {
+    "query": "Q1 (c) Solve the equation \\(2 + \\sqrt{x} = \\sqrt{x + k}\\) for \\(x\\) in terms of \\(k\\).",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[\n4 + 4\\sqrt{x} = x + k \\\\\n4\\sqrt{x} = k - 4 \\\\\n\\sqrt{x} = \\frac{k - 4}{4} \\\\\nx = \\left( \\frac{k - 4}{4} \\right)^2\n\\]"
+  },
+  {
+    "query": "Q1d Find the exact value(s) of \\( k \\) for which the equation \\( k(1 + x^2) = 3 - 8x - x^2 \\) has one repeated solution.\n\nGive your solution in the form \\( k = a \\pm \\sqrt{b} \\).",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\[\nk(1 + x^2) = 3 - 8x - x^2 \\\\\nk + kx^2 - 3 + 8x + x^2 = 0 \\\\\n(k + 1)x^2 + 8x + k - 3 = 0\n\\]  \nFor one repeated solution  \n\\[\n\\Delta = 64 - 4(k + 1)(k - 3) = 0 \\\\\n16 - (k + 1)(k - 3) = 0 \\\\\n16 - (k^2 - 2k - 3) = 0 \\\\\n-k^2 + 2k + 19 = 0 \\\\\nk^2 - 2k - 19 = 0 \\\\\n(k - 1)^2 - 20 = 0 \\text{ or } k = \\frac{2 \\pm \\sqrt{4 + 76}}{2} \\\\\nk = 1 \\pm \\sqrt{20} \\\\\n\\text{OR } k = 1 \\pm 2\\sqrt{5}\n\\]"
+  },
+  {
+    "query": "(e) If \\( z = a + bi \\) and \\( \\frac{z}{\\overline{z}} = c + di \\), prove that \\( c^2 + d^2 = 1 \\).",
+    "type": "NCEA",
+    "answer": "Q1e:  \n\\[\n\\frac{z}{\\overline{z}} = \\left( \\frac{a + bi}{a - bi} \\right) \\left( \\frac{a + bi}{a + bi} \\right) \\\\\n= \\frac{a^2 + 2abi - b^2}{a^2 + b^2} = \\frac{a^2 - b^2}{a^2 + b^2} + \\frac{2ab}{a^2 + b^2}i \\\\\nc^2 + d^2 = \\left( \\frac{a^2 - b^2}{a^2 + b^2} \\right)^2 + \\left( \\frac{2ab}{a^2 + b^2} \\right)^2 \\\\\n= \\frac{a^4 - 2a^2b^2 + b^4}{a^4 + 2a^2b^2 + b^4} + \\frac{4a^2b^2}{a^4 + 2a^2b^2 + b^4} \\\\\n= \\frac{a^4 + 2a^2b^2 + b^4}{a^4 + 2a^2b^2 + b^4} = 1\n\\]"
+  },
+  {
+    "query": "Q2 (a) Complex numbers \\( u \\) and \\( v \\) are represented on the Argand diagram below.\n\nIf \\( w = u + \\overline{v} \\), show \\( w \\) on the Argand diagram.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, you can use an OCR tool to extract the text and then provide it here for further assistance."
+  },
+  {
+    "query": "Q2 (b) Write \\(\\frac{6}{3 - \\sqrt{7}}\\) in the form \\( a + b\\sqrt{7} \\).",
+    "type": "NCEA",
+    "answer": "Q2a: w = 2 + i clearly shown on Argand diagram"
+  },
+  {
+    "query": "(c) One solution of the equation \\( z^3 + Az^2 + 34z - 40 = 0 \\) is \\( z = 3 + i \\).\n\nIf \\( A \\) is a real number, find the value of \\( A \\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Q2b: 9 + 3\\sqrt{7}"
+  },
+  {
+    "query": "(d) If \\( z = \\frac{15}{1 - 2i} - 2i \\), find \\(\\text{mod}(z)\\).\n\nYou must show all algebraic working.",
+    "type": "NCEA",
+    "answer": "Q2c:  \nz_1 = 3 + i, z_2 = 3 - i  \n(z - 3 - i)(z - 3 + i) = z^2 - 6z + 10  \n∴ third factor is (z - 4), so z_3 = 4  \n(z - 4)(z^2 - 6z + 10) = z^3 - 10z^2 + 34z - 40  \n∴ A = -10"
+  },
+  {
+    "query": "(e) The complex number \\( u = 3 + mi \\) is on the locus of points defined by \\( |z - 8| = |z - 4 + 2i| \\).\n\nFind the value of \\( m \\).",
+    "type": "NCEA",
+    "answer": "Q2d:  \nz = \\frac{15}{(1 - 2i)} \\times \\frac{(1 + 2i)}{(1 + 2i)}  \n= \\frac{15(1 + 2i)}{5} - 2i  \n= 3 + 6i - 2i  \n= 3 + 4i  \nmod(z) = 5"
+  },
+  {
+    "query": "Q3a: \\( u = 3 - 2i \\) and \\( v = 2 + bi \\).\n\nFind the value of \\( b \\) if \\( uv = 14 + 8i \\).",
+    "type": "NCEA",
+    "answer": "Q2e:  \n|x + yi - 8| = |x + yi - 4 + 2i|  \n\\left| (x - 8) + yi \\right| = \\left| (x - 4) + (2 + y)i \\right|  \n\\sqrt{(x - 8)^2 + y^2} = \\sqrt{(x - 4)^2 + (2 + y)^2}  \nx^2 - 16x + 64 + y^2 = x^2 - 8x + 16 + y^2 + 4y + 4  \n-16x + 8x + 64 - 20 = 4y  \n-8x + 44 = 4y  \ny = -2x + 11  \nx = 3, y = 5  \n∴ m = 5"
+  },
+  {
+    "query": "Q3b: Solve the equation \\( x^2 - 6px + 4p^2 = 0 \\) for \\( x \\) in terms of \\( p \\), expressing the solution in its simplest form.",
+    "type": "NCEA",
+    "answer": "Q3 (a)  \n\\( uv = (3 - 2i)(2 + bi) \\)  \n\\( = 6 + 3bi - 4i + 2b \\)  \n\\( = (6 + 2b) + (3b - 4)i \\)  \n\\( b = 4 \\)"
+  },
+  {
+    "query": "Q3c: Solve the equation \\( z^3 = -k^6 i \\), where \\( k \\) is real and positive.\n\nWrite your solutions in polar form in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "Q3 (b)  \n\\( (x - 3p)^2 - 5p^2 = 0 \\)  \n\\( (x - 3p)^2 = 5p^2 \\)  \n\\( (x - 3p) = \\pm \\sqrt{5}p \\)  \n\\( x = 3p \\pm \\sqrt{5}p \\)  \n\nOr by quadratic formula:  \n\\( x = \\frac{6p \\pm \\sqrt{36p^2 - 4 \\times 1 \\times 4p^2}}{2} \\)  \n\\( = \\frac{6p \\pm \\sqrt{20p^2}}{2} \\)  \n\\( = 3p \\pm \\sqrt{5}p \\)"
+  },
+  {
+    "query": "(d) Find the complex number \\( w \\), in the form \\( x + iy \\), if \\( \\arg(w) = \\frac{\\pi}{4} \\) and \\( |w \\cdot \\overline{w}| = 20 \\).",
+    "type": "NCEA",
+    "answer": "Q3 (c)  \n\\( z^3 = k^6 \\text{cis} \\left( -\\frac{\\pi}{2} \\right) \\)  \n\\( z_1 = k^2 \\text{cis} \\left( -\\frac{\\pi}{6} \\right) \\)  \n\\( z_2 = k^2 \\text{cis} \\left( \\frac{\\pi}{2} \\right) \\)  \n\\( z_3 = k^2 \\text{cis} \\left( -\\frac{5\\pi}{6} \\right) \\)"
+  },
+  {
+    "query": "(e) Solve the equation \\(\\frac{\\sqrt{x+k} + \\sqrt{x-k}}{\\sqrt{x+k} - \\sqrt{x-k}} = 4\\) for \\( x \\) in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "Q3 (d)  \n\\( \\text{Arg}(w) = \\frac{\\pi}{4} \\Rightarrow w = x + xi \\)  \n\\( w \\cdot \\overline{w} = (x + xi)(x - xi) \\)  \n\\( = x^2 - x^2i + x^2i - x^2i^2 \\)  \n\\( = 2x^2 \\)  \n\\( |w \\cdot \\overline{w}| = \\left( \\sqrt{2x^2} \\right)^2 \\)  \n\\( = 2x^2 \\)  \n\\( 2x^2 = 20 \\)  \n\\( x^2 = 10 \\)  \n\\( x = \\sqrt{10} \\)  \n\\( w = \\sqrt{10} + \\sqrt{10}i \\)  \n\nAccept \\( w = 3.16 + 3.16i \\) or equivalent decimal approximations."
+  },
+  {
+    "query": "The image provided is a blank page labeled for extra paper use, with no questions present.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can help you with a description or analysis of the content if you provide the text or details."
+  },
+  {
+    "query": "Q1 (a) Solve the equation \\(x^2 - 4x + 7 = 0\\). Give your solution in the form \\(a \\pm \\sqrt{b}i\\), where \\(a\\) and \\(b\\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "Q1a: \\( x = 2 \\pm \\sqrt{3}i \\)"
+  },
+  {
+    "query": "Q1 (b) When the polynomial \\(2x^3 - x^2 - 4x + p\\) is divided by \\(x - 3\\), the remainder is 38. Find the value of \\(p\\).",
+    "type": "NCEA",
+    "answer": "Q1b: \n\\[\n2(3)^3 - (3)^2 - 4(3) + p = 38 \\\\\n54 - 9 - 12 + p = 38 \\\\\np = 5\n\\]"
+  },
+  {
+    "query": "Q1 (c) Complex numbers \\(u\\) and \\(v\\) are \\(u = q + 2i\\) and \\(v = 1 - 2i\\). Given that \\(\\left| \\frac{u}{v} \\right| = 13\\), find all possible values of \\(q\\).",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\n\\left| \\frac{u}{v} \\right| = 13 \\\\\n\\frac{q + 2i}{1 - 2i} = 13 \\\\\n\\sqrt{q^2 + 4} \\div \\sqrt{5} = 13 \\\\\nq^2 + 4 = 169 \\\\\n5 \\\\\nq^2 + 4 = 845 \\\\\nq^2 = 841 \\\\\nq = \\pm 29\n\\]"
+  },
+  {
+    "query": "(d) One solution of the equation \\(2z^3 - 5z^2 + cz - 5 = 0\\) is \\(z = 1 - 2i\\).\n\nIf \\(c\\) is real, find the value of \\(c\\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Q1d (i): \n\\[\nz = 1 - 2i \\text{ is one solution } \\Rightarrow z = 1 + 2i \\text{ is also a solution.} \\\\\n(z - (1 - 2i))((z - (1 + 2i))) \\\\\n= (z - 1 + 2i)(z - 1 - 2i) \\\\\n= z^2 - z - 2zi = z + 1 + 2i + 2i - 2i - 4i^2 \\\\\n= z^2 - 2z + 5 \\\\\n\\therefore (z^2 - 2z + 5)(az + b) = 2z^3 - 5z^2 + cz - 5 \\\\\na = 2, b = -1 \\\\\n\\therefore (z^2 - 2z + 5)(2z - 1) = 0\n\\]"
+  },
+  {
+    "query": "(e) Find the values of \\( x \\) and \\( y \\), given that \\( x \\) and \\( y \\) are real, and\n\n\\[\n\\frac{1}{x + iy} - \\frac{1}{1 + i} = 1 - 2i.\n\\]",
+    "type": "NCEA",
+    "answer": "Q1d (ii): \n\\[\n\\text{Other solution is } z = \\frac{1}{2} \\\\\n2z^3 - 5z^2 + 12z - 5 = 0 \\\\\nc = 12\n\\]"
+  },
+  {
+    "query": "Q2 (a) If \\( p = 3 - i \\) and \\( q = -2 + 5i \\), find \\( \\overline{p} - 3q \\), giving your solution in the form \\( a + bi \\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools like OnlineOCR. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q2 (b) Write \\( \\frac{3}{4 - \\sqrt{5}} \\) in the form \\( a + b\\sqrt{5} \\) where \\( a \\) and \\( b \\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\[\n\\bar{p} = 3 + i \\\\\n\\bar{p} - 3q = 3 + i - 3(-2 + 5i) \\\\\n= 3 + i + 6 - 15i \\\\\n= 9 - 14i\n\\]"
+  },
+  {
+    "query": "Q2 (c) Solve the equation \\( z^4 + 16p^2i = 0 \\), where \\( p \\) is real. Write your solution in polar form, in terms of \\( p \\).",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\[\n\\frac{3}{4 - \\sqrt{5}} = \\frac{3}{4 - \\sqrt{5}} \\times \\frac{4 + \\sqrt{5}}{4 + \\sqrt{5}} \\\\\n= \\frac{12 + 3\\sqrt{5}}{16 - 5} \\\\\n= \\frac{12}{11} + \\frac{3\\sqrt{5}}{11}\n\\]"
+  },
+  {
+    "query": "Q1d: Find all possible values of \\( m \\) that make \\( z = \\frac{\\sqrt{3} + mi}{1 + \\sqrt{3}i} \\) a purely real number.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\[\nz^4 = -16p^2i \\\\\n= 16p^2 \\text{cis} \\left( -\\frac{\\pi}{2} \\right) \\\\\nz = \\left( 16p^2 \\text{cis} \\left( -\\frac{\\pi}{2} \\right) \\right)^{\\frac{1}{4}} \\\\\n= 2\\sqrt{p} \\text{cis} \\left( -\\frac{\\pi}{8} \\right) \\\\\n\\text{Solutions are } \\frac{\\pi}{2} \\text{ apart.} \\\\\nz_1 = 2\\sqrt{p} \\text{cis} \\left( -\\frac{\\pi}{8} \\right) \\\\\nz_2 = 2\\sqrt{p} \\text{cis} \\left( \\frac{3\\pi}{8} \\right) \\\\\nz_3 = 2\\sqrt{p} \\text{cis} \\left( \\frac{7\\pi}{8} \\right) \\\\\nz_4 = 2\\sqrt{p} \\text{cis} \\left( -\\frac{5\\pi}{8} \\right) \\text{ or equivalent.}\n\\]"
+  },
+  {
+    "query": "(e) If \\( |z| = 1 \\), and \\( z \\neq 1 \\), prove that \\(\\frac{1+z}{1-z}\\) is purely imaginary.",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\[\nz = \\frac{(\\sqrt{3} + mi)(1 - \\sqrt{3}i)}{(1 + \\sqrt{3}i)(1 - \\sqrt{3}i)} \\\\\n= \\frac{\\sqrt{3} - 3i + mi - \\sqrt{3}mi^2}{4} \\\\\n= \\frac{\\sqrt{3} + \\sqrt{3}m + (m - 3)i}{4} \\\\\nz \\text{ is purely real } \\Rightarrow m = 3\n\\]"
+  },
+  {
+    "query": "Q3 (a) If \\( u = q^2 \\text{cis} \\frac{3\\pi}{4} \\) and \\( v = q^3 \\text{cis} \\frac{\\pi}{3} \\), write \\( \\frac{u}{v} \\) in the form \\( r \\text{cis} \\theta \\).",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\nz = x + iy\n\\]\n\n\\[\n|z| = 1 \\Rightarrow x^2 + y^2 = 1\n\\]\n\n\\[\n1 + z = \\frac{1 + (x + iy)}{1 - z} = \\frac{1}{1 - (x + iy)}\n\\]\n\n\\[\n= \\frac{(1 + x) + iy}{(1 - x) - iy}\n\\]\n\n\\[\n= \\frac{(1 + x) + iy}{(1 - x) + iy} \\cdot \\frac{(1 - x) + iy}{(1 - x) + iy}\n\\]\n\n\\[\n= \\frac{(1 + x)(1 - x) + (1 + x)iy + iy(1 - x) + i^2y^2}{(1 - x)^2 - i^2y^2}\n\\]\n\n\\[\n= \\frac{1 - x^2 + iy + iyx + iy - iyx - y^2}{(1 - x)^2 + y^2}\n\\]\n\n\\[\n= \\frac{1 - (x^2 + y^2) + 2iy}{(1 - x)^2 + y^2}\n\\]\n\n\\[\n= \\frac{2iy}{(1 - x)^2 + y^2}\n\\]\n\nwhich is purely imaginary."
+  },
+  {
+    "query": "Q3 (b) If \\( x \\) and \\( y \\) are real numbers and \\( (x + iy)(2 + i) = 3 - i \\), find the values of \\( x \\) and \\( y \\).",
+    "type": "NCEA",
+    "answer": "Q3a: \n\\[\n\\frac{u}{v} = \\frac{q^2 \\text{cis} \\left( \\frac{3\\pi}{4} \\right)}{q^3 \\text{cis} \\left( \\frac{\\pi}{3} \\right)} = \\frac{1}{q} \\text{cis} \\left( \\frac{3\\pi}{4} - \\frac{\\pi}{3} \\right) = \\frac{1}{q} \\text{cis} \\left( \\frac{5\\pi}{12} \\right)\n\\]"
+  },
+  {
+    "query": "Q3 (c) Solve the following equation for \\( x \\) in terms of \\( w \\).\n\n\\[ 2\\sqrt{x} - w\\sqrt{x} = 0 \\]",
+    "type": "NCEA",
+    "answer": "Q3b: \n\\( x = 1 \\) and \\( y = -1 \\)"
+  },
+  {
+    "query": "Q1d Two complex numbers are defined by \\( u = 1 + pi \\) and \\( v = 5 + 3i \\).\n\nGiven that \\( \\arg \\left( \\frac{u}{v} \\right) = \\frac{\\pi}{4} \\), find the value of \\( p \\).",
+    "type": "NCEA",
+    "answer": "Q3c: \n\\[\n2\\sqrt{x} - 3 = w\\sqrt{x} \\\\\n4(x - 3) = w^2 x \\\\\n4x - 12 = w^2 x \\\\\n4x - w^2 x = 12 \\\\\nx(4 - w^2) = 12 \\\\\nx = \\frac{12}{(4 - w^2)}\n\\]"
+  },
+  {
+    "query": "(e) Prove that the quadratic equation \\(x^2 + 3kx + k^2 = 7x + 3k\\) will have two distinct real solutions for all real values of \\(k\\).",
+    "type": "NCEA",
+    "answer": "Q3d: \n\\[\n\\frac{u}{v} = \\frac{1 + pi}{5 + 3i} \\cdot \\frac{5 - 3i}{5 - 3i} = \\frac{5 - 3i + 5pi - 3pi^2}{34} = \\frac{5 + 3p}{34} + \\frac{5p - 3}{34}i \\\\\n\\text{arg} \\left( \\frac{u}{v} \\right) = \\left( \\frac{\\pi}{4} \\right) \\\\\n\\Rightarrow \\text{Re} \\left( \\frac{u}{v} \\right) = \\text{Im} \\left( \\frac{u}{v} \\right) \\\\\n\\Rightarrow 5 + 3p = 5p - 3 \\\\\n8 = 2p \\\\\np = 4\n\\]"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "Q1e: \n\n\\( x^2 + 3kx + k^2 = 7x + 3k \\)\n\n\\( x^2 + (3k - 7)x + (k^2 - 3k) = 0 \\)\n\n\\( b^2 - 4ac = (3k - 7)^2 - 4 \\times 1 \\times (k^2 - 3k) \\)\n\n\\( = 9k^2 - 42k + 49 - 4k^2 + 12k \\)\n\n\\( = 5k^2 - 30k + 49 \\)\n\n\\( = 5[(k^2 - 6k) + 49] \\)\n\n\\( = 5\\left[(k - 3)^2 - 9\\right] + 49 \\)\n\n\\( = 5(k - 3)^2 + 4 \\)\n\n\\( 5(k - 3)^2 + 4 > 0 \\) for all values of \\( k \\).\n\n∴ Quadratic equation will always have 2 real solutions."
+  },
+  {
+    "query": "Q1 (a) If \\( s = 2 + 3i \\) and \\( t = 3 + ki \\), find the value of \\( k \\) if \\( st = 21 - i \\).",
+    "type": "NCEA",
+    "answer": "Q1a: \n\\( st = (2+3i)(3+ki) \\)\n\\( = 6 + 2ki + 9i + 3ki^2 \\)\n\\( = (6 - 3k) + (2k + 9)i = 21 - i \\)\n\\( k = -5 \\)"
+  },
+  {
+    "query": "Q1 (b) Find the value(s) of \\( r \\) such that the equation \\( x^2 + 4rx + r = 0 \\) has only one solution.",
+    "type": "NCEA",
+    "answer": "Q1b: \n\\( x^2 + 4x + r = 0 \\)\n\\( (4r)^2 - 4 \\times 1 \\times r = 0 \\)\n\\( 16r^2 - 4r = 0 \\)\n\\( 4r(4r - 1) = 0 \\)\n\\( r = 0 \\) or \\( r = \\frac{1}{4} \\)"
+  },
+  {
+    "query": "Q1 (c) Solve the following equation for \\( x \\) in terms of \\( g \\).  \n\\[ 2\\sqrt{x} - 5 = \\sqrt{4x - g} \\]",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\( 2\\sqrt{x - 5} = \\sqrt{4x - g} \\)\n\\( 4x - 20\\sqrt{x} + 25 = 4x - g \\)\n\\( 25 + g = 20\\sqrt{x} \\)\n\\( x = \\left( \\frac{25 + g}{20} \\right)^2 \\)"
+  },
+  {
+    "query": "(d) Write \\(\\frac{k + ki}{1 - i} + \\frac{2k}{1 + i}\\) in its simplest possible form.",
+    "type": "NCEA",
+    "answer": "Q1d: \n\\( \\frac{k + ki}{1 - i} + \\frac{2k}{1 + i} = \\frac{(k + ki)(1 + i) + 2k(1 - i)}{(1 - i)(1 + i)} \\)\n\\( = \\frac{k + ki + ki + k i^2 + 2k - 2ki}{2} \\)\n\\( = \\frac{2k}{2} = k \\)"
+  },
+  {
+    "query": "(e) Given that \\(T = \\frac{a - bi}{a + bi}\\), where \\(a\\) and \\(b\\) are real constants, prove that \\(\\frac{1 + T^2}{2T} = \\frac{a^2 - b^2}{a^2 + b^2}\\).",
+    "type": "NCEA",
+    "answer": "Q1c\n\n\\[\n1 + \\frac{r^2}{2r} + \\left( \\frac{a - bi}{a + bi} \\right)^2 \\cdot \\frac{a - bi}{a + bi}\n\\]\n\n\\[\n= \\left( \\frac{a + bi}{a + bi} \\right)^2 + \\left( \\frac{a - bi}{a + bi} \\right)^2 \\cdot \\frac{2(a - bi)}{(a + bi)}\n\\]\n\n\\[\n= \\frac{(a + bi)^2 + (a - bi)^2}{(a + bi)^2} \\times \\frac{(a + bi)}{2(a - bi)}\n\\]\n\n\\[\n= \\frac{(a + bi)^2 + (a - bi)^2}{(a + bi) \\times 2(a - bi)}\n\\]\n\n\\[\n= \\frac{a^2 + 2abi + b^2i^2 + a^2 - 2abi + b^2i^2}{2(a^2 + abi - abi - b^2i^2)}\n\\]\n\n\\[\n= \\frac{2(a^2 - b^2)}{2(a^2 + b^2)}\n\\]\n\n\\[\n= \\frac{(a^2 - b^2)}{(a^2 + b^2)}\n\\]"
+  },
+  {
+    "query": "Q2 (a) Given that \\(x - 2\\) is a factor of \\(2x^3 + qx^2 - 17x - 10\\), find the value of \\(q\\).",
+    "type": "NCEA",
+    "answer": "TWO (a)  \n\\(2x^2 + qx^2 - 17x^2 - 10 = 0\\)  \n\\(16 + 4q - 34 - 10 = 0\\)  \n\\(q = 7\\)"
+  },
+  {
+    "query": "Q2 (b) Find all possible values of \\(k\\) given that \\(|5 + 3ki| = 13\\).",
+    "type": "NCEA",
+    "answer": "(b)  \n\\(|5 + 3ki| = 13\\)  \n\\(25 + 9k^2 = 169\\)  \n\\(9k^2 = 144\\)  \n\\(k^2 = 16\\)  \n\\(k = \\pm 4\\)"
+  },
+  {
+    "query": "Q2 (c) One of the solutions of \\(2z^3 - 15z^2 + bz - 30 = 0\\) is \\(z = 3 + i\\) (\\(b\\) is a real number). Find the other solutions, and the value of \\(b\\).",
+    "type": "NCEA",
+    "answer": "(c)  \n\\(2z^3 - 15z^2 + bz - 30 = 0\\)  \n\\(z = 3 + i\\) a solution \\(\\Rightarrow z = 3 - i\\) a solution  \n\\((z - 3 - i)(z - 3 + i) = z^2 - 6z + 10\\)  \n\\(2z^3 - 15z^2 + bz - 30 = (2z - 3)(z^2 - 6z + 10)\\)  \nOther solution is \\(z = \\frac{3}{2}\\) and \\(b = 38\\)."
+  },
+  {
+    "query": "(d) Given that \\( u = p + pi \\) and \\( v = -q + qi \\), where \\( p \\) and \\( q \\) are both positive real constants, find \\( \\arg \\left( \\frac{u}{v} \\right) \\).",
+    "type": "NCEA",
+    "answer": "(d)  \n\\(u = p + pi \\quad v = -q + qi\\)  \n\\(\\frac{u}{v} = \\frac{p + pi}{-q + qi} \\times \\frac{-q - qi}{-q - qi}\\)  \n\\(\\frac{u}{v} = \\frac{-pq - pqi - pqi - pq i^2}{2q^2}\\)  \n\\(\\frac{u}{v} = \\frac{-2pqi - pi}{2q^2 - q}\\)  \n\\(\\arg\\left(\\frac{u}{v}\\right) = -\\frac{\\pi}{2}\\)  \nOR  \n\\(\\arg(u) = \\frac{\\pi}{4} \\quad \\arg(v) = \\frac{3\\pi}{4}\\)  \n\\(\\arg\\left(\\frac{u}{v}\\right) = \\frac{\\pi}{4} - \\frac{3\\pi}{4} = -\\frac{\\pi}{2}\\)"
+  },
+  {
+    "query": "(e) Find the Cartesian equation of the locus described by \\( |z + i|^2 + |z - i|^2 = 10 \\). Write your solution in the form \\( x^2 + y^2 = k \\).",
+    "type": "NCEA",
+    "answer": "(e)  \n\\(|z + i^2|^2 + |z - i^2|^2 = 10 \\quad \\text{Let } z = x + yi\\)  \n\\(|x + yi + i^2|^2 + |x + yi - i^2|^2 = 10\\)  \n\\(x^2 + (y + 1)^2 + x^2 + (y - 1)^2 = 10\\)  \n\\(2x^2 + y^2 + 2y + 1 + y^2 - 2y + 1 = 10\\)  \n\\(2x^2 + 2y^2 = 8\\)  \n\\(x^2 + y^2 = 4\\)"
+  },
+  {
+    "query": "Q3 (a) If \\( u = 12k^3 \\text{cis}(\\pi) \\) and \\( v = 2k \\text{cis} \\left( \\frac{\\pi}{3} \\right) \\), write the exact value of \\( \\frac{u}{v} \\) in polar form.",
+    "type": "NCEA",
+    "answer": "The image provided is a marking schedule and does not contain specific answers to questions. It outlines the criteria for different levels of achievement (N0, N1, N2, A3, A4, M5, M6, E7, E8) in the NCEA Level 3 Calculus exam. Here is the extracted information:\n\n- N0: No response; no relevant evidence.\n- N1: ONE partial solution.\n- N2: 1u\n- A3: 2u\n- A4: 3u\n- M5: 1r\n- M6: 2r\n- E7: 1t with minor error(s).\n- E8: 1t\n\nIf you have specific questions or need further assistance, please let me know!"
+  },
+  {
+    "query": "Q3 (b) If \\( z = 5 - i \\) and \\( w = -2 + 3i \\), show that \\( |z|^2 = 2|w|^2 \\).",
+    "type": "NCEA",
+    "answer": "Q3a: \\(6k^2 \\text{cis} \\left( \\frac{2\\pi}{3} \\right)\\)"
+  },
+  {
+    "query": "Q3 (c) Given that \\( z = a + bi \\), where \\( a \\) and \\( b \\) are non-zero real numbers, show that \\( \\frac{z \\overline{z}}{z + \\overline{z}} \\) is a real number.",
+    "type": "NCEA",
+    "answer": "Q3b:  \n\\(z = 5 - i \\quad w = -2 + 3i\\)  \n\\(|z|^2 = 26 \\quad |w|^2 = 13\\)  \n\\(\\therefore |z|^2 = 2|w|^2\\)"
+  },
+  {
+    "query": "(d) Solve the equation \\( z^4 = -16k^8 \\), where \\( k \\) is a real constant. Give your solutions in polar form in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\[\n\\frac{\\overline{z}}{z + \\overline{z}} = \\frac{(a + bi)(a - bi)}{a + bi + a - bi} = \\frac{a^2 + b^2}{2a} \\text{ which is real}\n\\]"
+  },
+  {
+    "query": "(e) For complex numbers \\( u \\) and \\( v \\), prove that if \\( |u + v| = |u - v| \\), then \\( \\frac{u}{v} \\) is purely imaginary.",
+    "type": "NCEA",
+    "answer": "Q3d (i):  \n\\(z^4 = -16k^8 = 16k^8 \\text{cis}(\\pi)\\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "Q3d (ii):  \n\\(z_1 = 2k^2 \\text{cis} \\left( \\frac{\\pi}{4} \\right)\\)"
+  },
+  {
+    "query": "Q1 (a) Given that \\( w = d + 5i \\) and \\( z = 3 - 4i \\), find the value of \\( d \\) if \\( wz = 38 - 9i \\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\( d = 6 \\)"
+  },
+  {
+    "query": "Q1 (b) If \\( z = 2 + 3i \\), show \\( \\frac{26}{z} \\) on the Argand diagram below.",
+    "type": "NCEA",
+    "answer": "Q1b: \\( z = \\frac{26(2 - 3i)}{13} = 4 - 6i \\)"
+  },
+  {
+    "query": "(c) The polynomial \\( f(x) = x^3 + 3x^2 + ax + b \\) has the same remainder when divided by \\( (x - 2) \\) as it does when divided by \\( (x + 1) \\).\n\nThe polynomial \\( f(x) \\) also has \\( (x + 2) \\) as a factor.\n\nFind the values of \\( a \\) and \\( b \\).",
+    "type": "NCEA",
+    "answer": "Q1c: \\( a = 6 \\)"
+  },
+  {
+    "query": "(d) Show that if \\( z = 1 + 3i \\), then \\( \\arg \\left( \\frac{z - 1}{z - 2i} \\right) = \\frac{\\pi}{4} \\).",
+    "type": "NCEA",
+    "answer": "Q1c: \\( b = -16 \\)"
+  },
+  {
+    "query": "(e) Given that the real part of \\(\\frac{z - 2i}{z - 4}\\) is zero and \\(z \\neq 4\\), prove that the locus of points described by \\(z\\) is given by the Cartesian equation \\((x - 2)^2 + (y - 1)^2 = 5\\).",
+    "type": "NCEA",
+    "answer": "Q1d: \\( \\arg \\left( \\frac{1+3i-1}{1+3i-2i} \\right) = \\arg \\left( \\frac{3i}{1+i} \\right) = \\arg \\left( \\frac{3i(1-i)}{(1+i)(1-i)} \\right) = \\arg \\left( \\frac{3i - 3i^2}{1-i^2} \\right) = \\arg \\left( \\frac{3+3i}{2} \\right) = \\arg \\left( \\frac{3}{2} + \\frac{3i}{2} \\right) = \\frac{\\pi}{4} \\)"
+  },
+  {
+    "query": "Q2 (a) Given that \\( u = 2i \\) and \\( w = 2 \\text{cis} \\left( \\frac{2\\pi}{3} \\right) \\), find \\( z = \\frac{u}{w} \\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat or online tools like OnlineOCR. Once you have the text, feel free to share it here, and I can help you format it or answer any questions you have!"
+  },
+  {
+    "query": "Q2 (b) Solve the equation \\( x^2 - 12qx + 20q^2 = 0 \\) for \\( x \\) in terms of \\( q \\), expressing any solutions in their simplest form.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you understand how to extract the answers manually or guide you through the process. If you have any questions about the content, feel free to ask!"
+  },
+  {
+    "query": "Q2 (c) Prove that \\( \\frac{a + bi}{b - ai} \\) is purely imaginary, where \\( a \\) and \\( b \\) are real constants.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "(d) Solve the equation \\( z^3 = k^6 + k^6 i \\), where \\( k \\) is a real constant.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat, Tesseract, or online OCR tools. Once you have the text, feel free to share it here, and I can help you format or analyze it."
+  },
+  {
+    "query": "(e) If \\( z \\) is a complex number and \\( |z + 16| = 4|z + 1| \\), find the value of \\( |z| \\).",
+    "type": "NCEA",
+    "answer": "Q1c: \\( z^2 = i(|z|^2 - 4) \\)"
+  },
+  {
+    "query": "Q3 (a) The complex number \\( u = 5 + mi \\) has \\( |u| = 6 \\).\n\nGiven that \\( 0 < \\arg(u) < \\frac{\\pi}{2} \\), find the exact value of real number \\( m \\).",
+    "type": "NCEA",
+    "answer": "Q1c: \\( (x + iy)^2 = i(x^2 + y^2 - 4) \\)"
+  },
+  {
+    "query": "Q3 (b) Write \\(\\frac{18}{4 - 2\\sqrt{3}}\\) in the form \\( a + b\\sqrt{3} \\), where \\( a \\) and \\( b \\) are integers.",
+    "type": "NCEA",
+    "answer": "Q1c: \\( x^2 + 2xyi + y^2i^2 = (x^2 + y^2 - 4)i \\)"
+  },
+  {
+    "query": "(c) One solution of \\(4z^3 - 19z^2 + 128z + A = 0\\) is \\(z = 2 + 5i\\).\n\nIf \\(A\\) is real, find the value of \\(A\\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Q1c: \\( x^2 - y^2 + 2xyi = (x^2 + y^2 - 4)i \\)"
+  },
+  {
+    "query": "(d) Solve the following equation for \\(x\\) in terms of \\(m\\).\n\n\\[6\\sqrt{2x} - 5 = 6\\sqrt{2x} + m\\]",
+    "type": "NCEA",
+    "answer": "Q1c: Real component: \\( x^2 - y^2 = 0 \\)"
+  },
+  {
+    "query": "(e) Solve the equation \\( z^2 = i(|z|^2 - 4) \\).",
+    "type": "NCEA",
+    "answer": "Q1c: \\( x^2 = y^2 \\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra space in an exam. There are no questions to extract.",
+    "type": "NCEA",
+    "answer": "Q1c: \\( x = y \\) or \\( x = -y \\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra space in an exam. There are no questions to extract.",
+    "type": "NCEA",
+    "answer": "Q1c: Imaginary component: \\( x^2 + y^2 - 4 = 2xy \\)"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please share it, and I'll be happy to help extract the questions for you.",
+    "type": "NCEA",
+    "answer": "Q1c: If \\( x = y \\), then \\( 2x^2 - 4 = 2x^2 \\) impossible"
+  },
+  {
+    "query": "Q1 (a) Write \\(\\frac{12k}{1+\\sqrt{5}}\\) in the form \\(ak + bk\\sqrt{5}\\), where \\(a\\) and \\(b\\) are integers.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(-3k + 3k\\sqrt{5}\\)"
+  },
+  {
+    "query": "Q1 (b) If \\(u = m \\text{cis} \\frac{\\pi}{3}\\) and \\(v = m \\text{cis} \\frac{\\pi}{5}\\), write \\(\\frac{u}{v}\\) in polar form.",
+    "type": "NCEA",
+    "answer": "Q1b: \\(m \\text{cis} \\left( \\frac{2\\pi}{15} \\right)\\)"
+  },
+  {
+    "query": "Q1 (c) If \\(u = 3 + 2i\\), \\(v = 4 + 2i\\), and \\(w = 2 + ki\\), find the value of \\(k\\) if \\(\\arg(uvw) = \\frac{\\pi}{4}\\).",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[\n\\begin{align*}\nuv &= (3 + 2i)(4 + 2i) \\\\\n&= 8 + 14i \\\\\nuvw &= (8 + 14i)(2 + 4i) \\\\\n&= (16 - 14k) + (8k + 28)i \\\\\n\\text{Arg}(uvw) &= \\frac{\\pi}{4} \\text{ means Re = Im} \\\\\n(16 - 14k) &= (8k + 28) \\\\\n-12 &= 22k \\\\\nk &= \\frac{-12}{22} = \\frac{-6}{11}\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "Q1 (d) Find the value(s) of \\(p\\) for which the equation \\(x - 2\\sqrt{x} + p = -5\\) has only one real solution.",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\[\n\\begin{align*}\nx - 2\\sqrt{x + p} &= -5 \\\\\nx + 5 &= 2\\sqrt{x + p} \\\\\nx^2 + 10x + 25 &= 4(x + p) \\\\\nx^2 + 6x + 25 - 4p &= 0 \\\\\nb^2 - 4ac &= 0 \\\\\n36 - 4(25 - 4p) &= 0 \\\\\n36 - 100 + 16p &= 0 \\\\\n16p &= 64 \\\\\np &= 4\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(e) For complex numbers \\( w \\) and \\( z \\), prove that:\n\n\\[\n|w + z|^2 - |w - z|^2 = 4 \\operatorname{Re}(w) \\operatorname{Re}(z)\n\\]\n\nwhere \\(\\operatorname{Re}(w)\\) is the real part of \\( w \\), and \\(\\operatorname{Re}(z)\\) is the real part of \\( z \\).",
+    "type": "NCEA",
+    "answer": "Q1e:  \n\\[\n\\begin{align*}\n|w + z|^2 - |w - \\overline{z}|^2 &= 4 \\text{Re}(w) \\text{Re}(z) \\\\\n\\text{Let } w &= a + bi \\text{ and } z = c + di \\\\\nw + z &= a + bi + c + di \\\\\n&= a + c + (b + d)i \\\\\nw - \\overline{z} &= a + bi - (c - d)i \\\\\n&= a - c + (b + d)i \\\\\n|w + z|^2 - |w - \\overline{z}|^2 &= (a + c)^2 + (b + d)^2 - ((a - c)^2 + (b + d)^2) \\\\\n&= a^2 + 2ac + c^2 + b^2 + 2bd + d^2 - (a^2 - 2ac + c^2 + b^2 + 2bd + d^2) \\\\\n&= 4ac \\\\\n&= 4 \\text{Re}(w) \\text{Re}(z)\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "Q2 (a) Dividing \\( x^3 - 3x^2 + bx + 9 \\) by \\( (x + 2) \\) gives a remainder of 3. Find the value of \\( b \\).",
+    "type": "NCEA",
+    "answer": "The image provided is a marking schedule and does not contain specific answers to questions. It outlines the criteria for different levels of achievement (N0, N1, N2, A3, A4, M5, M6, E7, E8) in an exam. If you have another page with specific questions and answers, please provide it for further assistance."
+  },
+  {
+    "query": "Q2 (b) Find the complex number \\( z \\) for which \\( z + 4z = 15 + 12i \\).",
+    "type": "NCEA",
+    "answer": "TWO (a)  \n\\[\n(-2)^3 - 3(2)^2 - 2b + 9 = 3 \\\\\n-8 - 12 - 2b + 9 = 3 \\\\\n-2b = 14 \\\\\nb = -7\n\\]"
+  },
+  {
+    "query": "Q2 (c) One of the solutions of \\( z^3 - 2z^2 + hz + 180 = 0 \\) is \\( z = -4 \\). (\\( h \\) is a real number). Find the other solutions, in the form \\( a \\pm bi \\), and the value of \\( h \\).",
+    "type": "NCEA",
+    "answer": "(b)  \nLet \\( z = a + bi \\)  \n\\( a + bi + 4(a - bi) = 15 + 12i \\)  \n\\( 5a - 3bi = 15 + 12i \\)  \n\\( a = 3, \\, b = 4 \\)  \n\\( z = 3 - 4i \\)"
+  },
+  {
+    "query": "(d) If \\( z = 1 - \\sqrt{3}i \\) and \\( w = \\frac{4}{z} - 2 \\), find \\(\\arg(w)\\).",
+    "type": "NCEA",
+    "answer": "(c)  \n\\[\nz^2 - 6z + 45 \\\\\nz + 4 \\sqrt{z^2 - 2z + h} z + 180 \\\\\nz^2 + 4z^2 \\\\\n-6z^2 + hz \\\\\n-6z^2 - 24z \\\\\n(h + 24)z + 180 \\\\\n45z + 180 \\\\\n0\n\\]\n\\( h + 24 = 45 \\)  \n\\( h = 21 \\)  \n\\( z^2 - 6z + 45 = 0 \\)  \n\\( (z - 3)^2 + 36 = 0 \\)  \n\\( (z - 3)^2 = -36 \\)  \n\\( z - 3 = \\pm 6i \\)  \n\\( z = 3 \\pm 6i \\)"
+  },
+  {
+    "query": "(e) Find the Cartesian equation of the locus described by \\( |z + i| = 2|z - 5i| \\) in the form \\((x-a)^2 + (y-b)^2 = k^2\\).",
+    "type": "NCEA",
+    "answer": "(d)  \n\\[\nw = \\frac{4}{z} - 2 \\quad z = 1 - \\sqrt{3}i \\\\\nw = \\frac{4}{1 - \\sqrt{3}i} - 2 \\\\\n= \\frac{4}{1 - \\sqrt{3}i} \\times \\frac{1 + \\sqrt{3}i}{1 + \\sqrt{3}i} - 2 \\\\\n= \\frac{4 + 4\\sqrt{3}i}{4 + 3} - 2 \\\\\n= 1 + \\sqrt{3}i - 2 \\\\\n= -1 + \\sqrt{3}i\n\\]\n\\[\n\\arg(w) = \\frac{2\\pi}{3} \\quad \\text{or} \\quad \\arg(w) = 120^\\circ\n\\]"
+  },
+  {
+    "query": "Q3 (a) The complex numbers \\( r \\) and \\( s \\) are represented on the Argand diagram below. If \\( v = 2r - s \\), find \\( v \\) and mark it on the Argand diagram above.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat or online tools like OnlineOCR. Once you have the text, feel free to share it here, and I can help you format or analyze it!"
+  },
+  {
+    "query": "Q3 (b) Solve the equation \\( z^2 + 6kz + 15k^2 = 0 \\) in terms of real number \\( k \\). Give your solution in the form \\( ak \\pm \\sqrt{b}ki \\), where \\( a \\) and \\( b \\) are rational numbers.",
+    "type": "NCEA",
+    "answer": "Q3a: 4 + 9i correctly plotted."
+  },
+  {
+    "query": "Q3 (c) Solve the equation \\( z^3 + k^6i = 0 \\), where \\( k \\) is a real constant. Give your solution(s) in polar form in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "Q3b:  \n\\( z^2 + 6kz + 152k^2 = 0 \\)  \n\\( (z + 3k)^2 + 6k^2 = 0 \\)  \n\\( (z + 3k)^2 = -6k^2 \\)  \n\\( z + 3k = \\pm \\sqrt{6}ki \\)  \n\\( z = -3k \\pm \\sqrt{6}ki \\)"
+  },
+  {
+    "query": "(d) Prove that there is no complex number \\( z \\) such that \\( |z| - z = i \\).",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\( z^3 = -k^4i \\)  \n\\( = k^4 \\text{cis} \\left( -\\frac{\\pi}{2} \\right) \\)  \n\nSolution interval = \\( \\frac{2\\pi}{3} \\)  \n\n\\( z_1 = k^2 \\text{cis} \\left( -\\frac{\\pi}{6} \\right) \\)  \n\\( z_2 = k^2 \\text{cis} \\left( \\frac{3\\pi}{6} \\right) = k^2 \\text{cis} \\left( \\frac{\\pi}{2} \\right) \\)  \n\\( z_3 = k^2 \\text{cis} \\left( \\frac{7\\pi}{6} \\right) = k^2 \\text{cis} \\left( -\\frac{5\\pi}{6} \\right) \\)"
+  },
+  {
+    "query": "(e) If \\( z = a + bi \\) is a non-zero complex number, and \\( \\frac{1}{z} + \\frac{3}{\\overline{z}} = 1 \\), find the values of \\( a \\) and \\( b \\).",
+    "type": "NCEA",
+    "answer": "Q3d:  \n\\( |z| = -z = i \\)  \n\\( z = a + bi \\)  \n\\( \\sqrt{a^2 + b^2} - (a + bi) = i \\)  \n\\( \\sqrt{a^2 + b^2} - a - bi = i \\)  \n\nEquating imaginary parts:  \n\\(-bi = i\\)  \n\\( b = -1 \\)  \n\nEquating real parts:  \n\\( \\sqrt{a^2 + (-1)^2} - a = 0 \\)  \n\\( \\sqrt{a^2 + 1} = a \\)  \n\\( a^2 + 1 = a^2 \\)  \n\\( 1 = 0 \\)  \n\nNot possible."
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please provide it, and I'll be happy to help extract the questions for you.",
+    "type": "NCEA",
+    "answer": "Q1c:\n\n\\[\n\\begin{align*}\n\\frac{i}{z} &= \\frac{3}{\\overline{z}} = 1 \\\\\n\\frac{i}{a + bi} &= \\frac{3}{a - bi} = 1 \\\\\ni(a - bi) + 3(a + bi) &= 1 \\\\\n(a + bi)(a - bi) \\\\\nai + b + 3a + 3bi &= 1 \\\\\n\\frac{b + 3a}{a^2 + b^2} + \\frac{(a + 3b)i}{a^2 + b^2} = 1 \\\\\n\\end{align*}\n\\]\n\nEquating imaginary parts:\n\n\\[\na + 3b = 0 \\text{ or } a = -3b\n\\]\n\nEquating real parts:\n\n\\[\n\\frac{b + 3a}{a^2 + b^2} = 1 \\\\\nb + 3a = a^2 + b^2 \\\\\n-8b = 10b^2 \\\\\n2b(5b + 4) = 0 \\\\\nb = 0 \\text{ or } b = -\\frac{4}{5}\n\\]\n\nIf \\( b = 0 \\), then \\( a = -3b = 0 \\) not allowed\n\n\\[\nb = -\\frac{4}{5} \\\\\na = -3b = \\frac{12}{5} \\\\\nz = \\frac{12}{5} - \\frac{4}{5}i\n\\]"
+  },
+  {
+    "query": "Q1 (a) Write \\( \\left( 5 - 2\\sqrt{p} \\right)^2 \\) in the form \\( a + bp + c\\sqrt{p} \\) where \\( a, b, \\) and \\( c \\) are integers.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1 (b) Find the value(s) of \\( r \\) so that the quadratic equation \\( 4x^2 - 4x + 3r - 2 = 0 \\) has no real roots.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat, Tesseract, or online OCR tools. Once you have the text, feel free to share it here, and I can help you format or analyze it further."
+  },
+  {
+    "query": "Q1 (c) If \\( z = p + qi \\) and \\( w = a + bi \\) and \\( \\text{Re} \\left( \\frac{z}{w} \\right) = 0 \\), then show that \\( ap = -bq \\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1d: One solution of the equation \\( z^3 - 8z^2 + 6z + d = 0 \\) is \\( z = 5 - i \\).\n\nIf \\( d \\) is real, find the value of \\( d \\) and the other two solutions of the equation.",
+    "type": "NCEA",
+    "answer": "Sure, here are the extracted answers:\n\n1. \\(|x + yi - 2 + i| = \\sqrt{3}\\)"
+  },
+  {
+    "query": "(e) The complex numbers \\( u \\) and \\( v \\) are \\( u = 3 + i \\) and \\( v = 1 + 2i \\).\n\nDetermine the possible value(s) of the real constant \\( k \\) if \\(\\left| \\frac{u}{v} + k \\right| = \\sqrt{k + 2}\\).",
+    "type": "NCEA",
+    "answer": "2. \\(|(x - 2) + (y + 1)i| = \\sqrt{3}\\)"
+  },
+  {
+    "query": "Q2 (a) If \\( u = q^6 \\text{ cis } \\frac{5\\pi}{8} \\) and \\( v = q^2 \\text{ cis } \\frac{2\\pi}{5} \\), write \\( \\frac{u}{v} \\) in the form \\( r \\text{ cis } \\theta \\).",
+    "type": "NCEA",
+    "answer": "3. \\(\\sqrt{(x - 2)^2 + (y + 1)^2} = \\sqrt{3}\\)"
+  },
+  {
+    "query": "Q2 (b) If \\( z = 1 + ki \\) and \\( w = 7 - ki \\), then find \\( |z - w| \\), giving your answer in terms of \\( k \\).",
+    "type": "NCEA",
+    "answer": "4. \\((x - 2)^2 + (y + 1)^2 = 3\\)"
+  },
+  {
+    "query": "Q2 (c) Find \\( \\text{Arg}(z) \\) if \\( \\frac{13z}{z+1} = 11 - 3i \\).",
+    "type": "NCEA",
+    "answer": "5. Let \\(y = mx - 1\\), then\n   \\((x - 2)^2 + (mx - 1 + 1)^2 = 3\\)"
+  },
+  {
+    "query": "(d) Solve the equation \\( z^3 + 64m^{12} = 0 \\), where \\( m \\) is a real constant. Write your solution(s) in polar form, in terms of \\( m \\).",
+    "type": "NCEA",
+    "answer": "6. \\(x^2 - 4x + m^2x^2 = 3\\)"
+  },
+  {
+    "query": "Q1e The straight line with equation \\( y = mx - 1 \\), where \\( m \\) is a real constant and \\( m > 0 \\), is a tangent to the locus described by \\( |z - 2 + i| = \\sqrt{3} \\).\n\nFind the Cartesian equation of the locus AND the value of \\( m \\).",
+    "type": "NCEA",
+    "answer": "7. \\((1 + m^2)x^2 - 4x + 1 = 0\\)"
+  },
+  {
+    "query": "Q3 (a) When the polynomial \\(2x^3 + px^2 + 7x - 3\\) is divided by \\(x + 3\\), the remainder is 30. Find the value of \\(p\\).",
+    "type": "NCEA",
+    "answer": "8. Tangent gives \\(b^2 - 4ac = 0\\)"
+  },
+  {
+    "query": "Q3 (b) The complex numbers \\(u\\) and \\(v\\) are \\(u = n - i\\) and \\(v = 2 - 3i\\). Given that \\(\\frac{u}{v} = 3 + 4i\\), find the value of \\(n\\).",
+    "type": "NCEA",
+    "answer": "9. \\(16 - 4(1 + m^2) \\times 1 = 0\\)"
+  },
+  {
+    "query": "Q3 (c) Solve the following equation for \\(x\\), in terms of \\(w\\). \\(4\\sqrt{4x - w} = 5 - 8\\sqrt{x}\\)",
+    "type": "NCEA",
+    "answer": "10. \\(16 - 4 - 4m^2 = 0\\)"
+  },
+  {
+    "query": "Q1d) Find the values of \\( x \\) and \\( y \\), given that \\( x \\) and \\( y \\) are real, and\n\n\\[\n\\frac{1}{x + yi} = 1 - \\frac{1}{1 + pi}\n\\]\n\ngiving your answers in terms of \\( p \\), where \\( p \\) is a positive, real constant.",
+    "type": "NCEA",
+    "answer": "11. \\(12 = 4m^2\\)"
+  },
+  {
+    "query": "Q1e) If \\( z + 2i = iz + k \\), where \\( k \\) is a real number, and \\(\\frac{w}{z} = 2 + 2i\\), where \\(\\text{Im}(w) = 8\\), find the value of \\( k \\).",
+    "type": "NCEA",
+    "answer": "12. \\(m^2 = 3\\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra space in an exam. There are no questions to extract.",
+    "type": "NCEA",
+    "answer": "13. \\(m = \\sqrt{3}\\)"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please share it, and I'll be happy to help extract them.",
+    "type": "NCEA",
+    "answer": "14. Do not penalise \\(m = \\pm \\sqrt{3}\\)"
+  }
+]

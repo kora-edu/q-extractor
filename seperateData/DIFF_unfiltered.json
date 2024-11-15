@@ -1,0 +1,842 @@
+[
+  {
+    "query": "Q1a. Differentiate \\( y = \\tan(x^2 + 1) \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "(a) \\(\\frac{dy}{dx} = \\sec^2\\left(x^2 + 1\\right) \\cdot 2x\\)"
+  },
+  {
+    "query": "Q1b. Find the gradient of the tangent to the function \\( f(x) = \\ln(3x - e^x) \\) at the point where \\( x = 0 \\).",
+    "type": "NCEA",
+    "answer": "(b) \\(\\frac{dy}{dx} = \\frac{3 - e^x}{3x - e^x}\\) or no tangent exists. At \\(x = 0\\) gradient = \\(-2\\)"
+  },
+  {
+    "query": "Q1c. Find the \\( x \\) values of any points of inflection on the graph of the function \\( y = e^{(6 - x^2)} \\).\n\nShow any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "(c) \\(\\frac{dy}{dx} = -2xe^{-x^2}\\)"
+  },
+  {
+    "query": "Q1d) A curve is defined by the parametric equations:\n\n\\[ x = 5 \\sin t \\quad \\text{and} \\quad y = 3 \\tan t \\]\n\nFind the gradient of the normal to the curve at the point where \\( t = \\frac{\\pi}{3} \\).\n\nShow any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "\\(\\frac{d^2y}{dx^2} = -2e^{-x^2} + 4x^2e^{-x^2}\\)"
+  },
+  {
+    "query": "Q1e) A closed cylindrical tank is to have a surface area of \\(20 \\, \\text{m}^2\\).\n\nFind the radius the tank needs to have so that the volume it can hold is as large as possible.\n\n*You do not have to prove that your solution gives the maximum volume.*\n\n*Show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Point of inflection when \\(\\frac{d^2y}{dx^2} = 0\\)"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( y = \\sqrt[3]{\\pi - x^2} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "\\((4x^2 - 2)e^{-x^2} = 0\\)"
+  },
+  {
+    "query": "Q2 (b) A curve has the equation \\( y = (x^3 - 2x)^3 \\).\n\nFind the equation of the tangent to the curve at the point where \\( x = 1 \\).\n\nShow any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "\\(4x^2 - 2 = 0\\)"
+  },
+  {
+    "query": "Q2 (c) For what value of \\( k \\) does the function \\( f(x) = x - e^x - \\frac{k}{x} \\) have a stationary point at \\( x = -1 \\)?\n\nShow any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "\\(x = \\pm \\frac{1}{\\sqrt{2}}\\)"
+  },
+  {
+    "query": "Q1d (i) Find all the value(s) of \\( x \\) that meet each of the following conditions:\n1. \\( f'(x) = 0 \\)\n2. \\( f''(x) < 0 \\)\n3. \\( f(x) \\) is not differentiable",
+    "type": "NCEA",
+    "answer": "(d) \\(\\frac{dv}{dr} = 5\\cos t\\)"
+  },
+  {
+    "query": "Q1d (ii) What is the value of \\( f(-1) \\)?",
+    "type": "NCEA",
+    "answer": "\\(\\frac{dy}{dr} = 3\\sec^2 t = \\frac{3}{\\cos^2 t}\\)"
+  },
+  {
+    "query": "Q1d (iii) What is the value of \\( \\lim_{{x \\to 3}} f(x) \\)?\nState clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "\\(\\frac{dy}{dx} = \\frac{3}{5\\cos^3 t}\\)"
+  },
+  {
+    "query": "(e) A copper sheet of width 24 cm is folded, as shown, to make spouting.\n\nCross-section:\n\nFind angle \\(\\theta\\) which gives the maximum cross-sectional area.\n\n*You do not need to prove that you have found a maximum.*\n\n*Show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "At \\(t = \\frac{\\pi}{3}\\), \\(\\frac{dy}{dx} = \\frac{24}{5} (= 4.8)\\)"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( y = \\frac{\\sin(2x)}{x^2} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "\\(\\therefore\\) gradient of normal = \\(-\\frac{5}{24} (=-0.2083)\\)"
+  },
+  {
+    "query": "Q3 (b) For the function \\( f(x) = x + \\frac{16}{x^2 - 2} \\), find the x-values of any stationary points.\n\nYou must use calculus and clearly show your working, including any derivatives you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat or online tools like Google Drive OCR. Once you have the text, feel free to share it here, and I can help you format or analyze it!"
+  },
+  {
+    "query": "(c) Find the value of \\( x \\) that gives the maximum value of the function\n\n\\[ f(x) = 50x - 30x \\ln 2x \\]\n\nYou do not need to prove that your value of \\( x \\) gives a maximum.\n\nYou must use calculus and clearly show your working, including any derivatives you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "(a) \\(\\frac{dy}{dx} = \\frac{1}{3}(\\pi - x^2)^{-\\frac{2}{3}} \\cdot -2x\\)  \nor \\(\\frac{dy}{dx} = \\frac{-2x}{3(\\pi - x^2)^{\\frac{2}{3}}}\\)"
+  },
+  {
+    "query": "Q1d) A curve is defined by the parametric equations:\n\n\\[ x = t^2 - t \\quad \\text{and} \\quad y = t^3 - 3t \\]\n\nFind the coordinates of the point(s) on the curve for which the normal to the curve is parallel to the \\( y \\)-axis.\n\nYou must use calculus and clearly show your working, including any derivatives you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "(b) \\(\\frac{dy}{dx} = 3(x^3 - 2x) \\cdot (3x^2 - 2)\\)  \nAt \\(x = 1\\), \\(\\frac{dy}{dx} = 3 \\cdot (-1)^2 \\cdot 1 = 3\\)  \nAt \\(x = 1\\), \\(y = -1\\)  \n\\(y + 1 = 3(x - 1)\\)  \n\\(y = 3x - 4\\)"
+  },
+  {
+    "query": "Q1e: A spherical balloon is being inflated with helium.\n\nThe balloon is being inflated in such a way that its volume is increasing at a constant rate of \\(300 \\, \\text{cm}^3 \\, \\text{s}^{-1}\\).\n\nThe material that the balloon is made of is of limited strength, and the balloon will burst when its surface area reaches \\(7500 \\, \\text{cm}^2\\).\n\nFind the rate at which the surface area of the balloon is increasing when it reaches bursting point.\n\nShow any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "(c) \\(f''(x) = 1 - e^x + \\frac{k}{x^2}\\)  \n\\(f''(x) = 0 \\Rightarrow 1 - e^1 + \\frac{k}{1^2} = 0\\)  \n\\(k = e^1 - 1\\)  \nOr \\(k = 0.632\\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "(d)(i)  \n1. \\(x = 1\\)  \n2. \\(x > 3\\)  \n3. \\(-2, -1, 3\\)"
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = 6 \\tan(5x) \\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. Once you have the text, feel free to share it here, and I can help you format or analyze it!"
+  },
+  {
+    "query": "Q1b. Find the gradient of the tangent to the function \\( y = (4x - 3x^2)^3 \\) at the point (1,1).\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need help with LaTeX formatting, feel free to ask!"
+  },
+  {
+    "query": "Q1c. Find the values of \\( x \\) for which the function \\( f(x) = 8x - 3 + \\frac{2}{x+1} \\) is increasing.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (a) \\(\\frac{1}{5}(x - 3x^2)^{-4} \\cdot (1 - 6x)\\)"
+  },
+  {
+    "query": "Q1d: For what value(s) of \\( x \\) is the tangent to the graph of the function \\( f(x) = \\frac{x+4}{x(x-5)} \\) parallel to the x-axis?\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (b) \\(\\frac{dy}{dx} = \\frac{16}{1 + x^2}\\)\n\nAt \\(x = 4\\), \\(\\frac{dy}{dx} = 2\\)\n\n∴ Gradient of normal = \\(-\\frac{1}{2}\\)"
+  },
+  {
+    "query": "Q1e) Salt harvested at the Grassmere Saltworks forms a cone as it falls from a conveyor belt. The slant of the cone forms an angle of \\(30^\\circ\\) with the horizontal. The conveyor belt delivers the salt at a rate of 2 m\\(^3\\) of salt per minute.\n\nFind the rate at which the slant height is increasing when the radius of the cone is 10 m.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (c)(i) \n1. \\(x = 1\\) \n2. \\(x = -1, 1, 2\\) \n3. \\(-1 < x < 1\\)"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( f(x) = \\sqrt[3]{x - 3x^2} \\).",
+    "type": "NCEA",
+    "answer": "Q2 (c)(ii) 3"
+  },
+  {
+    "query": "Q2 (b) Find the gradient of the normal to the curve \\( y = x - \\frac{16}{x} \\) at the point where \\( x = 4 \\).\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (c)(iii) Does not exist."
+  },
+  {
+    "query": "(c) The graph below shows the function \\( y = f(x) \\).\n\nFor the function above:\n\n(i) Find the value(s) of \\( x \\) that meet the following conditions:\n\n1. \\( f(x) \\) is not defined: \n2. \\( f(x) \\) is not differentiable: \n3. \\( f''(x) > 0 \\):",
+    "type": "NCEA",
+    "answer": "Q2 (d) \n\\[\n\\frac{x + L}{5} = \\frac{L}{1.5}\n\\]\n\\[1.5x + 1.5L = 5L\\]\n\\[1.5x = 3.5L\\]\n\\[x = \\frac{7L}{3}\\]\n\\[\n\\frac{dx}{dL} = \\frac{7}{3}\n\\]\n\\[\n\\frac{dx}{dr} = 2\n\\]\n\\[\n\\frac{dL}{dr} = \\frac{dL}{dx} \\times \\frac{dx}{dr}\n\\]\n\\[\n= \\frac{3}{7} \\times 2\n\\]\n\\[\n= \\frac{6}{7} = 0.857 \\, \\text{m s}^{-1}\n\\]"
+  },
+  {
+    "query": "(ii) What is the value of \\( f(-1) \\)?  \nState clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "(c) Depth of water = \\( x \\)  \n\\( h = x + 20 \\)  \n\\( V = \\frac{1}{3} h^3 - \\frac{1}{3} \\times 20^3 \\)  \n\\( = \\frac{1}{3} (x + 20)^3 - \\frac{1}{3} \\times 20^3 \\)  \n\\( \\frac{dV}{dx} = (x + 20)^2 \\)  \n\\( A = (x + 20)^2 \\)  \n\\( \\frac{dA}{dx} = 2(x + 20) \\)  \n\\( \\frac{dV}{dt} = 3000 \\)  \n\\( \\frac{dA}{dt} = \\frac{dA}{dx} \\times \\frac{dx}{dV} \\times \\frac{dV}{dt} \\)  \n\\( = 2(x + 20) \\times \\frac{1}{(x + 20)^2} \\times 3000 \\)  \n\nWhen \\( x = 15 \\)  \n\\( \\frac{dA}{dt} = 2 \\times 35 \\times \\frac{1}{35^2} \\times 3000 = 171.4 \\, \\text{cm}^2 \\, \\text{min}^{-1} \\)"
+  },
+  {
+    "query": "(iii) What is the value of \\( \\lim_{x \\to 2} f(x) \\)?  \nState clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1d: A street light is 5 m above the ground, which is flat.\n\nA boy, who is 1.5 m tall, is walking away from the point directly below the streetlight at 2 metres per second.\n\nAt what rate is the length of his shadow changing when the boy is 8 m away from the point directly under the light?\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\n\\cos A = \\frac{2}{f}\n\\]\n\n\\[\nf = \\frac{2}{\\cos A}\n\\]\n\n\\[\n\\sin A = \\frac{w}{5-f}\n\\]\n\n\\[\nw = (5-f) \\sin A\n\\]\n\n\\[\n= \\left(5 - \\frac{2}{\\cos A}\\right) \\sin A\n\\]\n\n\\[\n= 5 \\sin A - 2 \\tan A\n\\]\n\n\\[\n\\frac{dw}{dA} = 5 \\cos A - 2 \\sec^2 A\n\\]\n\n\\[\n\\frac{dw}{dA} = 0 \\Rightarrow 5 \\cos A - 2 \\sec^2 A = 0\n\\]\n\n\\[\n5 \\cos^3 A - 2 = 0\n\\]\n\n\\[\n\\cos^3 A = \\frac{2}{5}\n\\]\n\n\\[\nA = 42.5^\\circ\n\\]\n\n\\[\nw = 1.55 \\, \\text{m}\n\\]"
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = 1 + x - \\frac{1}{x} + \\frac{1}{x^2} \\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{dy}{dx} = 1 + x^2 - 2x^{-3}\\)"
+  },
+  {
+    "query": "Q1b. The height of the tide at a particular beach today is given by the function\n\n\\[ h(t) = 0.8 \\sin \\left( \\frac{4\\pi}{25} t + \\frac{\\pi}{2} \\right) \\]\n\nwhere \\( h \\) is the height of water, in metres, relative to the mean sea level and \\( t \\) is the time in hours after midnight.\n\nAt what rate was the height of the tide changing at that beach at 9.00 a.m. today?",
+    "type": "NCEA",
+    "answer": "Q1b: \n\\[\n\\frac{dh}{dt} = \\frac{3.2 \\pi}{25} \\cos \\left( \\frac{4\\pi}{25} t + \\frac{\\pi}{2} \\right)\n\\]\n\\[\n= 0.402 \\cos \\left( \\frac{36\\pi}{25} + \\frac{\\pi}{2} \\right)\n\\]\n\\[\n= 0.395 \\text{ metres per hour}\n\\]"
+  },
+  {
+    "query": "Q1c) A curve is defined by the parametric equations \\( x = 2\\cos 2t \\) and \\( y = \\tan^2 t \\).\n\nFind the gradient of the tangent to the curve at the point where \\( t = \\frac{\\pi}{4} \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\n\\frac{dx}{dt} = -4 \\sin 2t\n\\]\n\\[\n\\frac{dy}{dt} = 2 \\tan t \\sec^2 t\n\\]\n\\[\n\\frac{dy}{dx} = \\frac{2 \\tan t \\sec^2 t}{-4 \\sin 2t} = \\frac{2 \\tan t}{-4 \\sin 2t \\cos^2 t}\n\\]\nAt \\( t = \\frac{\\pi}{4} \\), \\(\\frac{dy}{dx} = \\frac{-4 \\times \\left( \\frac{2}{\\sqrt{2}} \\right)^2}{2} = \\frac{2}{-2} = -1\\)"
+  },
+  {
+    "query": "Q1d The tangents to the curve \\( y = \\frac{1}{4}(x-2)^2 \\) at points \\( P \\) and \\( Q \\) are perpendicular.\n\nQ is the point \\( (6, 4) \\).\n\nWhat is the \\( x \\)-coordinate of point \\( P \\)?\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1d: \n\\[\ny = \\frac{1}{4}(x-2)^2\n\\]\n\\[\n\\frac{dy}{dx} = \\frac{1}{2}(x-2)\n\\]\nAt \\( Q(6, 4) \\), \\(\\frac{dy}{dx} = \\frac{1}{2}(6-2) = 2\\)\n\n\\[\n\\therefore \\text{ At } P \\quad \\frac{dy}{dx} = -\\frac{1}{2}\n\\]\n\\[\n-\\frac{1}{2} = \\frac{1}{2}(x-2)\n\\]\n\\[\n-1 = x-2\n\\]\n\\[\nx = 1\n\\]"
+  },
+  {
+    "query": "(e) A curve is defined by the function \\( f(x) = e^{-(x-k)^2} \\).\n\nFind, in terms of \\( k \\), the \\( x \\)-coordinate(s) for which \\( f''(x) = 0 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\( f(x) = e^{-(x-k)^2} \\)\n\n\\( f'(x) = -2(x-k)e^{-(x-k)^2} \\)\n\n\\( f''(x) = -2e^{-(x-k)^2} + 4(x-k)^2 e^{-(x-k)^2} \\)\n\n\\( = e^{-(x-k)^2} [4(x-k)^2 - 2] \\)\n\n\\( f''(x) = 0 \\Rightarrow 4(x-k)^2 - 2 = 0 \\)\n\n\\( 4(x-k)^2 = 2 \\)\n\n\\( (x-k)^2 = \\frac{1}{2} \\)\n\n\\( (x-k) = \\pm \\frac{1}{\\sqrt{2}} \\)\n\n\\( x = k \\pm \\frac{1}{\\sqrt{2}} \\)"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( f(x) = x \\ln(3x - 1) \\).",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\( f'(x) = \\ln(3x-1) + x \\cdot \\frac{3}{3x-1} \\)"
+  },
+  {
+    "query": "Q2 (b) Find the gradient of the tangent to the function \\( y = \\sqrt{2x - 1} \\) at the point (5, 3). You must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\( y = (2x-1)^{\\frac{1}{2}} \\)  \n\\( \\frac{dy}{dx} = \\frac{1}{2}(2x-1)^{-\\frac{1}{2}} \\cdot 2 \\)  \n\\( = \\frac{1}{\\sqrt{2x-1}} \\)  \nAt \\( x = 5 \\), \\( \\frac{dy}{dx} = \\frac{1}{3} \\)"
+  },
+  {
+    "query": "(c) The graph below shows the function \\( y = f(x) \\).\n\nFor the function \\( y = f(x) \\) above:\n\n(i) Find the value(s) of \\( x \\) that meet the following conditions:\n\n1. \\( f \\) is not continuous: \n2. \\( f \\) is not differentiable: \n3. \\( f'(x) = 0 \\): \n4. \\( f''(x) < 0 \\):",
+    "type": "NCEA",
+    "answer": "Q2 (c)(i)  \n1: \\(-1, 1\\)  \n2: \\(-2, -1, 1, 4\\)  \n3: \\(-4, 3, x > 4\\)  \n4: \\(1 < x < 4\\)"
+  },
+  {
+    "query": "(ii) What is the value of \\( \\lim_{x \\to 3} f(x) \\)?\nState clearly if the value of the limit does not exist.",
+    "type": "NCEA",
+    "answer": "Q2 (c)(ii)  \n1"
+  },
+  {
+    "query": "Q1d) A large spherical helium balloon is being inflated at a constant rate of 4800 cm\\(^3\\) s\\(^{-1}\\).\n\nAt what rate is the radius of the balloon increasing when the volume of the balloon is 288000\\(\\pi\\) cm\\(^3\\)?\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\( \\frac{dV}{dt} = 4800 \\, \\text{cm}^3 \\, \\text{s}^{-1} \\)  \n\\( V = \\frac{4}{3} \\pi r^3 \\)  \n\\( \\frac{dV}{dr} = 4 \\pi r^2 \\)  \n\\( \\frac{dr}{dt} = \\frac{dr}{dV} \\times \\frac{dV}{dt} \\)  \n\\( = \\frac{4800}{4 \\pi r^2} = \\frac{1200}{\\pi r^2} \\)  \n\\( V = 288000 \\pi = \\frac{4}{3} \\pi r^3 \\)  \n\\( 288000 = \\frac{4}{3} r^3 \\)  \n\\( r^3 = 216000 \\)  \n\\( r = 60 \\, \\text{cm} \\)  \n\\( \\therefore \\frac{dr}{dt} = \\frac{1200}{\\pi \\times 60^2} = 0.106 \\, \\text{cm} \\, \\text{s}^{-1} \\)"
+  },
+  {
+    "query": "(e) A cone of height \\( h \\) and radius \\( r \\) is inscribed, as shown, inside a sphere of radius 6 cm.\n\nThe base of the cone is \\( s \\) cm below the \\( x \\)-axis.\n\nFind the value of \\( s \\) which maximises the volume of the cone.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*\n\n*You do not need to prove that the volume you have found is a maximum.*",
+    "type": "NCEA",
+    "answer": "Q1e\n\n\\[\n\\text{Vol} = \\frac{1}{3} \\pi r^2 h\n\\]\n\n\\[\nh = 6 + s\n\\]\n\n\\[\ns^2 + r^2 = 6^2\n\\]\n\n\\[\nr^2 = 36 - s^2\n\\]\n\n\\[\n\\therefore V = \\frac{1}{3} \\pi (36 - s^2)(6 + s)\n\\]\n\n\\[\n= \\frac{1}{3} \\pi (216 + 36s - 6s^2 - s^3)\n\\]\n\n\\[\n\\frac{dV}{ds} = \\frac{1}{3} \\pi (36 - 12s - 3s^2)\n\\]\n\nMax volume when \\(\\frac{dV}{ds} = 0\\)\n\n\\[\n\\Rightarrow 3s^2 + 12s - 36 = 0\n\\]\n\n\\[\ns^2 + 4s - 12 = 0\n\\]\n\n\\[\n(s + 6)(s - 2) = 0\n\\]\n\n\\[\ns = -6 \\quad \\text{or} \\quad s = 2\n\\]\n\n\\[\ns = 2\n\\]"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( f(x) = \\sqrt[3]{3x} + 2 \\).",
+    "type": "NCEA",
+    "answer": "Q3a: Correct derivative."
+  },
+  {
+    "query": "Q3 (b) Find the \\( x \\)-value at which a tangent to the curve \\( y = 6x - e^{3x} \\) is parallel to the \\( x \\)-axis. \n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q3b: Correct solution with correct derivative."
+  },
+  {
+    "query": "(c) A rectangle has one vertex at \\((0,0)\\) and the opposite vertex on the curve \\(y = (x - 6)^2\\), where \\(0 < x < 6\\), as shown on the graph below.\n\nFind the maximum possible area of the rectangle.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*\n\n*You do not need to prove that the area you have found is a maximum.*",
+    "type": "NCEA",
+    "answer": "Q3c: Correct expression for \\( A'(x) \\)"
+  },
+  {
+    "query": "Q1d: If \\( y = \\frac{e^x}{\\sin x} \\), show that \\(\\frac{dy}{dx} = y(1 - \\cot x)\\).",
+    "type": "NCEA",
+    "answer": "Q3c (i): Correct solution for maximum area with correct derivative."
+  },
+  {
+    "query": "Q1e: In a rugby game, a try is scored 15 m from the left-hand goal-post. The conversion kick is taken at some point on the line perpendicular to the goal-line from the point where the try was scored, as shown in the diagram below.\n\nThe ball needs to pass between the goal-posts, which are 5.4 m apart.\n\nFind the distance \\( d \\) from the goal-line that the conversion kick should be taken from in order to maximise the angle \\( \\theta \\) between the lines from the ball to the goal-posts.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.\n\nYou do not need to prove that the angle you have found is a maximum.",
+    "type": "NCEA",
+    "answer": "Q3d: Correct expression for \\(\\frac{dy}{dx}\\)."
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "Q3d (i): Correct proof with correct derivative."
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\n\\tan \\alpha = \\frac{15}{d} \\quad \\tan(\\alpha + \\theta) = \\frac{20.4}{d}\n\\]\n\n\\[\n\\tan \\theta = \\tan((\\alpha + \\theta) - \\alpha) = \\frac{\\tan(\\alpha + \\theta) - \\tan \\alpha}{1 - \\tan(\\alpha + \\theta) \\cdot \\tan \\alpha}\n\\]\n\n\\[\n= \\frac{\\frac{20.4}{d} - \\frac{15}{d}}{1 + \\frac{20.4 \\times 15}{d^2}}\n\\]\n\n\\[\n= \\frac{5.4}{\\frac{d^2 + 306}{d^2}} = \\frac{5.4d}{d^2 + 306}\n\\]\n\nMax when \\(\\frac{d(\\tan \\theta)}{dd} = 0\\)\n\n\\[\n(d^2 + 306) \\times 5.4 - 5.4d \\times 2d = 0\n\\]\n\n\\[\n(d^2 + 306)^2 = 0\n\\]\n\n\\[\n5.4d^2 + 306 \\times 5.4 - 10.8d^2 = 0\n\\]\n\n\\[\n5.4d^2 - 306 \\times 5.4 = 0\n\\]\n\n\\[\nd^2 = 306\n\\]\n\n\\[\nd = 17.5 \\, \\text{m}\n\\]"
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = \\sqrt{x} + \\tan(2x) \\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{1}{2}x^{-1} + 2\\sec^2(2x)\\)"
+  },
+  {
+    "query": "Q1b. Find the gradient of the tangent to the curve \\( y = \\frac{e^{2x}}{x+2} \\) at the point where \\( x = 0 \\).\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1b: \\(\\frac{dy}{dx} = \\frac{(x+2)2e^x - e^x}{(x+2)^2}\\)  \nAt \\(x = 0\\), \\(\\frac{dy}{dx} = \\frac{2 \\times 2 - 1}{4} = \\frac{3}{4}\\)"
+  },
+  {
+    "query": "(c) The normal to the parabola \\( y = 0.5(x - 3)^2 + 2 \\) at the point (1,4) intersects the parabola again at the point P.\n\nFind the x-coordinate of point P.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1c: \\(y = 0.5(x-3)^2 + 2\\)  \n\\(\\frac{dy}{dx} = 2 \\times 0.5 \\times (x-3)\\)  \n\\(= x-3\\)  \nAt \\(x = 1\\), \\(\\frac{dy}{dx} = -2\\)  \n\\(\\therefore\\) For normal \\(\\frac{dy}{dx} = \\frac{1}{2}\\)  \nThrough (1, 4) \\(\\therefore\\) Eqn of normal \\(y = \\frac{1}{2}x + 3.5\\)  \nAt point P: \\(\\frac{1}{2}x + 3.5 = 0.5(x-3)^2 + 2\\)  \n\\(x + 7 = (x-3)^2 + 4\\)  \n\\(x + 7 = x^2 - 6x + 9 + 4\\)  \n\\(x^2 - 7x + 6 = 0\\)  \n\\((x-6)(x-1) = 0\\)  \nAt point P: \\(x = 6\\)"
+  },
+  {
+    "query": "Q1d) A curve is defined parametrically by the equations \\( x = \\sqrt{t+1} \\) and \\( y = \\sin 2t \\).\n\nFind the gradient of the tangent to the curve at the point when \\( t = 0 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1d: \\(\\frac{dx}{dt} = \\frac{1}{2}(t+1)^{\\frac{1}{2}} = \\frac{1}{2\\sqrt{t+1}}\\)  \n\\(\\frac{dy}{dt} = 2\\cos 2t\\)  \n\\(\\frac{dy}{dx} = 2\\cos 2t \\cdot 2\\sqrt{t+1}\\)  \n\\(= 4\\cos 2t \\sqrt{t+1}\\)  \nAt \\(t = 0\\), \\(\\frac{dy}{dx} = 4\\cos 0 \\times \\sqrt{1}\\)  \n\\(= 4\\)"
+  },
+  {
+    "query": "(e) Find the values of \\( a \\) and \\( b \\) such that the curve \\( y = \\frac{ax - b}{x^2 - 1} \\) has a turning point at (3,1).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1e: \\(\\frac{dy}{dx} = \\frac{(x^2-1) \\cdot a - ((x-b)2x}{(x^2-1)^2}\\)  \nAt \\(x = 3\\), \\(\\frac{dy}{dx} = 8a - (3a-b) \\times 6 = 0\\)  \n\\(-10a + 6b = 0\\)  \n\\(5a = 3b\\)"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( y = 2(x^2 - 4x)^5 \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q2 (b) The percentage of seeds germinating depends on the amount of water applied to the seedbed that the seeds are sown in, and may be modelled by the function:\n\n\\[ P(w) = 96 \\ln(w + 1.25) - 16w - 12 \\]\n\nwhere \\( P \\) is the percentage of seeds that germinate and \\( w \\) is the daily amount of water applied (litres per square metre of seedbed), with \\( 0 \\leq w \\leq 15 \\).\n\nFind the amount of water that should be applied daily to maximise the percentage of seeds germinating.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\[\n\\frac{dy}{dx} = 10(x^2 - 4x)^4 \\cdot (2x - 4)\n\\]"
+  },
+  {
+    "query": "(c) The tangent to the curve \\( y = \\sqrt{x} \\) is drawn at the point (4,2).\n\nFind the co-ordinates of the point Q where the tangent intersects the x-axis.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\[\nP(w) = 96 \\ln(w + 1.25) - 16w - 12\n\\]  \n\\[\n\\frac{dP}{dw} = \\frac{96}{w + 1.25} - 16\n\\]  \nMaximum when \\(\\frac{dP}{dw} = 0\\)  \n\\[\n\\frac{96}{w + 1.25} - 16 = 0\n\\]  \n\\[\n96 = 16(w + 1.25)\n\\]  \n\\[\n76 = 16w\n\\]  \n\\[\nw = 4.75\n\\]"
+  },
+  {
+    "query": "Q1d: Find the coordinates of the point \\( P(x, y) \\) on the curve \\( y = \\sqrt{x} \\) that is closest to the point \\( (4, 0) \\).\n\nYou do not need to prove that your solution is the minimum value.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\(y = \\sqrt{x}\\)  \n\\[\n\\frac{dy}{dx} = \\frac{1}{2} x^{-\\frac{1}{2}} = \\frac{1}{2\\sqrt{x}}\n\\]  \nAt (4, 2)  \n\\[\n\\frac{dy}{dx} = \\frac{1}{2\\sqrt{4}} = \\frac{1}{4}\n\\]  \nTangent: \\(y = \\frac{1}{4}x + c\\) through (4, 2)  \n\\[\n2 = 1 + c\n\\]  \n\\(c = 1\\)  \n\\(y = \\frac{1}{4}x + 1\\)  \n\\(y = 0 \\Rightarrow 0 = \\frac{1}{4}x + 1\\)  \n\\(x = -4\\)  \nPoint Q is (4, 0)."
+  },
+  {
+    "query": "Q1e: A rectangle is inscribed in a semi-circle of radius \\( r \\), as shown below.\n\nShow that the maximum possible area of such a rectangle occurs when \\( x = \\frac{r}{\\sqrt{2}} \\).\n\n*You do not need to prove that your solution gives the maximum area.*\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\[\nd^2 = (4 - x)^2 + (\\sqrt{x})^2\n\\]  \n\\[\n= 16 - 8x + x^2 + x\n\\]  \n\\[\n= 16 - 7x + x^2\n\\]  \nMinimum distance \\(\\Rightarrow \\frac{d(d^2)}{dx} = 0\\)  \n\\[\n\\frac{d(d^2)}{dx} = -7 + 2x = 0\n\\]  \n\\(x = 3.5\\)  \n\\(y = \\sqrt{x} = \\sqrt{3.5}\\)  \n\\(P = (3.5, \\sqrt{3.5})\\)"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( y = x \\ln(3x - 1) \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: Alternative: \\( d = (x^2 - 7x + 16)^{\\frac{1}{2}} \\)  \n\\(\\frac{dd}{dx} = \\frac{1}{2}(x^2 - 7x + 16)^{-\\frac{1}{2}} \\cdot 2(x - 7)\\)  \n\\(= \\frac{2x - 7}{2\\sqrt{x^2 - 7x + 16}}\\)  \nMinimum when \\(\\frac{dd}{dx} = 0\\)  \n\\(2x - 7 = 0\\)  \netc"
+  },
+  {
+    "query": "Q3 (b) Find the gradient of the curve \\( y = \\frac{1}{x} - \\frac{1}{x^2} \\) at the point \\( \\left( 2, \\frac{1}{4} \\right) \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1b: (e) Area = \\(2x\\sqrt{r^2 - x^2}\\)  \n\\(A(x) = 2x(r^2 - x^2)^{\\frac{1}{2}}\\)  \n\\(A'(x) = 2\\left((r^2 - x^2)^{\\frac{1}{2}} + 2x \\cdot \\frac{1}{2}(r^2 - x^2)^{-\\frac{1}{2}}(-2x)\\right)\\)  \n\\(= 2\\sqrt{r^2 - x^2} - \\frac{2x^2}{\\sqrt{r^2 - x^2}}\\)  \n\\(A'(x) = 0 \\Rightarrow \\sqrt{r^2 - x^2} = \\frac{x^2}{\\sqrt{r^2 - x^2}}\\)  \n\\(r^2 - x^2 = x^2\\)  \n\\(2x^2 = r^2\\)  \n\\(x^2 = \\frac{r^2}{2}\\)  \n\\(x = \\frac{r}{\\sqrt{2}}\\)"
+  },
+  {
+    "query": "(c) The graph below shows the function \\( y = f(x) \\).\n\nFor the function above:\n\n(i) Find the value(s) of \\( x \\) that meet the following conditions:\n\n(1) \\( f'(x) = 0 \\): \n\n(2) \\( f(x) \\) is continuous but not differentiable: \n\n(3) \\( f(x) \\) is not continuous: \n\n(4) \\( f''(x) < 0 \\):",
+    "type": "NCEA",
+    "answer": "(a) \\(\\frac{dy}{dx} = \\frac{3}{3x-1} + \\ln(3x-1)\\)"
+  },
+  {
+    "query": "(ii) What is the value of \\( \\lim_{x \\to -1} f(x) \\)?\n\nState clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "(b) \\(y = x^{-1} - x^{2}\\)  \n\\(\\frac{dy}{dx} = -x^{-2} + 2x^{3}\\)  \n\\(\\frac{-1}{x^{2}} + \\frac{2}{x^{3}}\\)  \nAt \\(x = 2\\)  \n\\(\\frac{dy}{dx} = \\frac{-1}{4} + \\frac{2}{8} = 0\\)"
+  },
+  {
+    "query": "Q1d: A building has an external elevator. The elevator is rising at a constant rate of \\(2 \\, \\text{m s}^{-1}\\). Sarah is stationary, watching the elevator from a point 30 m away from the base of the elevator shaft. Let the angle of elevation of the elevator floor from Sarah's eye level be \\(\\theta\\).\n\nFind the rate at which the angle of elevation is increasing when the elevator floor is 20 m above Sarah’s eye level.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "(c) (i) 1. \\(x < -2, x = 2\\)  \n2. \\(-2, 1\\)  \n3. \\(-1, 0\\)  \n4. \\(x > 1\\)  \n(ii) 2"
+  },
+  {
+    "query": "(e) For the function \\( y = e^x \\cos kx \\):\n\n(i) Find \\( \\frac{dy}{dx} \\) and \\( \\frac{d^2y}{dx^2} \\).",
+    "type": "NCEA",
+    "answer": "(d) Let \\(h =\\) height above Sarah’s eye level.  \n\\(\\tan \\theta = \\frac{h}{30}\\)  \n\\(h = 30 \\tan \\theta\\)  \n\\(\\frac{dh}{d\\theta} = 30 \\sec^{2} \\theta\\)  \n\\(\\frac{dh}{dr} = 2\\)  \n\\(\\frac{d\\theta}{dr} = \\frac{dh}{d\\theta} \\times \\frac{d\\theta}{dh}\\)  \n\\(= 2 \\times \\frac{1}{30 \\sec^{2} \\theta}\\)  \n\\(= \\frac{\\cos^{2} \\theta}{15}\\)  \nAt \\(h = 20\\)  \n\\(\\theta = \\tan^{-1} \\left(\\frac{20}{30}\\right) = 0.588\\)  \n\\(\\frac{d\\theta}{dr} = \\frac{(\\cos 0.588)^{2}}{15}\\)  \n\\(= 0.046\\) radians per second"
+  },
+  {
+    "query": "(ii) Find all the value(s) of \\( k \\) such that the function \\( y = e^x \\cos kx \\) satisfies the equation  \n\\[ \\frac{d^2y}{dx^2} - 2 \\frac{dy}{dx} + 2y = 0 \\]  \nfor all values of \\( x \\).",
+    "type": "NCEA",
+    "answer": "(e) (i) \\(\\frac{dy}{dx} = e^x \\cos kx + e^x (-k \\sin kx)\\)  \n\\(= e^x (\\cos kx - k \\sin kx)\\)  \n\\(\\frac{d^2y}{dx^2} = e^x (\\cos kx - k \\sin kx)\\)  \n\\(+ e^x (-k \\sin kx - k^2 \\cos kx)\\)  \n\\(= e^x (\\cos kx - 2k \\sin kx - k^2 \\cos kx)\\)"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please provide it, and I'll be happy to help extract the questions for you.",
+    "type": "NCEA",
+    "answer": "(ii) \\(\\frac{d^2y}{dx^2} - 2 \\frac{dy}{dx} + 2y = 0\\)  \n\\(\\Rightarrow e^x (\\cos kx - 2k \\sin kx - k^2 \\cos kx)\\)  \n\\(- 2e^x (\\cos kx - k \\sin kx) + 2e^x \\cos kx = 0\\)  \n\\(\\Rightarrow e^x (\\cos kx - k^2 \\cos kx) = 0\\)  \n\\(e^x \\cos kx (1 - k^2) = 0\\)  \n\\(k = \\pm 1\\)"
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = 2x^3 + \\frac{5}{(x^3 + 2)^3} \\)\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(6x^2 - 15(x^3 + 2)^{-\\frac{4}{3}}x^2\\)"
+  },
+  {
+    "query": "Q1b. If \\( f(x) = 3 \\cos 3x \\), show that \\( 9f(x) + f''(x) = 0 \\).",
+    "type": "NCEA",
+    "answer": "Q1b:  \n\\(f'(x) = 9\\sin 3x\\)  \n\\(f''(x) = -27\\cos 3x\\)  \n\\(9f(x) + f''(x) = 9(3\\cos 3x) - 27\\cos 3x\\)  \n\\(= 27\\cos 3x - 27\\cos 3x\\)  \n\\(= 0\\)"
+  },
+  {
+    "query": "Q1c. Find the gradient of the curve \\( y = \\ln |\\sin^2 x| \\) at the point where \\( x = \\frac{\\pi}{6} \\)\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\(y = \\ln |\\sin^2 x|\\)  \n\\(\\frac{dy}{dx} = \\frac{2\\sin x \\cos x}{\\sin^2 x}\\)  \n\\(= \\frac{2\\cos x}{\\sin x}\\)  \nOR  \n\\(y = \\ln |\\sin^2 x|\\)  \n\\(= 2\\ln |\\sin x|\\)  \n\\(\\frac{dy}{dx} = \\frac{2\\cos x}{\\sin x}\\) etc  \nWhen \\(x = \\frac{\\pi}{6}\\), \\(\\frac{dy}{dx} = \\frac{2\\cos \\frac{\\pi}{6}}{\\sin \\frac{\\pi}{6}}\\)  \n\\(= 2\\sqrt{3}\\)  \n\\((= 3.4641)\\)"
+  },
+  {
+    "query": "Q1d: A car is being pulled along by a rope attached to the tow-bar at the back of the car. The rope passes through a pulley, the top of which is 3 m further from the ground than the tow-bar. The pulley is \\( x \\) m horizontally from the tow-bar, as shown in the diagram above. The rope is being winched in at a speed of 0.6 m s\\(^{-1}\\). The wheels of the car remain in contact with the ground.\n\nAt what speed is the car moving when the length of the rope, \\( L \\), between the tow-bar and the pulley is 5.4 m?\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "(d)  \n\\[\n\\frac{dL}{dt} = 0.6 \\, \\text{m s}^{-1}\n\\]\n\\[\nL^2 = x^2 + 3^2\n\\]\n\\[\nx = \\sqrt{L^2 - 9}\n\\]\n\\[\n\\frac{dx}{dL} = \\frac{1}{2} (L^2 - 9)^{-\\frac{1}{2}} \\cdot 2L\n\\]\n\\[\n= \\frac{L}{\\sqrt{L^2 - 9}}\n\\]\n\\[\n\\frac{dx}{dt} = \\frac{dL}{dt} \\times \\frac{dx}{dL}\n\\]\n\\[\n= 0.6 \\times \\frac{L}{\\sqrt{L^2 - 9}}\n\\]\nWhen \\( L = 5.4 \\)\n\\[\n\\frac{dx}{dt} = 0.6 \\times \\frac{5.4}{\\sqrt{5.4^2 - 9}}\n\\]\n\\[\n= 0.722 \\, \\text{m s}^{-1}\n\\]"
+  },
+  {
+    "query": "(e) A curve is defined by the parametric equations\n\n\\[ x = t^3 + 1 \\]\n\\[ y = t^2 + 1 \\]\n\nShow that\n\n\\[\n\\frac{d^2y}{dx^2} \\left( \\frac{dy}{dx} \\right)^4\n\\]\n\nis a constant.",
+    "type": "NCEA",
+    "answer": "(e)  \n\\[\n\\frac{dx}{dt} = 3t^2 \\quad \\frac{dy}{dt} = 2t\n\\]\n\\[\n\\frac{dy}{dx} = \\frac{dy}{dt} \\div \\frac{dx}{dt} = \\frac{2t}{3t^2} = \\frac{2}{3t}\n\\]\n\\[\n\\frac{d^2y}{dx^2} = \\frac{d}{dt} \\left( \\frac{dy}{dx} \\right) \\div \\frac{dx}{dt}\n\\]\n\\[\n= \\frac{-2}{3t^2} \\times \\frac{1}{3t^2} = \\frac{-2}{9t^4}\n\\]\n\\[\n\\frac{d^2y}{dx^2} = \\frac{-2}{9t^4} \\left( \\frac{2}{3t} \\right)^4\n\\]\n\\[\n= \\frac{-2}{9t^4} \\times \\frac{81t^4}{16}\n\\]\n\\[\n= \\frac{-9}{8} \\text{ or } -1.125\n\\]"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( y = 3\\sqrt{x} + \\csc 5x \\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat, Tesseract, or online OCR tools. Once you have the text, feel free to share it here, and I can help you format or analyze it."
+  },
+  {
+    "query": "Q2 (b) A particle is travelling in a straight line. The distance, in metres, travelled by the particle may be modelled by the function \\[ s(t) = \\ln(3t^2 + 3t + 1) \\quad t \\geq 0 \\] where \\( t \\) is time measured in seconds. Find the velocity of this particle after 2 seconds. You must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can guide you on how to use OCR software to extract the text yourself. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to convert the image into text. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "(c) The diagram below shows the graph of the function \\( y = f(x) \\).\n\nFor the function above:\n\n(i) What is the value of \\( f(1) \\)? State clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "Q3a: Correct derivative."
+  },
+  {
+    "query": "(ii) For what value(s) of \\( x \\) does the function \\( f(x) \\) not have a limit?",
+    "type": "NCEA",
+    "answer": "Q3b: Correct solution with correct derivatives."
+  },
+  {
+    "query": "(iii) Find all the value(s) of \\( x \\) that meet the following conditions:  \n(1) \\( f'(x) > 0 \\):",
+    "type": "NCEA",
+    "answer": "Q3c: Correct \\(\\frac{dA}{dx}\\)"
+  },
+  {
+    "query": "(2) \\( f'(x) = 0 \\) and \\( f''(x) < 0 \\):",
+    "type": "NCEA",
+    "answer": "Q3d: Correct expression for \\(\\frac{dy}{dx}\\)"
+  },
+  {
+    "query": "(3) \\( f(x) \\) is continuous but not differentiable:",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat, Tesseract, or online OCR tools. Once you have the text, feel free to share it here, and I can help you format or analyze it further."
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = \\sqrt{3x^2 - 1} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{dy}{dx} = \\frac{1}{2} \\left(3x^2 - 1\\right)^{-\\frac{1}{2}} \\cdot 6x\\)  \n= \\(\\frac{3x}{\\sqrt{3x^2 - 1}}\\)"
+  },
+  {
+    "query": "Q1b. Find the rate of change of the function \\( f(t) = 5 \\ln(3t - 1) \\) when \\( t = 4 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1b: \\(f'(t) = \\frac{15}{3t - 1}\\)  \n\\(f'(4) = \\frac{15}{11}\\) or 1.36"
+  },
+  {
+    "query": "Q1c. Find the gradient of the tangent to the curve \\( y = \\frac{e^{2x}}{1 + x^2} \\) at the point where \\( x = 2 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c: Quotient rule  \n\\(\\frac{dy}{dx} = \\frac{(1 + x^2)2e^{2x} - 2e^{2x}(2x)}{(1 + x^2)^2}\\)  \nOR  \nProduct rule  \n\\(\\frac{dy}{dx} = e^{2x}(-2x)(1 + x^2)^{-2} + (1 + x^2)^{-1}(2e^{2x})\\)  \nWhen \\(x = 2\\), \\(\\frac{dy}{dx} = \\frac{6e^4}{25}\\) or 13.1"
+  },
+  {
+    "query": "(d) For what value(s) of \\( x \\) is the function \\( y = x^3 e^x \\) decreasing?\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1d: \\(\\frac{dy}{dx} = 3x^2e^x + x^3e^x\\)  \n= \\(x^2e^x(3 + x)\\)  \n\\(\\frac{dy}{dx} < 0\\)  \n\\(\\Rightarrow x^2e^x(3 + x) < 0\\)  \n\\(3 + x < 0\\)  \n\\(x < -3\\)"
+  },
+  {
+    "query": "(e) The volume of a sphere is increasing.\n\nAt the instant when the sphere’s radius is 0.5 m, the surface area of the sphere is increasing at a rate of 0.4 m\\(^2\\) s\\(^{-1}\\).\n\nFind the rate at which the volume of the sphere is increasing at this instant.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1e: \\(\\frac{dV}{dr} = \\frac{dS}{dr} \\cdot \\frac{dV}{dS} \\cdot \\frac{dV}{dr}\\)  \n\\(S = 4\\pi r^2 \\Rightarrow \\frac{dS}{dr} = 8\\pi r\\)  \n\\(V = \\frac{4}{3} \\pi r^3 \\Rightarrow \\frac{dV}{dr} = 4\\pi r^2\\)  \n\\(\\frac{dS}{dr} = 0.4\\) when \\(r = 0.5\\)  \n\\(\\frac{dV}{dt} = 0.4 \\times \\frac{1}{8\\pi r} \\times 4\\pi r^2\\)  \n= 0.2r  \nWhen \\(r = 0.5\\), \\(\\frac{dV}{dt} = 0.1 \\, \\text{m}^3/\\text{s}\\)"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( y = (2x - 5)^4 \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, you can use OCR software to extract the text from the image. If you have any questions about the content, feel free to ask!"
+  },
+  {
+    "query": "Q2 (b) Find the gradient of the tangent to the curve \\( y = \\tan 2x \\) at the point on the curve where \\( x = \\frac{\\pi}{6} \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2a:  \n\\[\n\\frac{dy}{dx} = 4(2x - 5)^3 \\cdot 2 \n\\]\n\\[\n\\frac{dy}{dx} = 8(2x - 5)^3 \n\\]"
+  },
+  {
+    "query": "Q2 (c) A curve is defined parametrically by the equations \\( x = \\frac{1}{(5-t)^2} \\) and \\( y = 5t - t^2 \\).\n\nFind the gradient of the tangent to the curve at the point when \\( t = 2 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2b:  \n\\[\n\\frac{dy}{dx} = 2\\sec^2 2x \n\\]\n\\[\n= \\frac{2}{\\cos^2 2x} \n\\]\nAt \\( x = \\frac{\\pi}{6} \\),  \n\\[\n\\frac{dy}{dx} = \\frac{2}{\\cos^2 \\frac{\\pi}{3}} = 8 \n\\]"
+  },
+  {
+    "query": "Q1d The Wynyard Crossing bridge in Auckland can be raised and lowered to allow tall boats to sail through when open, and pedestrians to walk across when closed. The bridge consists of two arms, each of length 22 metres.\n\nWhen the bridge is rising, the angle of the bridge arm above the horizontal increases at the rate of \\(0.01 \\, \\text{rad s}^{-1}\\).\n\nFind the rate at which the height, BH, is increasing when H is 15 metres above the horizontal, FB.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2c:  \n\\[\nx = \\frac{1}{(5 - t)^2} = (5 - t)^{-2} \n\\]\n\\[\n\\frac{dx}{dt} = -2(5 - t)^{-3} \\times -1 \n\\]\n\\[\n= \\frac{2}{(5 - t)^3} \n\\]\n\\[\n\\frac{dy}{dt} = 5 - 2t \n\\]\n\\[\n\\frac{dy}{dx} = \\frac{(5 - 2t)(5 - t)^3}{2} \n\\]\nAt \\( t = 2 \\),  \n\\[\n\\frac{dy}{dx} = \\frac{1 \\times 3^3}{2} = 13.5 \n\\]"
+  },
+  {
+    "query": "Q1e: If \\( y = e^u \\) and \\( u = \\sin 2x \\) show that\n\n\\[\n\\frac{d^2 y}{dx^2} = \\frac{d^2 y}{du^2} \\left( \\frac{du}{dx} \\right)^2 + \\frac{dy}{du} \\frac{d^2 u}{dx^2}\n\\]\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2d:  \n\\[\n\\frac{d\\theta}{dt} = 0.01 \\text{ rad/s} \n\\]\n\\[\n\\frac{dh}{dt} = \\frac{d\\theta}{dt} \\times \\frac{dh}{d\\theta} \n\\]\n\\[\n\\sin \\theta = \\frac{h}{22} \n\\]\n\\[\nh = 22 \\sin \\theta \n\\]\n\\[\n\\frac{dh}{d\\theta} = 22 \\cos \\theta \n\\]\n\\[\n\\therefore \\frac{dh}{dt} = 0.22 \\cos \\theta \n\\]\n\\[\nh = 15 \\Rightarrow \\theta = \\sin^{-1} \\left( \\frac{15}{22} \\right) \\approx 0.75 \n\\]\n\\[\n\\frac{dh}{dt} = 0.22 \\cos(0.75) = 0.16 \\text{ m/s} \n\\]"
+  },
+  {
+    "query": "Q3a. Differentiate \\( y = \\frac{4}{\\sin x} \\). You do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\nLHS  \n\\( y = e^{\\sin 2x} \\)  \n\\(\\frac{dy}{dx} = e^{\\sin 2x} \\times 2 \\cos 2x \\)  \n\\(\\frac{d^2y}{dx^2} = e^{\\sin 2x} \\times (-4 \\sin 2x) + e^{\\sin 2x} \\times (2 \\cos 2x)^2 \\)  \n\n\\( u = \\sin 2x \\)  \n\\(\\frac{du}{dx} = 2 \\cos 2x \\)  \n\\(\\frac{d^2u}{dx^2} = -4 \\sin 2x \\)  \n\n\\( y = e^u \\)  \n\\(\\frac{dy}{du} = e^u \\)  \n\\(\\frac{d^2y}{du^2} = e^u \\)  \n\nRHS  \n\\(\\frac{d^2y}{dx^2} \\times \\left( \\frac{du}{dx} \\right)^2 + \\frac{dy}{du} \\times \\frac{d^2u}{dx^2} \\)  \n\n\\( = e^u \\times (2 \\cos 2x)^2 + e^u \\times (-4 \\sin 2x) \\)  \n\\( = e^{\\sin x} \\times (2 \\cos 2x)^2 + e^{\\sin x} \\times (-4 \\sin 2x) \\)  \n\nTherefore LHS = RHS as required.  \n\n\\(\\frac{d^2y}{dx^2} = 4e^{\\sin 2x} (\\cos^2 2x - \\sin 2x) \\)"
+  },
+  {
+    "query": "Q3b. The graph below shows the function \\( y = f(x) \\).  \n(i) Find all the value(s) of \\( x \\) which meet each of the following conditions:  \n1. \\( f'(x) = 0 \\):  \n2. \\( f(x) \\) is not differentiable:",
+    "type": "NCEA",
+    "answer": "Q3a: \\(-4\\sin^{-2}x\\cos x \\, \\text{OR} \\, -4\\cosec x\\cot x\\)"
+  },
+  {
+    "query": "(ii) What is the value of \\( \\lim_{{x \\to 1}} f(x) \\)? State clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "Q3b(i): \n1. \\(x = 2, x > 4\\)  \n2. \\(x = -2, 1, 4\\)"
+  },
+  {
+    "query": "(c) A rectangle has one vertex at (0,0), and the opposite vertex on the curve \\( y = 4 - \\sqrt{x} \\), where \\( 0 < x < 16 \\), as shown on the graph below.\n\nFind the maximum possible area of the rectangle.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*\n\n*You do not need to prove that the area you have found is a maximum.*",
+    "type": "NCEA",
+    "answer": "Q3b(ii): Does not exist."
+  },
+  {
+    "query": "Q1d The velocity of an object is modelled by the function\n\n\\[ v = 2e^t + 8e^{-t}, \\text{ for } t \\geq 0 \\]\n\nwhere \\( v \\) is the velocity of the object, in m s\\(^{-1}\\) and \\( t \\) is the time in seconds since the start of the object’s motion.\n\nFind the time when the acceleration of the object is 0.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3c: \n\\[\n\\begin{align*}\nA(x) &= x(4 - \\sqrt{x}) \\\\\n&= 4x - x^{\\frac{3}{2}} \\\\\nA'(x) &= 4 - \\frac{3}{2}x^{\\frac{1}{2}} \\\\\n\\text{Maximum area when } A'(x) &= 0 \\\\\n\\frac{3}{2} \\sqrt{x} &= 4 \\\\\n\\sqrt{x} &= \\frac{8}{3} \\\\\nx &= \\frac{64}{9} \\\\\n\\text{Area} &= \\frac{64}{9} \\left(4 - \\frac{8}{3}\\right) \\\\\n&= \\frac{64}{9} \\times \\frac{4}{3} \\\\\n&= \\frac{256}{27} \\left(= \\frac{9 \\times 13}{27}\\right) \\\\\n\\text{Accept } 9.48\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(e) The graph below shows the function \\( y = 2\\sqrt{36 - x^2} \\), and the tangent to that function at point P. The tangent intersects the x-axis at the point (8,0).\n\nFind the x-coordinate of point P.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q3d: \n\\[\n\\begin{align*}\na(t) &= 2e^t - 8e^{-t} \\\\\na(t) &= 0 \\\\\n\\Rightarrow 2e^t - 8e^{-t} &= 0 \\\\\n2e^t &= 8e^{-t} \\\\\ne^{2t} &= 4 \\\\\n2t &= \\ln 4 \\\\\nt &= \\frac{1}{2} \\ln 4 \\, (= \\ln 2 = 0.693)\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please provide it, and I'll be happy to help extract the questions for you.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools like OnlineOCR. Once you have the text, feel free to share it here, and I can help you format or analyze it!"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, I can help you with any questions or provide information based on the text you provide. Let me know how I can assist you!"
+  },
+  {
+    "query": "Q1 (a) Differentiate \\( y = (3x - x^2)^5 \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: Correct derivative."
+  },
+  {
+    "query": "Q1 (b) Find the gradient of the tangent to the curve \\( y = 3\\sin 2x + \\cos 2x \\) at the point where \\( x = \\frac{\\pi}{4} \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1b: Correct gradient with correct derivative."
+  },
+  {
+    "query": "Q1 (c) Find the value of \\( x \\) for which the graph of the function \\( y = \\frac{x}{1 + \\ln x} \\) has a stationary point.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c: Correct derivative."
+  },
+  {
+    "query": "Q1d: A curve has the equation \\( y = x^2 \\cos x \\).\n\nShow that the equation of the tangent to the curve at the point \\( \\left( \\pi, -\\pi^2 \\right) \\) is\n\n\\[ y + 2\\pi x = \\pi^2 \\]\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c (i): Correct solution with correct derivative."
+  },
+  {
+    "query": "(e) A cylinder of height \\( h \\) and radius \\( r \\) is inscribed, as shown to the right, inside a sphere of radius 20 cm.\n\nFind the maximum possible volume of the cylinder.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.\n\nYou do not need to prove that the volume you have found is a maximum.",
+    "type": "NCEA",
+    "answer": "Q1d: Correct derivative."
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( y = \\frac{\\tan x}{x^3} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1d (i): Correct proof with correct derivative."
+  },
+  {
+    "query": "Q2 (b) The value of a car is modelled by the formula\n\n\\[ V = 17000 e^{-0.25t} + 2000 e^{-0.5t} + 500 \\quad \\text{for} \\quad 0 \\leq t \\leq 20 \\]\n\nwhere \\( V \\) is the value of the car in dollars (\\$), and \\( t \\) is the age of the car in years.\n\nCalculate the rate at which the value of the car is changing when it is 8 years old.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\nCorrect expression for \\(\\frac{dV}{dh}\\) or \\(\\frac{dV}{dr}\\)."
+  },
+  {
+    "query": "(c) Find the \\( x \\)-coordinates of any stationary points on the graph of the function\n\n\\[ f(x) = (2x - 3)e^{x+k} \\]\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Correct value of \\(r\\) or \\(h\\) with correct derivatives. Units not required."
+  },
+  {
+    "query": "(d) A rocket is fired vertically upwards. Its height above the launch point is given by the formula\n\n\\[ h(t) = 4.8t^2 \\]\n\nwhere \\( h \\) is the height in metres, and \\( t \\) is the time in seconds from firing.\n\nAn observer at point A is watching the rocket. She is at the same level as the launch point of the rocket, and 500 m from the launch point.\n\nFind the rate at which the angle of elevation at A of the rocket is increasing when the rocket is 480 m above the launch point.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Correct solution with correct derivatives. Units not required."
+  },
+  {
+    "query": "(e) A curve is defined by the parametric equations \\( x = \\ln(t) \\) and \\( y = 6t^3 \\) where \\( t > 0 \\).\n\nThe point P lies on the curve, and at point P, \\( \\frac{d^2 y}{dx^2} = 2 \\).\n\nFind the exact coordinates of point P.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2a: \\(\\frac{dy}{dx} = \\frac{x^3 \\cdot \\sec^2 x - 3x^2 \\tan x}{x^6}\\)"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( y = 3\\ln(x^2 - 1) \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q2b: \\(\\frac{dV}{dt} = -4250e^{-0.25t} - 1000e^{-0.5t}\\)  \n\\(t = 8 \\quad \\frac{dV}{dt} = -4250e^{-2} - 1000e^{-4}\\)  \n\\(-593.50\\)  \nDecreasing at $593.50 per year."
+  },
+  {
+    "query": "Q3 (b) For what value(s) of \\( x \\) does the tangent to the graph of the function\n\n\\( f(x) = 2x - 2\\sqrt{x}, \\, x > 0 \\),\n\nhave a gradient of 1?\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2c:  \n\\(f'(x) = (2x-3)2xe^{x^2+k} + 2e^{x^2+k}\\)  \n\\(= e^{x^2+k} ((2x-3)2x+2)\\)  \n\\(= e^{x^2+k} (4x^2-6x+2)\\)  \n\\(= 2e^{x^2+k} (2x^2-3x+1)\\)  \n\n\\(f'(x) = 0 \\Rightarrow 2e^{x^2+k} = 0 \\text{ or } 2x^2-3x+1=0\\)  \n\\(2e^{x^2+k}\\) has no solutions since \\(2e^{x^2+k}\\) is always positive.  \n\\(2x^2-3x+1=0\\)  \n\\((2x-1)(x-1)=0\\)  \n\\(x = \\frac{1}{2} \\text{ or } x = 1\\)"
+  },
+  {
+    "query": "(c) The normal to the graph of the function \\( y = \\sqrt{2x+1} \\) at the point \\( (4,3) \\) intersects the x-axis at point P.\n\nFind the x-coordinate of point P.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2d:  \n\\(\\tan \\theta = \\frac{h}{500}\\)  \n\\(h = 500 \\tan \\theta\\)  \n\\(\\frac{dh}{d\\theta} = 500 \\sec^2 \\theta = \\frac{500}{\\cos^2 \\theta}\\)  \n\\(t = 10\\)  \n\\(\\tan \\theta = \\frac{480}{500}\\)  \n\\(\\theta = 0.765\\)  \n\n\\(\\frac{d\\theta}{dt} = \\frac{dh}{dt} \\times \\frac{d\\theta}{dh}\\)  \n\\(= 9.6 \\times \\frac{\\cos^2 \\theta}{500}\\)  \n\\(= \\frac{96}{\\cos^2 (0.765)}\\)  \n\\(= 0.0999\\)  \n(accept 0.1)"
+  },
+  {
+    "query": "Q1d: The graph of the function \\( y = \\frac{1}{x-3} + x, \\, x \\neq 3 \\), has two stationary points.\n\nFind the \\( x \\)-coordinates of the stationary points, and determine whether they are local maxima or local minima.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\n\\frac{dx}{dt} = \\frac{1}{t}, \\quad \\frac{dy}{dt} = 18t^2\n\\]\n\n\\[\n\\frac{dy}{dx} = 18t^3\n\\]\n\n\\[\n\\frac{d^2y}{dx^2} = \\frac{d}{dt} \\left( \\frac{dy}{dx} \\right) \\cdot \\frac{dt}{dx}\n\\]\n\n\\[\n= 54t^2 \\times t\n\\]\n\n\\[\n= 54t^3\n\\]\n\n\\[\n54t^3 = 2\n\\]\n\n\\[\nt^3 = \\frac{1}{27}\n\\]\n\n\\[\nt = \\frac{1}{3}\n\\]\n\n\\[\nx = \\ln \\left( \\frac{1}{3} \\right)\n\\]\n\n\\[\ny = 6 \\left( \\frac{1}{3} \\right)^3\n\\]\n\n\\[\n= \\frac{2}{9}\n\\]\n\nP is \\(\\left( \\ln \\left( \\frac{1}{3} \\right), \\frac{2}{9} \\right)\\)"
+  },
+  {
+    "query": "(c) A curve has the equation \\( y = (3x + 2)e^{-2x} \\).\n\nProve that \n\n\\[\n\\frac{d^2 y}{dx^2} + 4 \\frac{dy}{dx} + 4y = 0.\n\\]\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3a: \\(\\frac{dy}{dx} = \\frac{6x}{x^2 - 1}\\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra paper use in an exam. There are no questions to extract from this page.",
+    "type": "NCEA",
+    "answer": "Q3b: \\(x = 1\\)"
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = e^{3x} \\sin 2x \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{dy}{dx} = 3e^x \\sin(2x) + e^x \\cos(2x) \\cdot 2\\)"
+  },
+  {
+    "query": "Q1b. The graph below shows the function \\( y = f(x) \\).\n\nFor the function above:\n\n(i) Find the value(s) of \\( x \\) that meet the following conditions:\n\n(1) \\( f'(x) = 0 \\):\n\n(2) \\( f(x) \\) is concave upwards:",
+    "type": "NCEA",
+    "answer": "Q1b (i):  \n(1) \\(x < 2, x = 4\\)  \n(2) \\(3 < x < 6\\)"
+  },
+  {
+    "query": "(ii) What is the value of \\( \\lim_{{x \\to 7}} f(x) \\):\n\nState clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "Q1b (ii): 3"
+  },
+  {
+    "query": "(c) A curve has the equation \\( y = (2x + 3)e^{x^2} \\).\n\nFind the \\( x \\)-coordinate(s) of any stationary point(s) on the curve.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\(y = (2x+3)e^{x^2}\\)  \n\\(\\frac{dy}{dx} = 2xe^{x^2} + (2x+3)(2x)e^{x^2}\\)  \n\\(\\frac{dy}{dx} = 2e^{x^2} \\left(1+x(2x+3)\\right)\\)  \n\\(\\frac{dy}{dx} = 2e^{x^2} (2x^2 + 3x + 1)\\)  \n\\(\\frac{dy}{dx} = 0\\) for stationary points.  \n\\(2e^{x^2} = 0\\) has no solutions since \\(2e^{x^2} > 0\\)  \n\\(2x^2 + 3x + 1 = 0\\)  \n\\(x = -\\frac{1}{2}\\) or \\(x = -1\\)"
+  },
+  {
+    "query": "(d) A curve is defined parametrically by the equations \\( x = t^2 + 3t \\) and \\( y = t^2 \\ln(2t - 3) \\), for \\( t > \\frac{3}{2} \\).\n\nFind the gradient of the tangent to the curve at the point (10,0).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1d (i):  \n\\(x = t^2 + 3t\\)  \n\\(\\frac{dx}{dt} = 2t + 3\\)  \n\\(y = t^2 \\ln(2t-3)\\)  \n\\(\\frac{dy}{dt} = 2t \\ln(2t-3) + \\frac{2t^2}{2t-3}\\)  \n\\(\\frac{dy}{dx} = \\frac{2t \\ln(2t-3) + \\frac{2t^2}{2t-3}}{2t+3}\\)  \nAt \\((10,0)\\): \\(t^2 + 3t = 10\\)  \n\\(t^2 + 3t - 10 = 0\\)  \n\\((t+5)(t-2) = 0\\)  \n\\(t = -5\\) or \\(t = 2\\)  \nSince \\(t > \\frac{3}{2}\\), \\(t = 2\\)  \n\\(\\frac{dy}{dx} = \\frac{4 \\ln(1) + 8}{7}\\)  \n\\(\\frac{dy}{dx} = \\frac{8}{7}\\)"
+  },
+  {
+    "query": "(e) A cone has a height of 3 m and a radius of 1.5 m. A cylinder is inscribed in the cone, as shown in the diagram below.\n\nThe base of the cylinder has the same centre as the base of the cone.\n\nProve that the maximum volume of the cylinder is \\(\\pi \\, \\text{m}^3\\).\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( f(x) = (1 - x^2)^5 \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q2a: \\(\\frac{dy}{dx} = 5(1-x^2)^4 \\times (-2x)\\)"
+  },
+  {
+    "query": "Q2 (b) A curve has the equation \\( y = \\frac{x^2}{x+1} \\).\n\nFind the \\( x \\)-coordinate(s) of any stationary point(s) on the curve.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2b: \\(\\frac{dy}{dx} = \\frac{(x+1)2x-x^2}{(x+1)^2}\\)  \n\\[= \\frac{x^2 + 2x}{(x+1)^2}\\]  \n\\(\\frac{dy}{dx} = 0 \\Rightarrow x(x+2) = 0\\)  \n\\(x = 0\\) or \\(x = -2\\)"
+  },
+  {
+    "query": "Q2 (c) A curve has the equation \\( y = (x^2 + 3x + 2) \\cos 3x \\).\n\nFind the equation of the normal to the curve at the point where the curve crosses the \\( y \\)-axis.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2c: \\(y = (x^2 + 3x + 2) \\cos 3x\\)  \n\\(\\frac{dy}{dx} = (2x+3) \\cos 3x - (x^2 + 3x + 2) 3 \\sin 3x\\)  \nCrosses y-axis \\(\\Rightarrow x = 0, y = 2, \\frac{dy}{dx} = 3\\)  \nNormal gradient = \\(-\\frac{1}{3}\\)  \nEquation of normal:  \n\\(y - 2 = -\\frac{1}{3}(x - 0)\\)  \n\\(y = -\\frac{1}{3}x + 2\\)  \n\\(3y + x - 6 = 0\\)"
+  },
+  {
+    "query": "Q1d The volume of a spherical balloon is increasing at a constant rate of 60 cm\\(^3\\) per second.\n\nFind the rate of increase of the radius when the radius is 15 cm.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q2d: \\(\\frac{dV}{dt} = 60\\)  \n\\(V = \\frac{4}{3} \\pi r^3\\)  \n\\(\\frac{dV}{dr} = 4 \\pi r^2\\)  \n\\(\\frac{dr}{dt} = \\frac{dV}{dt} \\times \\frac{dr}{dV}\\)  \n\\[= \\frac{60}{4 \\pi r^2}\\]  \n\\[= \\frac{15}{\\pi r^2}\\]  \n\\(r = 15 \\Rightarrow \\frac{dr}{dt} = \\frac{15}{\\pi 15^2}\\)  \n\\[= \\frac{1}{15 \\pi} (\\approx 0.0212) \\, \\text{cm s}^{-1}\\)"
+  },
+  {
+    "query": "Q1e) The graph below shows the curve \\( y = \\sqrt{2x - 4} \\), and the tangent to the curve at point P. The tangent passes through the point \\((-2,1)\\).\n\nFind the coordinates of point P.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e: \n\n\\[\ny = \\sqrt{2x - 4}\n\\]\n\n\\[\n\\frac{dy}{dx} = \\frac{1}{\\sqrt{2x - 4}}\n\\]\n\nGradient of tangent = \\(\\frac{y - 1}{x + 2}\\)\n\n\\[\n\\frac{1}{\\sqrt{2x - 4}} = \\frac{1}{x + 2}\n\\]\n\n\\[\nx + 2 = 2x - 4 - \\sqrt{2x - 4}\n\\]\n\n\\[\n\\sqrt{2x - 4} = x - 6\n\\]\n\n\\[\n2x - 4 = x^2 - 12x + 36\n\\]\n\n\\[\nx^2 - 14x + 40 = 0\n\\]\n\n\\[\n(x - 4)(x - 10) = 0\n\\]\n\n\\[\nx = 4 \\text{ or } x = 10\n\\]\n\nRejecting \\(x = 4\\) by checking the surd equation:\n\n\\[\nx = 10 \\quad \\sqrt{16} = 4 \\quad \\text{True}\n\\]\n\n\\[\nx = 4 \\quad \\sqrt{4} = 2 \\quad \\text{False}\n\\]\n\nOne solution: \\(x = 10\\)\n\nTherefore, the coordinates of point P are \\((10, 4)\\)\n\nOR\n\nRejecting \\(x = 4\\) by checking the gradient:\n\nAt \\((10, 4)\\), \\(\\frac{dy}{dx} = \\frac{1}{\\sqrt{16}} = \\frac{1}{4}\\)\n\nGradient: \\(\\frac{y - 1}{x + 2} = \\frac{3}{12} = \\frac{1}{4}\\)\n\nAt \\((4, 2)\\), \\(\\frac{dy}{dx} = \\frac{1}{\\sqrt{4}} = \\frac{1}{2}\\)\n\nGradient: \\(\\frac{y - 1}{x + 2} = \\frac{1}{6}\\)\n\nOne solution: \\(x = 10\\)\n\nTherefore, the coordinates of point P are \\((10, 4)\\)"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( y = \\frac{\\cot x}{x^2 + 1} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q3a: \\(\\frac{dy}{dx} = \\frac{(x^2+1)(-\\csc^2 y) - (\\cot y)(2x)}{(x^2+1)^2}\\)"
+  },
+  {
+    "query": "Q3 (b) The graph of the function \\( y = 4\\sqrt{x} - x + 2 \\), where \\( x > 0 \\), has a stationary point at point Q. Find the coordinates of point Q.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3b: \n\\[\n\\frac{dy}{dx} = \\frac{2}{\\sqrt{x}} - 1\n\\]\nAt stationary point, derivative = 0.\n\\[\n\\frac{2}{\\sqrt{x}} = 1\n\\]\n\\(x = 4\\) Coordinates are \\((4, 6)\\)."
+  },
+  {
+    "query": "Q3 (c) For what values of \\( x \\) is the function \\( y = \\frac{x}{x^2 + 4} \\) increasing?\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3c: \n\\[\n\\frac{dy}{dx} = \\frac{(x^2+4) - x(2x)}{(x^2+4)^2} = \\frac{4-x^2}{(x^2+4)^2}\n\\]\nIncreasing when \\(\\frac{dy}{dx} > 0\\)\n\\[\n\\frac{4-x^2}{(x^2+4)^2} \\geq 0\n\\]\n\\(4-x^2 > 0\\)\n\\(-2 < x < 2\\)"
+  },
+  {
+    "query": "(d) A curve has the equation \\( y = \\frac{4x + k}{4x - k} \\), where \\( k \\) is a constant and \\( x \\neq \\frac{k}{4} \\).\n\nThe point \\( P \\) lies on the curve and has an \\( x \\)-coordinate of 3.\n\nThe gradient of the tangent to the curve at \\( P \\) is \\(-\\frac{8}{27}\\).\n\nFind the possible value(s) of \\( k \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3d: \n\\[\n\\frac{dy}{dx} = \\frac{(4x-k)4 - (4x+k)4}{(4x-k)^2} = \\frac{16x-4k-16x-4k}{(4x-k)^2} = \\frac{-8k}{(4x-k)^2}\n\\]\nWhen \\(x = 3\\), \\(\\frac{dy}{dx} = \\frac{-8}{27}\\)\n\\[\n\\frac{-8k}{(12-k)^2} = \\frac{-8}{27}\n\\]\n\\[\n\\frac{k}{(12-k)^2} = \\frac{1}{27}\n\\]\n\\[\n27k = 144 - 24k + k^2\n\\]\n\\[\nk^2 - 51k + 144 = 0\n\\]\n\\(k = 48\\) or \\(k = 3\\)"
+  },
+  {
+    "query": "(e) A lamp is suspended above the centre of a round table of radius \\( r \\).\n\nThe height, \\( h \\), of the lamp above the table is adjustable.\n\nPoint P is on the edge of the table.\n\nAt point P the illumination \\( I \\) is directly proportional to the cosine of angle \\( \\theta \\) in the above diagram, and inversely proportional to the square of the distance, \\( S \\), to the lamp.\n\ni.e. \\( I = \\frac{k \\cos \\theta}{S^2} \\), where \\( k \\) is a constant.\n\nProve that the edge of the table will have maximum illumination when \\( h = \\frac{r}{\\sqrt{2}} \\).\n\n*You do not need to prove that your solution gives the maximum value.*\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can guide you on how to use OCR software to extract the text yourself. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to convert the image into text. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1 (a) Differentiate \\( y = (\\ln x)^2 \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{dy}{dx} = 2 \\ln x - \\frac{1}{x}\\)"
+  },
+  {
+    "query": "Q1 (b) Find the \\( x \\)-value(s) of any stationary points on the graph of the function \\( f(x) = \\frac{x^2 + 1}{x} \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1b:  \n\\(f(x) = \\frac{x^2 + 1}{x}\\)  \n\\(f'(x) = \\frac{x(2x) - (x^2 + 1)}{x^2}\\)  \n\\(x(2x) - (x^2 + 1) = 0\\)  \n\\(2x^2 - x^2 - 1 = 0\\)  \n\\(x^2 = 1\\)  \n\\(x = \\pm 1\\)  \nOR  \n\\(f(x) = x + x^{-1}\\)  \n\\(f'(x) = 1 - x^{-2}\\)  \n\\(1 - \\frac{1}{x^2} = 0\\)  \n\\(x^2 - 1 = 0\\)  \n\\(x = \\pm 1\\)"
+  },
+  {
+    "query": "(c) The graph below shows the function \\( y = \\sqrt{x+2} \\), and the normal to the function at the point where the function intersects the \\( y \\)-axis.\n\nFind the coordinates of point P, the \\( x \\)-intercept of the normal.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\(y = \\sqrt{x + 2}\\)  \n\\(\\frac{dy}{dx} = \\frac{1}{2(x + 2)^{\\frac{1}{2}}}\\)  \n\\(= \\frac{1}{2\\sqrt{x + 2}}\\)  \nAt \\(x = 0\\), \\(\\frac{dy}{dx} = \\frac{1}{2\\sqrt{2}}\\) and \\(y = \\sqrt{2}\\)  \nEquation of normal is \\(y = -2\\sqrt{2}x + \\sqrt{2}\\)  \n\\(x\\) intercept (\\(y = 0\\)) \\(0 = -2\\sqrt{2}x + \\sqrt{2}\\)  \n\\(x = \\frac{1}{2}\\)  \nCoordinate of \\(P\\) is \\(\\left(\\frac{1}{2}, 0\\right)\\)"
+  },
+  {
+    "query": "Q1d A curve is defined parametrically by the equations:\n\n\\[ x = 2 + 3t \\] and \\[ y = 3t - \\ln(3t - 1) \\] where \\[ t > \\frac{1}{3} \\].\n\nFind the coordinates, \\((x, y)\\), of any point(s) on the curve where the tangent to the curve has a gradient of \\(\\frac{1}{2}\\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1d\n\n\\[\n\\frac{dx}{dt} = 3\n\\]\n\n\\[\n\\frac{dy}{dt} = 3\n\\]\n\n\\[\n\\frac{dy}{dx} = \\frac{3}{3t-1} = \\frac{3(t-1)}{3t-1}\n\\]\n\n\\[\n= \\frac{9t-6}{3t-1}\n\\]\n\n\\[\n= 3t-2\n\\]\n\n\\[\n\\frac{dy}{dx} = \\frac{9t-6}{3t-1} \\times \\frac{1}{3}\n\\]\n\n\\[\n= 3t-2\n\\]\n\n\\[\n= \\frac{3t-1}{2}\n\\]\n\n\\[\n3t-2 = \\frac{1}{2}\n\\]\n\n\\[\n6t-4 = 3t-1\n\\]\n\n\\[\n3t = 3\n\\]\n\n\\[\nt = 1\n\\]\n\n\\[\nx = 5 \\quad y = 3 - \\ln 2 \\quad \\text{or} \\quad 2.307\n\\]"
+  },
+  {
+    "query": "(e) If \\( p \\) is a positive real constant, prove that \\( y = e^{px} \\) does not have any points of inflection.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\nCorrect \\(\\frac{dy}{dx}\\)."
+  },
+  {
+    "query": "Q2 (a) Differentiate \\( f(x) = (5x - 3) \\sin(4x) \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Correct \\(\\frac{d^2y}{dx^2}\\)."
+  },
+  {
+    "query": "Q2 (b) Find the gradient of the tangent to the curve \\( y = \\left(3x^2 - 2\\right)^3 \\) when \\( x = 2 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "T1: Correct \\(\\frac{d^2y}{dx^2}\\) with one part of the equation set to zero and the reason for there being no real solutions given for EITHER \\(2pe^{px^2} = 0\\) OR \\(2px^2 + 1 = 0\\)."
+  },
+  {
+    "query": "(c) An object is travelling in a straight line. Its displacement, in metres, is given by the formula:\n\n\\[ d(t) = \\frac{t^2 - 6}{2t^3} \\] \n\nwhere \\( t > 0 \\), \\( t \\) is time in seconds.\n\nFind the time(s) when the object is stationary.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "T2: Correct proof with correct derivatives. Both parts of the equation set to zero and the reason for there being no real solutions given for both equations."
+  },
+  {
+    "query": "Q1d A rectangle has one vertex at (0,0) and the opposite vertex on the curve \\( y = 6e^{-0.5x} \\), where \\( x > 0 \\), as shown on the graph below.\n\nFind the maximum possible area of the rectangle.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*\n\n*You do not have to prove that the area you have found is a maximum.*",
+    "type": "NCEA",
+    "answer": "The image provided is a marking schedule for NCEA Level 3 Calculus (91578) 2022. It does not contain specific questions or answers, but rather a grading rubric. Therefore, there are no answers to extract from this page."
+  },
+  {
+    "query": "(e) The curve with the equation \\((y - 5)^2 = 16(x - 2)\\) has a tangent of gradient 1 at point P.\n\nThis tangent intersects the \\(x\\) and \\(y\\) axes at points R and S respectively.\n\nProve that the length RS is \\(7\\sqrt{2}\\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\( f'(x) = 4(5x - 3)\\cos 4x + 5\\sin 4x \\)"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( y = e^{4\\sqrt{x}} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\( y = \\left(3x^2 - 2\\right)^3 \\)  \n\\(\\frac{dy}{dx} = 3\\left(3x^2 - 2\\right)^2 (6x) \\)  \nAt \\( x = 2, \\frac{dy}{dx} = 3600 \\)"
+  },
+  {
+    "query": "Q3 (b) The graph below shows the function \\( y = f(x) \\).\n\nFor the function above:\n(i) Find the value(s) of \\( x \\) where \\( f(x) \\) is not differentiable.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\( d(t) = \\frac{t^2 - 6}{2t^3} \\)  \n\\( v(t) = \\frac{2t(2t) - (t^2 - 6)(6t^2)}{4t^6} \\)  \n\\( v(t) = \\frac{36t^2 - 24t}{4t^6} \\)  \n\\( v(t) = \\frac{18 - t^2}{2t^4} \\)  \nStationary point when \\( v(t) = 0 \\)  \n\\( 18 - t^2 = 0 \\)  \n\\( t = \\sqrt{18} (\\approx 4.24) \\)"
+  },
+  {
+    "query": "Q3 (b) (ii) Find the value(s) of \\( x \\) for which \\( f'(x) = 0 \\).",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\( y = 6e^{-0.5x} \\)  \nArea = \\( 6xe^{-0.5x} \\)  \n\\( A'(x) = 6e^{-0.5x} + 6xe^{-0.5x} \\times -0.5 \\)  \n\\( = 6e^{-0.5x} - 3xe^{-0.5x} \\)  \n\\( = 3e^{-0.5x}(2 - x) \\)  \nAt maximum, \\( A'(x) = 0 \\)  \n\\( x = 2 \\)  \nArea = \\( 12e^{-1} = 12 \\)"
+  },
+  {
+    "query": "Q3 (b) (iii) What is the value of \\( \\lim_{{x \\to -4}} f(x) \\)?\n\n(State clearly if the value does not exist.)",
+    "type": "NCEA",
+    "answer": "Q1e (Method A):  \n\\( (y - 5)^2 = 16(x - 2) \\)  \n\\( y - 5 = 4\\sqrt{x - 2} \\)  \n\\( y = 4\\sqrt{x - 2} + 5 \\)  \n\\(\\frac{dy}{dx} = \\frac{2}{\\sqrt{x - 2}} \\)  \n\\(\\frac{dy}{dx} = 1 \\)  \n\\(\\frac{2}{\\sqrt{x - 2}} = 1 \\)  \n\\(\\sqrt{x - 2} = 2 \\)  \n\\( x - 2 = 4 \\)  \n\\( x = 6 \\)  \n\\( y = 13 \\)"
+  },
+  {
+    "query": "(c) The diagram below shows the cross-section of a bowl containing water.\n\nWhen the height of the water level in the bowl is \\( h \\) cm, the volume, \\( V \\, \\text{cm}^3 \\), of water in the bowl is given by \\( V = \\pi \\left( \\frac{3}{2} h^2 + 3h \\right) \\).\n\nWater is poured into the bowl at a constant rate of 20 \\(\\text{cm}^3 \\, \\text{s}^{-1}\\).\n\nFind the rate, in \\(\\text{cm} \\, \\text{s}^{-1}\\), at which the height of the water level is increasing when the height of the water level is 3 cm.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e (Method B):  \n\\( 2(y - 5)\\frac{dy}{dx} = 16 \\)  \n\\(\\frac{dy}{dx} = \\frac{8}{y - 5} \\)  \n\\(\\frac{dy}{dx} = 1 \\)  \n\\(\\frac{8}{y - 5} = 1 \\)  \n\\( y - 5 = 8 \\)  \n\\( y = 13 \\)  \n\\( 64 = 16x - 32 \\)  \n\\( x = 6 \\)"
+  },
+  {
+    "query": "Q1d Find the \\( x \\)-value(s) of any stationary point(s) on the graph of the function \\( y = 9x - 2 + \\frac{3}{3x - 1} \\) and determine their nature.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e (Equation of tangent):  \n\\( y - 13 = 1(x - 6) \\)  \n\\( y = x + 7 \\)"
+  },
+  {
+    "query": "(e) Megan cycles from her home, H, to school, S, each day.\n\nShe rides along a path from her home to point P at a constant speed of 10 kilometres per hour.\n\nAt point P, Megan cuts across a park, heading directly to school. When cycling across the park, Megan can only cycle at 6 kilometres per hour.\n\nAt what distance from her home should she choose to cut across the park in order to make her travelling time a minimum?\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e (Axis intercepts):  \n\\( (0, 7) \\) and \\( (-7, 0) \\)"
+  },
+  {
+    "query": "The page you provided is blank, except for a note about extra space for writing answers. There are no questions to extract.",
+    "type": "NCEA",
+    "answer": "Q1e (Distance RS):  \n\\( \\sqrt{72 + 7^2} \\)  \n\\( = \\sqrt{49 \\times 2} \\)  \n\\( = 7\\sqrt{2} \\)"
+  },
+  {
+    "query": "The image provided does not contain any questions. It appears to be a blank page for extra space, labeled \"Extra space if required. Write the question number(s) if applicable.\" If you have another page with questions, please provide it, and I'll be happy to help extract the questions.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please share it, and I'll be happy to help extract the questions for you.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1a. Differentiate \\( y = \\sqrt{3x - 2} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{dy}{dx} = \\frac{1}{2}(3x - 2)^{-\\frac{1}{2}} \\times 3 = \\frac{3}{2}(3x - 2)^{-\\frac{1}{2}}\\)"
+  },
+  {
+    "query": "Q1b. Find the rate of change of the function \\( f(t) = t^2 e^{2t} \\) when \\( t = 1.5 \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1b: \n\\(f'(t) = t^2(2e^{2t}) + e^{2t}(2t)\\)  \n\\(= 2t^2e^{2t} + 2te^{2t}\\)  \n\\(= 2e^{2t}(t+1)\\)  \n\n\\(f'(1.5) = 3e^{2 \\times 2.5}\\)  \n\\(= 7.5e^3 = 150.64\\)"
+  },
+  {
+    "query": "(c) The graph shows the curve \\( y = \\frac{2}{(x+1)^3} \\), along with the tangent to the curve drawn at \\( x = 1 \\).\n\nA second tangent to this curve is drawn which is parallel to the first tangent shown in the diagram.\n\nFind the \\( x \\)-coordinate of the point where this second tangent touches the curve.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\(\\frac{dy}{dx} = -6(x+1)^{-4}\\)  \n\\(= \\frac{-6}{(x+1)^4}\\)  \n\nWhen \\(x = 1\\), \\(\\frac{dy}{dx} = -\\frac{3}{8} \\text{ or } -0.375\\)  \n\n\\(\\frac{-6}{(x+1)^4} = \\frac{3}{8}\\)  \n\\(3(x+1)^4 = 48\\)  \n\\((x+1)^4 = 16\\)  \n\\(x+1 = \\pm 2\\)  \n\\(x = 1 \\text{ or } -3\\)  \n\n\\(\\therefore\\) Second tangent touches the curve when \\(x = -3\\)"
+  },
+  {
+    "query": "Q1d The diagram below shows a tangent passing through the point \\( P (p, q) \\) which lies on the circle with parametric equations \\( x = 4 \\cos \\theta \\) and \\( y = 4 \\sin \\theta \\).\n\nShow that the equation of the tangent line is \\( px + qy = p^2 + q^2 \\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1e The graph of \\( y = x(x - 2m)^2 \\), where \\( m > 0 \\), is shown. The total shaded area between the curve and the x-axis from \\( x = 0 \\) to \\( x = 2m \\) is given by \\( A = \\frac{4m^4}{3} \\).\n\nA right-angled triangle is now constructed with one vertex at (0,0) and another on the curve \\( y = x(x - 2m)^2 \\), as shown below.\n\nShow that the maximum area of such a triangle is \\( \\frac{3}{8} \\) of the total shaded area.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.\n\nYou do not have to prove that the area you have found is a maximum.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\nArea of triangle \\( = \\frac{1}{2} xy \\)\n\n\\[ A = \\frac{1}{2} x(x - 2m)^2 \\]\n\\[ = \\frac{1}{2} x^2(x - 2m)^2 \\]\n\n\\[ \\frac{dA}{dx} = \\frac{1}{2} x^2(2(x - 2m)) + (x - 2m)^2 \\]\n\\[ = x^2(x - 2m) + x(x - 2m)^2 \\]\n\\[ = x(x - 2m)(x + (x - 2m)) \\]\n\\[ = x(x - 2m)(2x - 2m) \\]\n\\[ = 2x(x - 2m)(x - m) \\]\n\nOR\n\n\\[ A = \\frac{1}{2} x^2(x - 2m)^2 \\]\n\\[ = \\frac{1}{2} x^4 - 2mx^3 + 2m^2x^2 \\]\n\n\\[ \\frac{dA}{dx} = 2x^3 - 6mx^2 + 4m^2x \\]\n\\[ = 2x(x^2 - 3mx + 2m^2) \\]\n\\[ = 2x(x - 2m)(x - m) \\]\n\n\\[ \\frac{dA}{dx} = 0 \\Rightarrow 2x(x - 2m)(x - m) = 0 \\]\n\\[ x = 0 \\text{ or } x = 2m \\text{ or } x = m \\]\n\nSince \\( 0 < x < 2m \\) the area is a maximum when \\( x = m \\)\n\nMaximum area of triangle:\n\\[ A(m) = \\frac{1}{2} m^2(m - 2m)^2 \\]\n\\[ = \\frac{1}{2} m^4 \\]\n\nThis is \\(\\frac{3}{8}\\) of the total shaded area since\n\n\\[ \\frac{3}{8} \\times \\frac{4m^3}{3} = \\frac{1}{2} m^4 \\]"
+  },
+  {
+    "query": "(a) Differentiate \\( f(x) = \\frac{x^2}{\\cos x} \\).\n\nYou do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "(b) Find the gradient of the tangent to the curve \\( y = \\cot(2x) \\) at the point where \\( x = \\frac{\\pi}{12} \\).\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q1c:\n\nFinds \\(\\frac{dx}{d\\theta}\\).\n\n\\(\\frac{dx}{d\\theta} = -400 \\csc^2 \\theta = \\frac{-400}{\\sin^2 \\theta}\\)"
+  },
+  {
+    "query": "(c) A curve is defined by the equation \\( f(x) = \\frac{e^x}{x^2 + 2x} \\).\n\nFind the \\( x \\)-value(s) of any point(s) on the curve where the tangent to the curve is parallel to the \\( x \\)-axis.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Finds an expression for \\(\\frac{dx}{dt}\\).\n\n\\(\\frac{dx}{dt} = \\frac{dx}{d\\theta} \\times \\frac{d\\theta}{dt} = \\frac{-400}{\\sin^2 \\theta} \\times 0.002 = \\frac{-0.8}{\\sin^2 \\theta}\\)"
+  },
+  {
+    "query": "(d) Find the \\( x \\)-value(s) of any points of inflection on the graph of the function \\( f(x) = 3x^2 \\ln(x) \\).\n\nYou can assume that your point(s) found are actually point(s) of inflection.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "When \\(y = 2500\\), \\(\\sin \\theta = \\frac{400}{2500}\\)\n\n\\(\\theta = 0.1607 \\, \\text{rad}\\)\n\n\\(\\frac{dx}{dt} = \\frac{-0.8}{\\sin^2(0.1607)} = 31.25\\)"
+  },
+  {
+    "query": "Q1e A police helicopter is flying above a straight horizontal section of motorway chasing a speeding car.\n\nThe helicopter is flying at a constant speed of 72 m s\\(^{-1}\\) and at a constant height of 400 metres above the ground. The helicopter is attempting to catch up with the car.\n\nWhen the direct distance from the helicopter to the car is 2500 metres, the angle of depression, \\(\\theta\\), between the horizontal and the line of sight from the helicopter to the car is increasing at a rate of 0.002 rad s\\(^{-1}\\).\n\nCalculate the speed of the car at this instant.\n\n*You must use calculus and show any derivatives that you need to find when solving this problem.*",
+    "type": "NCEA",
+    "answer": "When the helicopter is travelling at \\(72 \\, \\text{m s}^{-1}\\),\n\nThe speed of the car = \\(72 - 31.25 = 40.75 \\, \\text{m s}^{-1}\\)\n\n(= \\(146.7 \\, \\text{km/hr}\\))"
+  },
+  {
+    "query": "The page you provided is blank, so there are no questions to extract. If you have another page with questions, feel free to share it!",
+    "type": "NCEA",
+    "answer": "Q3a: \\(\\frac{dy}{dx} = \\frac{2x - 4x^3}{x^2 - x^4 + 1}\\)"
+  },
+  {
+    "query": "Q3 (a) Differentiate \\( y = \\ln(x^2 - x^4 + 1) \\). You do not need to simplify your answer.",
+    "type": "NCEA",
+    "answer": "Q3b(i): \\(x = 8\\)"
+  },
+  {
+    "query": "Q3 (b) (i) Find the value(s) of \\( x \\) where \\( f(x) \\) is continuous but not differentiable.",
+    "type": "NCEA",
+    "answer": "Q3b(ii): \\(x = -4\\)"
+  },
+  {
+    "query": "Q3 (b) (ii) Find the value(s) of \\( x \\) where \\( f'(x) = 0 \\) and \\( f''(x) < 0 \\) are both true.",
+    "type": "NCEA",
+    "answer": "Q3b(iii): The limit does not exist."
+  },
+  {
+    "query": "Q3 (b) (iii) What is the value of \\( \\lim_{{x \\to 6}} f(x) \\)? State clearly if the value does not exist.",
+    "type": "NCEA",
+    "answer": "Q3c: \n\\[\n\\frac{dv}{dr} = \\sqrt{2\\pi} \\cos\\left(\\frac{\\pi}{5}\\right)\n\\]\n\\[\n\\frac{dy}{dr} = \\sqrt{2\\pi} \\sin\\left(\\frac{\\pi}{5}\\right) \\Rightarrow\n\\]\n\\[\n\\frac{dy}{dx} = \\tan\\left(\\frac{\\pi}{5}\\right)\n\\]\nWhen \\(r = 6.25 \\Rightarrow\\)\n\\[\n\\frac{dy}{dx} = \\tan(1.25\\pi) = 1\n\\]\nNormal gradient: \\(m = -1\\)"
+  },
+  {
+    "query": "(c) Char goes for a ride on a Ferris wheel. As she rotates around, her position can be described by the pair of parametric equations:\n\n\\[ x = 5\\sqrt{2} \\sin\\left(\\frac{\\pi t}{5}\\right) \\quad \\text{and} \\quad y = 10 - 5\\sqrt{2} \\cos\\left(\\frac{\\pi t}{5}\\right) \\]\n\nwhere \\( t \\) is time, in seconds, from the start of the ride.\n\nFind the gradient of the normal to this curve at the point when \\( t = 6.25 \\) seconds, after the start of the ride.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3d(i): \n\\[\nf(x) = x^{-1} - 2x^{-3}\n\\]\n\\[\nf'(x) = -x^{-2} + 6x^{-4} = 0\n\\]\n\\[\n6x^2 = 1 \\Rightarrow x^2 = \\frac{1}{6}\n\\]\n\\[\n6x^2 - x^4 = 0\n\\]\n\\[\nx^2(6 - x^2) = 0\n\\]\n\\[\nx \\neq 0 \\text{ so } x = \\pm \\sqrt{6}\n\\]\n\\[\nf''(x) = 2x^{-3} - 24x^{-5}\n\\]\n\\[\nf''(\\sqrt{6}) = -0.136 < 0 \\text{ i.e. maximum}\n\\]\n\\[\nf''(-\\sqrt{6}) = 0.136 > 0 \\text{ i.e. minimum}\n\\]\nMaximum at \\(\\left(\\sqrt{6}, \\frac{\\sqrt{6}}{9}\\right) = (2.45, 0.2722)\\)"
+  },
+  {
+    "query": "Q1d: Find the co-ordinates of any stationary points on the graph of the function \\( f(x) = \\frac{1}{x} - \\frac{2}{x^3} \\), identifying their nature.\n\nYou must use calculus and show any derivatives that you need to find when solving this problem.",
+    "type": "NCEA",
+    "answer": "Q3d(ii): Minimum at \\(\\left(-\\sqrt{6}, -\\frac{\\sqrt{6}}{9}\\right) = (-2.45, -0.2722)\\)"
+  },
+  {
+    "query": "(e) A power line hangs between two poles.\n\nThe equation of the curve \\( y = f(x) \\) that models the shape of the power line can be found by solving the differential equation:\n\n\\[\na \\frac{d^2 y}{dx^2} = \\sqrt{1 + \\left( \\frac{dy}{dx} \\right)^2}\n\\]\n\nUse differentiation to verify that the function \\( y = \\frac{a}{2} \\left( e^{\\frac{x}{a}} + e^{-\\frac{x}{a}} \\right) \\) satisfies the above differential equation, where \\( a \\) is a positive constant.",
+    "type": "NCEA",
+    "answer": "Q1d (i)  \n\\( f(x) = x^{-1} - 2x^{-3} \\)  \n\\( f'(x) = -x^{-2} + 6x^{-4} \\)  \n\\( = \\frac{-1}{x^2} + \\frac{6}{x^4} \\)  \n\\( f'(x) = 0 \\Rightarrow \\frac{-1}{x^2} + \\frac{6}{x^4} = 0 \\)  \n\\( x^4 - 6x^2 = 0 \\)  \n\\( x^2(x^2 - 6) = 0 \\)  \n\\( x = 0 \\) not possible  \n\\( x^2 - 6 = 0 \\)  \n\\( x = \\pm \\sqrt{6} \\) or \\( x = \\pm 2.45 \\)"
+  },
+  {
+    "query": "The image provided is a blank page intended for extra space in an exam. There are no questions to extract.",
+    "type": "NCEA",
+    "answer": "Q1d (ii)  \nSecond derivative test:  \n\\( f''(x) = 2x^{-3} - 24x^{-5} \\)  \n\\( = \\frac{2}{x^3} - \\frac{24}{x^5} \\)  \n\\( f''(\\sqrt{6}) = -0.136 = \\frac{-\\sqrt{6}}{18} \\)  \nSince \\( f''(\\sqrt{6}) < 0 \\), \\( x = \\sqrt{6} \\) is a local maximum.  \n\\( f''(-\\sqrt{6}) = -0.136 = \\frac{-\\sqrt{6}}{18} \\)  \nSince \\( f''(-\\sqrt{6}) > 0 \\), \\( x = -\\sqrt{6} \\) is a local minimum.  \nMaximum turning point when \\( x = \\sqrt{6} \\).  \nMinimum turning point when \\( x = -\\sqrt{6} \\)."
+  },
+  {
+    "query": "The page provided is blank and does not contain any questions.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\ny = \\frac{a}{2} \\left( \\frac{x}{e^a + e^{-a}} \\right)\n\\]\n\n\\[\n= \\left( \\frac{a}{2} \\cdot \\frac{x}{e^a + e^{-a}} \\right)\n\\]\n\n\\[\n\\frac{dy}{dx} = \\frac{1}{2} \\cdot \\frac{x}{e^a} - \\frac{1}{2} \\cdot \\frac{1}{e^a}\n\\]\n\n\\[\n\\frac{d^2y}{dx^2} = \\frac{1}{2} \\cdot \\frac{x}{e^a} + \\frac{1}{2a} \\cdot \\frac{-x}{e^a}\n\\]\n\n\\[\n\\left( \\frac{dy}{dx} \\right)^2 = \\frac{1}{4} \\cdot \\frac{2x}{e^a} + \\frac{1}{4} \\cdot \\frac{-2x}{e^a} - \\frac{1}{2}\n\\]\n\n#(1)"
+  },
+  {
+    "query": "The page provided does not contain any questions. It appears to be a blank page for extra space, as indicated by the text \"Extra space if required. Write the question number(s) if applicable.\"",
+    "type": "NCEA",
+    "answer": "LHS = \\( a \\frac{d^2y}{dx^2} \\)\n\n\\[\n= \\frac{1}{2} \\cdot \\frac{x}{e^a} + \\frac{1}{2} \\cdot \\frac{-x}{e^a}\n\\]\n\n#(2)"
+  }
+]

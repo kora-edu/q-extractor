@@ -1,0 +1,822 @@
+[
+  {
+    "query": "Q1 (a) \\(\\int \\frac{2x - 1}{x^3} \\, dx\\)",
+    "type": "NCEA",
+    "answer": "Q1a: \\(-2x^{-1} + \\frac{x^2}{2} + C\\)"
+  },
+  {
+    "query": "Q1 (b) \\(\\int (\\pi - e^{2x}) \\, dx\\)",
+    "type": "NCEA",
+    "answer": "Q1b: \\(\\pi x - \\frac{1}{2} e^{2x} + c\\)"
+  },
+  {
+    "query": "Q1 (c) An object is moving in a straight line. The velocity of the object is given by \\(v = 6 - \\frac{5}{t+1}\\), where \\(t\\) is the time measured in seconds from when the object started moving, and \\(v\\) is the velocity measured in metres per second. How far does the object travel in its 4th second of motion? Give the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\(v = 6 - \\frac{5}{t+1}\\)  \n\\(d = \\int v \\, dt = \\int \\left( 6 - \\frac{5}{t+1} \\right) \\, dt\\)  \n\\(= 6t - 5\\ln(t+1)\\)  \n\\(t = 4 \\quad d = 24 - 5\\ln5 = 15.95\\)  \n\\(t = 3 \\quad d = 18 - 5\\ln4 = 11.07\\)  \nDistance travelled = 4.88 m"
+  },
+  {
+    "query": "(d) A property owner assumes that the rate of increase of the value of his property at any time is proportional to the value, $V$, of the property at that time.\n\n(i) Write the differential equation that expresses this statement.",
+    "type": "NCEA",
+    "answer": "Q1d(i): \\(\\frac{dV}{dt} = kV\\)"
+  },
+  {
+    "query": "(ii) The property was valued at $365,000 in May 2012, and at $382,000 in November 2013.\n\nSolve the differential equation in (i) to find the price the owner would have paid in May 2007 when he bought his house, given his assumption is accurate.",
+    "type": "NCEA",
+    "answer": "Q1d(ii):  \n\\(\\int \\frac{dV}{V} = \\int k \\, dt\\)  \n\\(\\ln V = kt\\)  \n\\(V = \\frac{1}{a} e^{kt}\\)  \n\\(= Ae^{kt}\\)  \n\\(t = 0\\) months in May 2007  \nSo \\(t = 60\\) months in May 2012  \nAnd \\(t = 78\\) months in Nov 2013  \n\\(365000 = Ae^{60k}\\)  \n\\(A = \\frac{365000}{e^{60k}}\\)  \n\\(382000 = \\frac{365000}{e^{60k}} \\times e^{78k}\\)  \n\\(\\ln \\left( \\frac{382000}{365000} \\right) = \\ln(e^{18k})\\)  \n\\(18k = 0.044523\\)  \n\\(k = 0.002529\\)  \n\\(A = \\frac{365000}{e^{0.002529 \\times 0}}\\)  \n\\(\\approx 513611 \\text{ when } t = 0\\)"
+  },
+  {
+    "query": "(e) The energy required to pump water out of a tank with a circular cross-section and height \\( H \\) is given by:\n\n\\[\nE = \\int_0^H k(H-h)A(h) \\, dh\n\\]\n\nwhere  \n\\( k \\) is a constant  \n\\( h \\) is the height of the water in the tank at any instant  \n\\( r \\) is the radius of the water surface at this instant  \n\\( A(h) \\) is the area of the surface of water at this instant.\n\nA cylindrical tank and a conical tank are both full of water.\n\nBoth have height \\( H \\), and the radius at the top of both tanks is \\( R \\).\n\nShow that the energy required to empty the conical tank is one sixth the energy required to empty the cylindrical tank.\n\nGive the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat, Tesseract, or online OCR tools. Once you have the text, feel free to share it here, and I can help you format or analyze it."
+  },
+  {
+    "query": "Q2 (a) Use the values given in the table below to find the best approximation to \\(\\int_{1}^{2} f(x) \\, dx\\), using the Trapezium Rule.",
+    "type": "NCEA",
+    "answer": "The image provided is a marking schedule and does not contain specific answers to questions. It outlines the criteria for different levels of achievement in an exam:\n\n- NØ = No response / no relevant evidence\n- N1 = ONE answer demonstrating limited knowledge of integration techniques\n- N2 = ONE correct integration\n- A3 = TWO of Achievement (u)\n- A4 = THREE of Achievement (u)\n- M5 = ONE of Merit (r)\n- M6 = TWO of Merit (r)\n- E7 = Excellence with minor errors ignored (t)\n- E8 = Excellence correct (t)\n\nIf you have specific questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q2 (b) Find \\(\\int_{1}^{k} 3\\sqrt{x} \\, dx\\), giving your answer in terms of \\(k\\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the answers using OCR software. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to extract the text from the image. Once you have the text, you can format it as needed.\n\nIf you provide the text, I can help you organize it or answer any questions you have!"
+  },
+  {
+    "query": "Q2 (c) Use integration to find the area enclosed between the graphs of the functions \\(3y = x^2\\) and \\(y = 2x\\).  \nYou must use calculus and give the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n1. \\( f'(x) = 1 - \\frac{1}{3}x^2 \\)\n2. \\( f(x) = x - \\frac{x^3}{9} + c \\)\n3. \\( x = 0, y = 0, c = 0 \\)\n4. At \\( x = -1, f'(x) = \\frac{2}{3} \\) and \\( f(x) = -\\frac{8}{9} \\)\n5. Tangent has equation \\( y = \\frac{2}{3}x - \\frac{2}{9} \\)\n6. Intersection at \\( x = \\frac{x^3}{9} = \\frac{2}{3}x - \\frac{2}{9} \\)\n7. \\( x = -1, 2 \\)\n8. Area between curve and tangent\n   \\[\n   = \\int_{-1}^{2} \\left( x - \\frac{x^3}{9} - \\left( \\frac{2}{3}x - \\frac{2}{9} \\right) \\right) \\, dx\n   \\]\n9. \\[\n   = \\left[ \\frac{1}{9} \\left( \\frac{3x^2}{2} - \\frac{x^4}{4} + 2x \\right) \\right]_{-1}^{2}\n   \\]\n10. \\[\n   = \\frac{3}{4}\n   \\]"
+  },
+  {
+    "query": "Q1d A large tank initially contains 20 litres of diesel.\n\nThe tank is being filled at a rate of \\(\\frac{400}{(t+2)^2}\\) litres per minute, where \\(t\\) is the time in minutes since the filling started.\n\nHow much diesel will be in the tank 6 minutes after filling started?  \nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3a: \\(-\\frac{1}{2} \\csc 2x + c\\)"
+  },
+  {
+    "query": "(e) A curve \\( y = f(x) \\), which passes through the origin, is shown on the graph below. Its gradient at any point is given by the equation \\( f'(x) = 1 - \\frac{1}{3}x^2 \\). The line on the graph is the tangent to the curve at \\( x = -1 \\).\n\nFind the shaded area.\n\nYou must use calculus and give the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3b:  \nArea = \\(\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} \\sin 2x \\, dx\\)  \n\\[= \\left[ -\\frac{1}{2} \\cos 2x \\right]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}}\\]  \n\\[= \\frac{1}{2}\\]"
+  },
+  {
+    "query": "Q3 (a) Find \\(\\int \\csc(2x) \\cot(2x) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\(\\int_{m}^{2m} \\frac{2x+5}{x^2+5x} \\, dx = \\left[ \\ln(x^2+5x) \\right]_{m}^{2m} = \\ln 3\\)  \n\\[\\left[ \\ln(4m^2+10m) - \\ln(m^2+5m) \\right] = \\ln 3\\]  \n\\[\\ln \\frac{4m^2+10m}{m^2+5m} = \\ln 3\\]  \n\\[m^2 - 5m = 0\\]  \n\\[m = 0, 5\\]"
+  },
+  {
+    "query": "Q3 (b) Find the area enclosed between the graph of \\(y = \\sin(2x)\\), the x-axis, and the lines \\(x = \\frac{\\pi}{6}\\) and \\(x = \\frac{\\pi}{3}\\).\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3d:  \n\\(\\int \\frac{dv}{v^2} = \\int -k \\, dt\\)  \n\\[-\\frac{1}{v} = -kt + c\\]  \nWhen \\(t = 0, v = u\\)  \n\\[c = -\\frac{1}{u}\\]  \nWhen \\(t = 1, v = \\frac{u}{1+ku}\\)"
+  },
+  {
+    "query": "Q3 (c) Find the value of \\(m\\) such that \\(\\int_{m}^{2m} \\frac{2x+5}{x^2+5x} \\, dx = \\ln 3\\).\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3e(i):  \n\\(\\frac{dT}{dt} = k(T - 18)\\)"
+  },
+  {
+    "query": "Q1d The motion of an object is described by the equation \\(\\frac{dv}{dt} = -kv^2\\), where \\(v\\) is the velocity of the object in metres per second, \\(t\\) is the time in seconds, and \\(k\\) is a constant. The initial velocity of the object is \\(u\\) metres per second. Show that, after one second, the velocity of the object is \\(v = \\frac{u}{ku + 1}\\). Give the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3e(ii):  \n\\(\\int \\frac{dT}{T-18} = \\int k \\, dt\\)  \n\\[\\ln|T-18| = kt + c\\]  \nAt \\(t = 0, \\ln|65-18| = c = \\ln 47\\)  \nAt \\(t = 2, \\ln|62-18| = 2k + \\ln 47\\)  \n\\[k = -0.03297\\]  \n\\[\\ln|54-18| = -0.03297 \\times t + \\ln 47\\]  \n\\[t = 8.08 \\text{ minutes}\\]"
+  },
+  {
+    "query": "(e) Ben leaves his cup of coffee on the table to cool. The room’s temperature remains constant at 18°C.\n\nThe rate at which the temperature of the coffee changes at any instant is proportional to the difference between the temperature of the coffee and the room temperature at that instant.\n\n(i) Write the differential equation that expresses this statement.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, you can use OCR software like Adobe Acrobat, Tesseract, or online OCR tools to extract the text from the image. If you have any specific questions or need help with the content, feel free to ask!"
+  },
+  {
+    "query": "(a) Find \\(\\int \\left( \\frac{2}{x} - \\frac{3}{x^2} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(2 \\ln x + 3x^{-1} + c\\)"
+  },
+  {
+    "query": "(b) Find the area enclosed between the graph of \\(y = 3 \\sec^2 x\\), the x-axis, and the lines \\(x = \\frac{\\pi}{6}\\) and \\(x = \\frac{\\pi}{4}\\).  \nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q1b: \\(\\left[ 3 \\tan x \\right]_{\\frac{\\pi}{4}}^{\\frac{\\pi}{6}}\\)  \n\\(= 3 \\tan \\frac{\\pi}{4} - 3 \\tan \\frac{\\pi}{6}\\)  \n\\(= 3 - \\sqrt{3}\\)  \nAccept 1.27  \n\\(3 - \\frac{3}{\\sqrt{3}}\\)"
+  },
+  {
+    "query": "(c) The velocity of an object is given by \\(v(t) = 5(4 - 3e^{-0.2t})\\)  \nwhere \\(t\\) is the time in seconds since the timing started  \nand \\(v\\) is the velocity in m s\\(^{-1}\\).  \n\nWhat distance did the object move in the first 10 seconds of its timed motion?  \nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\(v(t) = 5(4 - 3e^{-0.2t})\\)  \n\\(d = \\int_{0}^{10} 5(4 - 3e^{-0.2t}) \\, dt\\)  \n\\(= 5\\left[ 4t + 15e^{-0.2t} \\right]_{0}^{10}\\)  \n\\(= 5\\left[ (40 + 15e^{-2}) - (0 + 15) \\right]\\)  \n\\(= 5 \\times 27.03\\)  \n\\(= 135.15 \\, \\text{m}\\)"
+  },
+  {
+    "query": "Q1d: A tank holds 2500 litres of water. The tank develops a small hole in its base, and water leaks out at a rate proportional to the square root of the volume of water remaining in the tank at any instant.\n\n2 days after the leak started, 475 litres of water have leaked out of the tank.\n\nHow long will it take the tank to empty completely?\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\(\\frac{dV}{dt} = k\\sqrt{V}\\)  \n\\(\\int V^{-\\frac{1}{2}} \\, dV = \\int k \\, dt\\)  \n\\(2V^{\\frac{1}{2}} = kt + c\\)  \n\\(t = 0 \\Rightarrow 2\\sqrt{2500} = 0 + c\\)  \n\\(c = 100\\)  \n\\(t = 2 \\Rightarrow V = 2025\\)  \n\\(2\\sqrt{2025} = 2k + 100\\)  \n\\(90 = 2k + 100\\)  \n\\(k = -5\\)  \n\\(\\therefore 2\\sqrt{V} = -5t + 100\\)  \n\\(V = 0 \\Rightarrow 0 = -5t + 100\\)  \n\\(t = 20 \\, (\\text{days})\\)"
+  },
+  {
+    "query": "(e) The diagram below shows the graphs of the curves \\(y^2 = px\\) and \\(y = px^2\\), where \\(p > 1\\).\n\nShow that the area between the two curves is \\(\\frac{1}{3}\\).\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q1c:\n\n\\( y = px^2 \\Rightarrow y^2 = p^2x^4 \\)\n\nAt intersection: \\( px^4 = px \\)\n\n\\( px(px^3 - 1) = 0 \\)\n\n\\( x = 0 \\) or \\( \\frac{1}{\\sqrt{p}} \\)\n\nArea = \\(\\int_0^{\\frac{1}{\\sqrt{p}}} (\\sqrt{px} - px^2) \\, dx\\)\n\n= \\(\\left[ \\frac{2\\sqrt{p}}{3} x^{\\frac{3}{2}} - \\frac{px^3}{3} \\right]_0^{\\frac{1}{\\sqrt{p}}}\\)\n\n= \\(2p^{\\frac{1}{2}} \\left( \\frac{1}{p} \\right)^{\\frac{3}{2}} - p \\left( \\frac{1}{p^3} \\right)\\)\n\n= \\(\\frac{3}{3} \\cdot \\frac{2p^{\\frac{-1}{2}}}{3} - \\frac{p^{\\frac{-1}{2}}}{3}\\)\n\n= \\(\\frac{1}{3}\\)"
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int (\\sec x \\tan x - \\sin 2x) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to use OCR software to extract text from images. You can use tools like Adobe Acrobat, Google Drive, or online OCR services to convert the image text into editable text. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q2 (b) Solve the differential equation \\(\\frac{d^2 y}{dx^2} = 6x^2 - 6x\\), given that when \\(x = 2\\), \\(y = 10\\), and \\(\\frac{dy}{dx} = 8\\).",
+    "type": "NCEA",
+    "answer": "(d)  \n\\[\n\\frac{dy}{dx} = \\frac{3\\sqrt{x}}{2y}\n\\]\n\\[\n\\int 2y \\, dy = \\int \\sqrt{x} \\, dx\n\\]\n\\[\ny^2 = \\frac{2}{3}x^{3/2} + c\n\\]\n\\( x = 4, y = 5 \\Rightarrow 25 = 2 \\times 8 + c \\)  \n\\( c = 9 \\)  \n\\[\n\\therefore y^2 = \\frac{2}{3}x^{3/2} + 9\n\\]\n\\( x = 9 : y^2 = 2 \\times 9^{3/2} + 9 \\)  \n\\( = 54 + 9 \\)  \n\\( = 63 \\)  \n\\( y = \\sqrt{63} \\)"
+  },
+  {
+    "query": "(c) The graph below shows the function \\( y = \\sin \\left( \\frac{x}{2} \\right) \\) and the lines \\( x = k \\) and \\( x = \\pi \\).\n\nFind the value of \\( k \\) so that the areas A and B are equal.\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "(e)  \n\\[\n\\text{Area} = \\int_0^1 (x^2 + 1) \\, dx\n\\]\n\\[\n= \\left[ \\frac{2x^3}{3} + x \\right]_0^1 = \\frac{28}{3}\n\\]\n\\[\n\\bar{x} = \\frac{3}{28} \\left( \\int_0^1 x(x^2 + x) \\, dx \\right)\n\\]\n\\[\n= \\frac{3}{28} \\left[ \\frac{2x^5}{5} + \\frac{x^2}{2} \\right]_0^1\n\\]\n\\[\n= \\frac{3}{28} \\left[ \\frac{64}{5} + \\frac{8}{3} \\right] = \\frac{78}{35} = 2.229\n\\]\n\\[\n\\bar{y} = \\frac{3}{28} \\left( \\int_0^1 \\frac{(x + 2\\sqrt{x} + 1)}{2} \\, dx \\right)\n\\]\n\\[\n= \\frac{3}{56} \\left[ \\frac{x^2}{2} + \\frac{4x^{3/2}}{3} + x \\right]_0^1\n\\]\n\\[\n= \\frac{3}{56} \\left[ \\frac{272}{12} \\right] = \\frac{17}{14} = 1.214\n\\]\n\\[\n(\\bar{x}, \\bar{y}) = \\left( \\frac{78}{35}, \\frac{17}{14} \\right) = (2.229, 1.214)\n\\]"
+  },
+  {
+    "query": "Q1d: If \\(\\frac{dy}{dx} = \\frac{3\\sqrt{x}}{2y}\\) and \\(y = 5\\) when \\(x = 4\\), find the value of \\(y\\) when \\(x = 9\\).",
+    "type": "NCEA",
+    "answer": "Q3 (a)  \n5"
+  },
+  {
+    "query": "(e) The centre of mass of an object is called the centroid. For a uniformly thin object, the centroid is at \\((\\bar{x}, \\bar{y})\\) where\n\n\\[\n\\bar{x} = \\frac{1}{A} \\int_a^b x f(x) \\, dx \\quad \\text{and} \\quad \\bar{y} = \\frac{1}{A} \\int_a^b \\left[ \\frac{f(x)}{2} \\right]^2 \\, dx\n\\]\n\n\\(A = \\text{area of object}\\)\n\n\\(a\\) and \\(b\\) are the lower and upper limits of \\(x\\) respectively.\n\nThe shape shown shaded in the diagram below is bounded by part of the curve \\(y = \\sqrt{x} + 1\\) and the lines \\(x = 0\\), \\(x = 4\\), and \\(y = 0\\).\n\nFind the coordinates \\((\\bar{x}, \\bar{y})\\) of the centroid of the shape.\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3 (b)  \n\\(\\frac{3}{4} x^3 + 2e^{3x-5} + c\\)"
+  },
+  {
+    "query": "It seems the page you provided is blank or contains only lines for writing. If you have another page with questions, please upload it, and I'll be happy to help extract the questions using OCR.",
+    "type": "NCEA",
+    "answer": "Q3 (c)(i)  \n\\(\\frac{dT}{dt} = k(T - 20)\\)"
+  },
+  {
+    "query": "Q3 (a) Use the values given below to find an approximation to \\(\\int_{2}^{5} f(x) \\, dx\\), using Simpson’s Rule.\n\n\\[\n\\begin{array}{c|cccccc}\nx & 2 & 2.5 & 3 & 3.5 & 4 & 4.5 & 5 \\\\\n\\hline\nf(x) & 0.8 & 1.12 & 2.02 & 2.17 & 2.28 & 1.56 & 1.2 \\\\\n\\end{array}\n\\]",
+    "type": "NCEA",
+    "answer": "Q3 (c)(ii)  \n\\[\n\\begin{align*}\n\\frac{1}{T - 20} \\frac{dT}{dt} &= k \\, dt \\\\\n\\ln(T - 20) &= kt + c \\\\\nT &= Ae^{kt} + 20 \\\\\nt = 0, \\, T = 220 &\\Rightarrow A = 200 \\\\\nt = 3, \\, T = 100 &\\Rightarrow 100 = 200e^{3k} + 20 \\\\\n0.4 &= e^{3k} \\\\\nk &= \\frac{\\ln 0.4}{3} \\approx -0.3054 \\\\\n\\therefore T &= 200e^{-0.3054t} + 20 \\\\\nt = 5 &\\Rightarrow T = 200e^{-0.3054 \\times 5} + 20 \\\\\n&= 63.43 \\, (\\degree C)\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "Q3 (b) Find \\(\\int \\left( \\sqrt[3]{x} + 6e^{3x^{-5}} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q3 (d)  \n\\[\n\\begin{align*}\n\\int_{4}^{9} 18x^{-\\frac{3}{2}} \\, dx &= \\left[ -36x^{-\\frac{1}{2}} \\right]_{4}^{9} \\\\\n&= \\left[ \\frac{-36}{\\sqrt{x}} \\right]_{4}^{9} \\\\\n&= \\frac{-36}{3} - \\frac{-36}{2} \\\\\n&= 6\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(c) An oven tray is taken from a hot oven and placed in a room that has a constant temperature of 20°C.\n\nThe rate at which the temperature of the oven tray changes at any instant is proportional to the difference between the temperature of the oven tray and the room temperature at that instant.\n\n(i) Write a differential equation that models this situation.",
+    "type": "NCEA",
+    "answer": "Q3 (e)  \n\\[\n\\begin{align*}\nh &= k \\int \\left( 12 + 3 \\cos \\frac{2\\pi t}{365} \\right) \\, dt \\\\\n&= k \\left[ 12t + \\frac{3 \\times 365}{2\\pi} \\sin \\frac{2\\pi t}{365} \\right] + c \\\\\nt = 0, \\, h = 84 &\\Rightarrow 84 = (12 \\times 0 + 0) + c \\\\\n&\\Rightarrow c = 84 \\\\\n\\text{At } t = 75, \\, 91 &= k \\left( 12 \\times 75 + \\frac{1095}{2\\pi} \\sin \\frac{150\\pi}{365} \\right) + 84 \\\\\n7 &= 1067.2k \\\\\nk &= 0.00656 \\\\\n\\therefore h &= 0.00656 \\left( 12t + \\frac{3 \\times 365}{2\\pi} \\sin \\frac{2\\pi t}{365} \\right) + 84 \\\\\n\\text{At } t = 365, \\, h &= 0.00656 \\left( 12 \\times 365 + \\frac{3 \\times 365}{2\\pi} \\sin \\frac{2\\pi \\times 365}{365} \\right) + 84 \\\\\nh &= 112.7 \\, \\text{cm}\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(ii) The temperature of the oven tray is originally 220°C. After 3 minutes its temperature is 100°C.\n\nSolve the differential equation in (i) to find what the temperature of the oven tray will be after a further 2 minutes.\n\nGive the result of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can help you with a description or analysis of the content if you provide the text."
+  },
+  {
+    "query": "Q1a. Find \\(\\int (\\sqrt{x} + 6 \\cos 2x) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1b. Solve the differential equation \\(\\frac{dy}{dx} = \\frac{2}{x}\\), given that when \\(x = 1\\), \\(y = 3\\).",
+    "type": "NCEA",
+    "answer": "Q1e:\n\nVol = \\(\\pi \\int_{0}^{\\frac{\\pi}{2}} (\\cos x)^2 dx\\)  \n= \\(\\pi \\int_{0}^{\\frac{\\pi}{2}} (\\cos^2 x) dx\\)  \n= \\(\\frac{\\pi}{2} \\int_{0}^{\\frac{\\pi}{2}} (\\cos 2x + 1) dx\\)  \n= \\(\\frac{\\pi}{2} \\left[ \\frac{\\sin 2x}{2} + x \\right]_{0}^{\\frac{\\pi}{2}}\\)  \n= \\(\\frac{\\pi}{2} \\left[ \\left( \\frac{\\sin \\pi}{2} - \\frac{\\pi}{2} \\right) - (\\sin 0 - 0) \\right]\\)  \n= \\(\\frac{\\pi}{2} \\times \\frac{\\pi}{2}\\)  \n= \\(\\frac{\\pi^2}{4}\\)  \n(= 2.467)"
+  },
+  {
+    "query": "Q1c. If \\(\\frac{dy}{dx} = \\frac{e^{2x}}{4y}\\) and \\(y = 4\\) when \\(x = 0\\), find the value of \\(y\\) when \\(x = 2\\).",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\[\n\\int (3 - \\frac{5}{x^2}) \\, dx = \\int (3 - 5x^{-2}) \\, dx \n= 3x + 5x^{-1} + c\n\\]"
+  },
+  {
+    "query": "Q1d Use integration to find the area enclosed between the curve \\( y = \\frac{5x - 3}{x + 3} \\) and the lines \\( y = 0 \\), \\( x = 2 \\) and \\( x = 5 \\).\n\nThe area is shown shaded in the diagram below.\n\nShow your working.\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\[\n\\text{Area} = \\frac{0.25}{2} [0.3 + 1.1 + 2(0.7 + 1.65 + 1.9 + 2.35 + 1.7)] \n= \\frac{1}{8} \\times 18 \n= 2.25\n\\]"
+  },
+  {
+    "query": "I'm unable to perform OCR on images directly. However, I can help you with instructions on how to use OCR software to extract text from images. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to extract the text and equations from the image. If you have the text extracted, feel free to share it here, and I can help you format it or answer any questions you have!",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\[\n\\frac{dv}{dr} = \\frac{50r^2 - 80\\sqrt{r}}{5\\sqrt{r}} = 10r^2 - 16\n\\]\n\\[\nv = \\int_0^5 (10r^2 - 16) \\, dr \n= 4r^3 - 16r + c\n\\]\n\\[\nt = 0, v = 6 \\Rightarrow c = 6\n\\]\n\\[\n\\therefore v = 4r^3 - 16r + 6\n\\]\n\\[\nt = 4 \\Rightarrow v = 70 \\, \\text{m s}^{-1}\n\\]"
+  },
+  {
+    "query": "The graph below shows the function \\( y = \\cos x \\), between \\( x = 0 \\) and \\( x = \\frac{\\pi}{2} \\), rotated around the \\( x \\)-axis.\n\nFind the volume created by this rotation.\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (d)(i)  \n\\[\n\\frac{dP}{dr} = kP\n\\]"
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int \\left( 3 - \\frac{5}{x^2} \\right) dx\\).",
+    "type": "NCEA",
+    "answer": "Q2 (d)(ii)  \n\\[\n\\int \\frac{1}{P} \\, dP = \\int k \\, dt\n\\]\n\\[\n\\ln P = kt + c\n\\]\n\\[\nP = e^{kt+c}\n\\]\n\\[\nP = Ae^{kt}\n\\]\n\\[\nt = 0, P = 12000 \\Rightarrow A = 12000 \\Rightarrow P = 12000e^{kt}\n\\]\n\\[\nt = 10, P = 16000 \\Rightarrow 16000 = 12000e^{10k}\n\\]\n\\[\n\\frac{4}{3} = e^{10k} \\Rightarrow 10k = \\ln \\left(\\frac{4}{3}\\right)\n\\]\n\\[\nk = 0.0288\n\\]\n\\[\n\\therefore P = 12000e^{0.0288t}\n\\]\n\\[\nt = 25 \\Rightarrow P = 12000e^{0.0288 \\times 25}\n= 24653\n\\]"
+  },
+  {
+    "query": "Q2 (b) Use the values given in the table below to find an approximation to \\(\\int_1^{2.5} f(x) dx\\), using the Trapezium Rule.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "(c) An object originally moving at a constant velocity suddenly starts to accelerate. From the start of the object’s acceleration the motion of the object can be modelled by the differential equation\n\n\\[\n\\frac{dv}{dt} = \\frac{50t^2 - 80\\sqrt{t}}{5\\sqrt{t}} \\quad \\text{for} \\quad 0 \\leq t \\leq 20\n\\]\n\nwhere \\( v \\) is the velocity of the object in m s\\(^{-1}\\) and \\( t \\) is the time in seconds after the object starts to accelerate.\n\nIf the original velocity of the object was 6 m s\\(^{-1}\\), find the velocity of the object when \\( t = 4 \\).\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3 (a) \\(\\frac{x^3}{3} + 4x^2 + 16x + 2e^{4x} + c\\)"
+  },
+  {
+    "query": "Q1d (i) In the town of Clarkeville, the rate at which the population, \\( P \\), of the town changes at any instant is proportional to the population of the town at that instant.\n\nWrite a differential equation which models this situation.",
+    "type": "NCEA",
+    "answer": "Q3 (b) 1"
+  },
+  {
+    "query": "Q1d (ii) At the start of 2000, the population of the town was 12,000. At the start of 2010, the population of the town was 16,000.\n\nSolve the differential equation in (i) to find the population the town will have at the start of 2025.\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3 (c) \nArea = \\(\\int_0^{\\frac{\\pi}{k}} \\sin kx \\, dx\\)  \n\\[= \\left[ -\\frac{\\cos kx}{k} + c \\right]_0^{\\frac{\\pi}{k}}\\]  \n\\[= \\left[ -\\frac{\\cos \\pi}{k} \\right] - \\left[ -\\frac{\\cos 0}{k} \\right]\\]  \n\\[= \\frac{1}{k} - \\left(-\\frac{1}{k}\\right)\\]  \n\\[= \\frac{2}{k}\\]"
+  },
+  {
+    "query": "Q1e The graphs of \\( y = \\frac{2}{x-1} \\) and \\( y = x \\) are shown on the axes below.\n\nThe shaded region has an area of 4 units squared.\n\nFind the value of \\( k \\).\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q3 (d) \n(i) \n\\(-x^2 + 2 = x^3 - x^2 - kx + 2\\)  \n\\[x^3 - kx = 0\\]  \n\\[x(x^2 - k) = 0\\]  \n\\[x = \\pm \\sqrt{k}\\]  \n\nArea A = \\(\\int_{-\\sqrt{k}}^0 \\left((x^3 - x^2 - kx + 2) - (-x^2 + 2)\\right) \\, dx\\)  \n\\[= \\int_{-\\sqrt{k}}^0 (x^3 - kx) \\, dx\\]  \n\\[= \\left[ \\frac{x^4}{4} - \\frac{kx^2}{2} \\right]_{-\\sqrt{k}}^0\\]  \n\\[= 0 - \\left( \\frac{k^2}{4} - \\frac{k^2}{2} \\right)\\]  \n\\[= \\frac{k^2}{4}\\]"
+  },
+  {
+    "query": "Q3 (a) Find \\(\\int ((x+4)^2 + 8e^{4-x}) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "(ii) \nArea B = \\(\\int_0^{\\sqrt{k}} \\left((-x^2 + 2) - (x^3 - x^2 - kx + 2)\\right) \\, dx\\)  \n\\[= \\int_0^{\\sqrt{k}} (kx - x^3) \\, dx\\]  \n\\[= \\left[ \\frac{kx^2}{2} - \\frac{x^4}{4} \\right]_0^{\\sqrt{k}}\\]  \n\\[= \\left( \\frac{k^2}{2} - \\frac{k^2}{4} \\right)\\]  \n\\[= \\frac{k^2}{4}\\]  \n\nTherefore both regions have the same area."
+  },
+  {
+    "query": "Q3 (b) The graph of the function \\(y = f(x)\\) below is symmetrical about the \\(y\\)-axis. The areas of the shaded regions are given. Find \\(\\int_{-2.5}^{2.5} f(x) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat or online tools. Once you have the text, feel free to share it here, and I can help you format it or answer any questions you have!"
+  },
+  {
+    "query": "Q1a) \\(\\int \\frac{2x^4 - x^2}{x^3} \\, dx\\)",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1b) \\(\\int \\sec(3x) \\tan(3x) \\, dx\\)",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1c) If \\(\\frac{dy}{dx} = \\frac{\\cos x}{3y}\\) and \\(y = 1\\) when \\(x = \\frac{\\pi}{6}\\), find the value of \\(y\\) when \\(x = \\frac{7\\pi}{6}\\).\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the answers using OCR software. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to extract the text from the image. Once you have the text, you can format it as needed.\n\nIf you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "Q1d: Use integration to find the area enclosed between the curve \\( y = e^{2x} - \\frac{1}{e^{3x}} \\) and the lines \\( y = 0 \\), \\( x = 0 \\), and \\( x = 1.2 \\) (the area shaded in the diagram below). You must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "(e) \n\n\\( (k-1)x^2 = 9 - x^2 \\)\n\n\\( kx^2 = 9 \\)\n\n\\( x^2 = \\frac{9}{k} \\)\n\n\\( x = \\pm \\frac{3}{\\sqrt{k}} \\)\n\nArea \\( = 2 \\times \\int_{0}^{\\frac{3}{\\sqrt{k}}} \\left( (9 - x^2) - (k-1)x^2 \\right) \\, dx \\)\n\n\\( = 2 \\times \\int_{0}^{\\frac{3}{\\sqrt{k}}} (9 - kx^2) \\, dx \\)\n\n\\( = 2 \\times \\left[ 9x - \\frac{kx^3}{3} \\right]_{0}^{\\frac{3}{\\sqrt{k}}} \\)\n\n\\( = 2 \\times \\left( \\frac{27}{\\sqrt{k}} - \\frac{9}{\\sqrt{k}} \\right) \\)\n\n\\( = \\frac{36}{\\sqrt{k}} \\)\n\n\\( \\therefore \\frac{36}{\\sqrt{k}} = 24 \\)\n\n\\( \\sqrt{k} = 1.5 \\)\n\n\\( k = 2.25 \\)"
+  },
+  {
+    "query": "(e) Mr Newton has a container of oil and places it in the garage. Unfortunately, he puts the container on top of a sharp nail and it begins to leak.\n\nThe rate of decrease of the volume of oil in the container is given by the differential equation\n\n\\[\n\\frac{dV}{dt} = -kVt\n\\]\n\nwhere \\( V \\) is the volume of oil remaining in the container \\( t \\) hours after the container was put in the garage.\n\nThe volume of oil in the container when it was placed in the garage was 3000 mL.\n\nAfter 20 hours, the volume of oil in the container was 2400 mL.\n\nHow much, if any, of the oil will remain in the container 96 hours after it was placed in the garage?\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3 (a)  \n\\[\n\\int_{4}^{t} \\left( 4 + \\frac{k}{x^2} \\right) dx = \\left[ 4x - \\frac{k}{x} \\right]_{4}^{t} \n\\]\n\\[\n= \\left( 16 - \\frac{k}{4} \\right) - (4 - k) \n\\]\n\\[\n= 12 + \\frac{3k}{4} \n\\]\n\\[\n12 + \\frac{3k}{4} = 0 \n\\]\n\\[\nk = -16 \n\\]"
+  },
+  {
+    "query": "Q2 (a) Find \\( \\int (5x^2 - 1)^2 \\, dx \\).",
+    "type": "NCEA",
+    "answer": "Q3 (b)  \n7.8"
+  },
+  {
+    "query": "Q2 (b) The graph of a function \\( y = f(x) \\) is shown below.\n\nThe areas of two of the shaded regions are given.\n\nIf \\( \\int_{P}^{Q} f(x) \\, dx = 9.4 \\), what is the area of shaded region A?",
+    "type": "NCEA",
+    "answer": "Q3 (c)  \n\\[\n2 - x^2 = -x \n\\]\n\\[\nx^2 - x - 2 = 0 \n\\]\n\\[\n(x - 2)(x + 1) = 0 \n\\]\n\\[\nx = 2, -1 \n\\]\n\\[\n\\text{Area} = \\int_{-1}^{2} [(2 - x^2) - (-x)] dx \n\\]\n\\[\n= \\int_{-1}^{2} (2 - x^2 + x) dx \n\\]\n\\[\n= \\left[ 2x - \\frac{x^3}{3} + \\frac{x^2}{2} \\right]_{-1}^{2} \n\\]\n\\[\n= \\left( 4 - \\frac{8}{3} + 2 \\right) - \\left( -2 + \\frac{1}{3} + \\frac{1}{2} \\right) \n\\]\n\\[\n= 4.5 \n\\]"
+  },
+  {
+    "query": "(c) The acceleration of an object is given by \\( a(t) = 0.2t + 0.3\\sqrt{t} \\) for \\( 0 \\leq t \\leq 10 \\).\n\nwhere \\( a \\) is the acceleration of the object in m s\\(^{-2}\\) and \\( t \\) is the time in seconds from when the object started to move.\n\nThe object was moving with a velocity of 5 m s\\(^{-1}\\) when \\( t = 4 \\).\n\nHow far was the object from its starting point after 9 seconds?\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q3 (d)  \n\\[\n\\int \\frac{e^{3x} - x^2}{e^{x} - x} dx = \\frac{1}{3} \\int \\frac{3e^{3x} - 3x^2}{e^{x} - x} dx \n\\]\n\\[\n= \\frac{1}{3} \\ln |e^{3x} - x^3| + c \n\\]"
+  },
+  {
+    "query": "(d) Find the value of the constant \\( m \\) such that\n\n\\[\n\\int_{m}^{2m} (2x - m)^2 \\, dx = 117.\n\\]\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can guide you on how to use OCR software to extract the text yourself. You can use tools like Adobe Acrobat, Tesseract, or online OCR services to convert the image into text. If you have any questions about using these tools, feel free to ask!"
+  },
+  {
+    "query": "Q1 (a) Find \\(\\int 4 \\sec^2 2x \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: 2 \\tan 2x + c"
+  },
+  {
+    "query": "Q1 (b) Use integration to find the area enclosed between the curve \\(y = \\frac{x^2 + \\sqrt{x}}{x}\\) and the lines \\(y = 0\\), \\(x = 1\\), and \\(x = 4\\) (the area shaded in the diagram below).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1b:  \n\\[\n\\text{Area} = \\int_{1}^{4} \\left( x + \\frac{1}{x^2} \\right) \\, dx \n= \\left[ \\frac{x^2}{2} + \\frac{x^{-1}}{-1} \\right]_{1}^{4} \n= \\left[ \\frac{x^2}{2} + 2\\sqrt{x} \\right]_{1}^{4} \n= (8 + 4) - \\left( \\frac{1}{2} + 2 \\right) \n= 9.5\n\\]"
+  },
+  {
+    "query": "(c) An object’s acceleration is modelled by the function\n\n\\[ a(t) = 1.2\\sqrt{t} \\]\n\nwhere \\( a \\) is the acceleration of the object, in m s\\(^{-2}\\) and \\( t \\) is the time in seconds since the start of the object’s motion.\n\nIf the object had a velocity of 7 m s\\(^{-1}\\) after 4 seconds, how far did it travel in the first 9 seconds of motion?\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1c:  \n\\[\nv(t) = \\int 1.2t^2 \\, dt \n= 0.8t^3 + c \n\\]\n\\[\nt = 4, \\, v = 7 \n\\]\n\\[\n7 = 0.8(4)^3 + c \n\\]\n\\[\n7 = 6.4 + c \n\\]\n\\[\nc = 0.6 \n\\]\n\\[\nv(t) = 0.8t^3 + 0.6 \n\\]\n\\[\nd(t) = \\int 0.8t^3 + 0.6 \n= 0.32t^4 + 0.6t + c \n\\]\n\\[\nd(9) = 0.32(9)^4 + 0.6 \\times 9 = 83.16 \\, \\text{m}\n\\]"
+  },
+  {
+    "query": "(d) Find the value of \\( k \\) if\n\n\\[ \\int_{0}^{k} 3e^{2x} \\, dx = 4. \\]\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\[\n\\int_{0}^{k} 3e^{2x} \\, dx = 4 \n\\]\n\\[\n\\frac{3}{2} \\left[ e^{2x} \\right]_{0}^{k} = 4 \n\\]\n\\[\ne^{2k} - e^0 = \\frac{8}{3} \n\\]\n\\[\ne^{2k} = \\frac{11}{3} \n\\]\n\\[\nk = \\frac{1}{2} \\ln \\left( \\frac{11}{3} \\right) = 0.6496\n\\]"
+  },
+  {
+    "query": "(e) The mean value of a function \\( y = f(x) \\) from \\( x = a \\) to \\( x = b \\) is given by\n\n\\[\n\\text{Mean value} = \\frac{1}{b-a} \\int_{a}^{b} f(x) \\, dx\n\\]\n\nFind the mean value of \\( y = \\sin^2 x \\) between \\( x = 0 \\) and \\( x = \\pi \\).\n\nPart of the graph of \\( y = \\sin^2 x \\) is shown below.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "(e) \n\n\\[\n\\cos 2x = 1 - 2 \\sin^2 x\n\\]\n\n\\[\n\\therefore \\sin^2 x = \\frac{1}{2} (1 - \\cos 2x)\n\\]\n\nMean value = \n\n\\[\n\\frac{1}{\\pi - 0} \\int_0^\\pi \\sin^2 x \\, dx\n\\]\n\n\\[\n= \\frac{1}{2\\pi} \\int_0^\\pi (1 - \\cos 2x) \\, dx\n\\]\n\n\\[\n= \\left[ x - \\frac{1}{2} \\sin 2x \\right]_0^\\pi\n\\]\n\n\\[\n= \\frac{2\\pi}{2\\pi} \\left( \\pi - \\frac{1}{2} \\sin 2\\pi \\right) - (0 - 0)\n\\]\n\n\\[\n= \\frac{1}{2}\n\\]"
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int \\frac{6}{2x-1} \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(3 \\ln(2x-1) + c\\)"
+  },
+  {
+    "query": "Q2 (b) Find \\(\\int (2x-5)^4 \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1b: \\(\\frac{(2x-5)^5}{10} + c\\)  \nOR  \n\\(\\frac{16x^5}{5} - 40x^4 + 200x^3 - 500x^2 + 625x + c\\)"
+  },
+  {
+    "query": "(c) The diagram below shows the curve \\( y = -x^2 + 3x + 10 \\), and the line \\( y = -x + 14 \\), which is the tangent to the curve at the point (2, 12).\n\nCalculate the shaded area.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1c:  \nArea = \\(\\int_{2}^{14} (-x+14) \\, dx - \\int_{2}^{5} (-x^2 + 3x + 10) \\, dx\\)  \n\\[= \\left[ -\\frac{x^2}{2} + 14x \\right]_{2}^{14} - \\left[ -\\frac{x^3}{3} + \\frac{3x^2}{2} + 10x \\right]_{2}^{5}\\]  \n\\[= 72 - 22.5\\]  \n\\[= 49.5\\]  \nOR  \nArea = \\(\\frac{1}{2} \\times 12 \\times 12 - \\int_{2}^{5} (-x^2 + 3x + 10) \\, dx\\)  \n\\[= 72 - \\left[ -\\frac{x^3}{3} + \\frac{3x^2}{2} + 10x \\right]_{2}^{5}\\]  \n\\[= 72 - [45.833 - 23.333]\\]  \n\\[= 72 - 22.5\\]  \n\\[= 49.5\\]"
+  },
+  {
+    "query": "Q1d Part of the graph of \\( y = \\sin 3x \\cos 2x \\) is shown below.\n\nFind the area enclosed between the curve \\( y = \\sin 3x \\cos 2x \\) and the lines \\( y = 0 \\), \\( x = 0 \\), and \\( x = \\frac{\\pi}{4} \\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1d:  \nArea = \\(\\int_{0}^{\\frac{\\pi}{2}} \\sin 3x \\cos 2x \\, dx\\)  \n\\[= \\frac{1}{2} \\int_{0}^{\\frac{\\pi}{2}} (\\sin 5x + \\sin x) \\, dx\\]  \n\\[= \\frac{1}{2} \\left[ -\\frac{\\cos 5x}{5} - \\cos x \\right]_{0}^{\\frac{\\pi}{4}}\\]  \n\\[= \\frac{1}{2} \\left[ \\left( -\\frac{1}{5} \\cos \\frac{5\\pi}{4} - \\cos \\frac{\\pi}{4} \\right) - \\left( -\\frac{1}{5} \\cos 0 - \\cos 0 \\right) \\right]\\]  \n\\[= \\frac{1}{2} [0.1414 - 0.7071 + 0.2 + 1]\\]  \n\\[= 0.3172\\]"
+  },
+  {
+    "query": "(e) The acceleration of an object is modelled by the function \\( a(t) = \\frac{20 \\ln t}{t} \\),\n\nwhere \\( a \\) is the acceleration of the object in m s\\(^{-2}\\) and \\( t \\) is the time in seconds since the start of the object’s motion.\n\nThe object was moving with a velocity of 12 m s\\(^{-1}\\) when \\( t = 4 \\).\n\nFind the velocity of the object after 10 seconds.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1e: \n\n\\[ v = \\int 20 \\ln t \\, dt \\]\n\n\\[ = 20 \\int \\ln t \\, dt \\]\n\n\\[ = 20 \\times \\frac{( \\ln t )^2}{2} + c \\]\n\n\\[ = 10 ( \\ln t )^2 + c \\]\n\n\\[ t = 4, \\, v = 12 \\]\n\n\\[ 12 = 10 ( \\ln 4 )^2 + c \\]\n\n\\[ c = 12 - 10 ( \\ln 4 )^2 = -7.218 \\]\n\n\\[ v = 10 ( \\ln t )^2 - 7.218 \\]\n\n\\[ t = 10 \\]\n\n\\[ v = 10 ( \\ln 10 )^2 - 7.218 \\]\n\n\\[ v = 45.8 \\, \\text{m s}^{-1} \\]"
+  },
+  {
+    "query": "Q3a. Find \\(\\int \\left( \\frac{9}{x^4} + 8e^{4x} \\right) dx\\).",
+    "type": "NCEA",
+    "answer": "Q3 (a) \\(-3x^3 + 2e^x + c\\)"
+  },
+  {
+    "query": "(b) Julia wants to find an approximation of the area of a paved courtyard that she wishes to construct on her property. She takes some measurements and these are shown on the diagram below.\n\nUsing these measurements, and the Trapezium rule, find an approximation of the area of the paved courtyard.",
+    "type": "NCEA",
+    "answer": "(b) 82 m\\(^2\\)"
+  },
+  {
+    "query": "(c) Julia’s friend Sarah believes that the equation of the curved border of the paved courtyard can be modelled by the function \\( y = \\frac{15x - 15}{x + 2} \\).\n\nUse integration to find the area of the courtyard, shown in the diagram above.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "(c)  \n\\[\n\\text{Area} = \\int_1^3 \\frac{15x - 15}{x + 2} \\, dx = 15 \\left[ \\ln \\left( \\frac{x - 3}{x + 2} \\right) \\right]_1^3 = 15 \\left[ x - 3 \\ln(x + 2) \\right]_1^3 = 15 \\left[ (11 - 3 \\ln 13) - (1 - 3 \\ln 3) \\right] = 15 \\left[ 10 + 3 \\ln \\left( \\frac{3}{13} \\right) \\right] = 84.015 \\, \\text{m}^2\n\\]\nIf use substitution this is the integrated expression: \\(15(x + 2) - 45 \\ln(x + 2)\\)"
+  },
+  {
+    "query": "Q1d: Solve the differential equation \\(\\frac{dy}{dx} = \\frac{y}{\\sqrt{x}}\\), given that when \\(x = 4\\), then \\(y = 1\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "(d)  \n\\[\n\\int \\frac{1}{y} \\, dy = \\int \\frac{1}{\\sqrt{x}} \\, dx\n\\]\n\\[\n\\ln y = 2x^{\\frac{1}{2}} + c\n\\]\n\\[\n\\ln y = 2\\sqrt{x} + c\n\\]\n\\[\nx = 4, \\, y = 1\n\\]\n\\[\n0 = 4 + c\n\\]\n\\[\nc = -4\n\\]\n\\[\n\\ln y = 2\\sqrt{x} - 4\n\\]\n\\[\ny = e^{2\\sqrt{x} - 4}\n\\]\nor \\(y = 0.0183e^{2\\sqrt{x}}\\)"
+  },
+  {
+    "query": "Q1e: \\( y \\) and \\( t \\) satisfy the differential equation \\(\\frac{dy}{dt} = k \\cos 0.5t \\times e^{\\sin 0.5t}, \\, 0 \\leq t \\leq 5\\).\n\nGiven that when \\( t = 0, \\, y = 8 \\), and that when \\( t = 2, \\, y = 12 \\), find the value of \\( y \\) when \\( t = 5 \\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "(e) \n\n\\[\n\\frac{dy}{dt} = k \\cos 0.5t e^{\\sin 0.5t}\n\\]\n\n\\[\ny = 2ke^{\\sin 0.5t} + c\n\\]\n\n\\[\nt = 0, y = 8\n\\]\n\n\\[\n8 = 2ke^0 + c\n\\]\n\n\\[\n8 = 2k + c\n\\]\n\n\\[\nt = 2, y = 12\n\\]\n\n\\[\n12 = 2ke^{\\sin 1} + c\n\\]\n\n\\[\n12 = 2k \\times 2.34 + c\n\\]\n\n\\[\n12 = 4.64k + c\n\\]\n\n\\[\n\\therefore 4 = 2.64k\n\\]\n\n\\[\nk = \\frac{4}{2.64} = 1.52\n\\]\n\n\\[\nc = 8 - (2 \\times 1.52) = 4.96\n\\]\n\n\\[\n\\therefore y = 3.04e^{\\sin 0.5t} + 4.96\n\\]\n\n\\[\nt = 5 \\Rightarrow y = 3.04e^{\\sin 2.5} + 4.96\n\\]\n\n\\[\ny = 10.49\n\\]"
+  },
+  {
+    "query": "(a) Find \\(\\int \\left( 6x - \\frac{8}{x^3} \\right) \\, dx\\)",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can help you with the text if you provide it. If you have any questions or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "(b) Solve the differential equation \\(\\frac{dy}{dx} = e^{2x} + \\frac{1}{x}\\), given that when \\(x = 1\\), \\(y = 2\\).",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat or online tools like OnlineOCR. Once you have the text, feel free to share it here, and I can help you format or analyze it!"
+  },
+  {
+    "query": "(c) Find \\(\\int_{6}^{8} \\frac{2x - 7}{x - 5} \\, dx\\)\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\(\\tan x + \\frac{1}{2} \\sec 2x + c\\)"
+  },
+  {
+    "query": "Q1d. Solve the differential equation \\(\\frac{dy}{dx} = \\frac{\\cos 2x}{e^y}\\) given that \\(y = 0\\) when \\(x = \\frac{\\pi}{4}\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\[\n\\int_1^k \\sqrt{x} \\, dx = \\frac{52}{3}\n\\]\n\\[\n\\left[ \\frac{2}{3} x^{\\frac{3}{2}} \\right]_1^k = \\frac{52}{3}\n\\]\n\\[\n\\frac{2}{3} k^{\\frac{3}{2}} - \\frac{2}{3} = \\frac{52}{3}\n\\]\n\\[\n\\frac{2}{3} k^{\\frac{3}{2}} = \\frac{54}{3}\n\\]\n\\[\nk^{\\frac{3}{2}} = 27\n\\]\n\\[\nk = 27^{\\frac{2}{3}}\n\\]\n\\[\nk = 9\n\\]"
+  },
+  {
+    "query": "(e) The diagram below shows the graph of the function \\( f(x) = \\frac{1}{2} (e^x - 1) \\).\n\nThe point \\( Q(k, k) \\) lies on the curve.  \nThe shaded region in the diagram is bounded by the curve, the x-axis and the line \\( x = k \\).\n\nShow that the shaded region has an area of \\( \\frac{1}{2} k \\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\[\n\\int_0^k (\\cos^2 x - \\sin^2 x) \\, dx = \\frac{1}{2}\n\\]\n\\[\n\\int_0^k \\cos(2x) \\, dx = \\frac{1}{2}\n\\]\n\\[\n\\left[ \\frac{1}{2} \\sin(2x) \\right]_0^k = \\frac{1}{2}\n\\]\n\\[\n[\\sin(2x)]_0^k = 1\n\\]\n\\[\n\\sin 2k - \\sin 0 = 1\n\\]\n\\[\n2k = \\sin^{-1}(1)\n\\]\n\\[\nk = \\frac{\\pi}{4}\n\\]"
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int (\\sec^2 x + \\sec 2x \\tan 2x) \\, dx\\)",
+    "type": "NCEA",
+    "answer": "Q1d:\n\\( a(t) = \\frac{2}{\\sqrt{t+1}} = 2(t+1)^{-\\frac{1}{2}} \\)\n\n\\( v(t) = 4(t+1)^{\\frac{1}{2}} + c \\)\n\nAt \\( t = 3 \\), \\( 9 = 4\\sqrt{4} + c \\)\n\n\\( c = 1 \\)\n\n\\(\\therefore v(t) = 4(t+1)^{\\frac{1}{2}} + 1 \\)\n\nDistance \\( = \\int_{0}^{8} (4(t+1)^{\\frac{1}{2}} + 1) \\, dt \\)\n\n\\( = \\left[ \\frac{8}{3} (t+1)^{\\frac{3}{2}} + t \\right]_{0}^{8} \\)\n\n\\( = \\left[ \\frac{8}{3} (9)^{\\frac{3}{2}} + 8 \\right] - \\left[ \\frac{8}{3} (1)^{\\frac{3}{2}} + 0 \\right] \\)\n\n\\( = 80 - \\frac{8}{3} \\)\n\n\\( = 77 \\frac{1}{3} \\, \\text{m} \\)"
+  },
+  {
+    "query": "Q2 (b) Find the value of \\(k\\), given that \\(\\int_1^k \\sqrt{x} \\, dx = \\frac{52}{3}\\). You must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\\[\n\\frac{dm}{dt} = -k(m-10)\n\\]\n\n\\[\n\\int \\frac{dm}{m-10} = \\int -k \\, dt\n\\]\n\n\\[\n\\ln |m-10| = -kt + c\n\\]\n\n\\[\nm-10 = e^{-kt+c}\n\\]\n\n\\[\nm-10 = Ae^{-kt}\n\\]\n\n\\[\nm = Ae^{-kt} + 10\n\\]\n\nAt \\( t = 0, \\, m = 140 \\)\n\n\\[\n140 = 10 + A e^{0}\n\\]\n\n\\[\nA = 130\n\\]\n\n\\[\nm = 10 + 130e^{-kt}\n\\]\n\nAt \\( t = 3, \\, m = 70 \\)\n\n\\[\n70 = 10 + 130e^{-3k}\n\\]\n\n\\[\ne^{-3k} = \\frac{6}{13}\n\\]\n\n\\[\n\\ln \\frac{6}{13} = -3k\n\\]\n\n\\[\nk = \\frac{\\ln \\frac{6}{13}}{-3} = 0.2577\n\\]\n\n\\[\nm = 10 + 130e^{-0.2577t}\n\\]\n\n\\[\n50 = 10 + 130e^{-0.2577t}\n\\]\n\n\\[\ne^{-0.2577t} = \\frac{4}{13}\n\\]\n\n\\[\n\\ln \\frac{4}{13} = -0.2577t\n\\]\n\n\\[\nt = \\frac{\\ln \\frac{4}{13}}{-0.2577} = 4.57 \\, \\text{(hours)}\n\\]"
+  },
+  {
+    "query": "(c) The diagram below shows the graphs of the functions \\( y = \\cos^2 x \\) and \\( y = \\sin^2 x \\).\n\nFind the value of \\( k \\) such that\n\n\\[\n\\int_{0}^{k} (\\cos^2 x - \\sin^2 x) \\, dx = \\frac{1}{2}.\n\\]\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, you can use an OCR tool to extract the text and then provide it here for further assistance."
+  },
+  {
+    "query": "Q1d: An object’s acceleration can be modelled by the equation \\( a(t) = \\frac{2}{\\sqrt{t+1}} \\), where \\( t \\geq 0 \\).\n\nwhere \\( a \\) is the acceleration of the object in m s\\(^{-2}\\) and \\( t \\) is the time in seconds from the start of timing.\n\nThe object has a velocity of 9 m s\\(^{-1}\\) when \\( t = 3 \\).\n\nHow far did the object travel in the first 8 seconds of its timed motion?\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "(a) \\(\\frac{16}{3} x^3 + 2x^2 + 4 \\ln |x|\\)"
+  },
+  {
+    "query": "(e) The mass, \\( m \\) grams, of a burning candle \\( t \\) hours after it was first lit can be modelled by the differential equation\n\n\\[\n\\frac{dm}{dt} = -k(m - 10) \\text{ where } k > 0 \\text{ and } m \\geq 10.\n\\]\n\nThe initial mass of the candle was 140 grams. 3 hours later the mass of the candle had halved.\n\nFind the length of time it will take for the mass of the candle to reduce to 50 grams.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "(b) 3.2"
+  },
+  {
+    "query": "Q3 (a) Find \\(\\int \\left( (4x)^2 + 4x + \\frac{4}{x} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "(c)  \n\\[\n\\int_0^k 3e^{0.5x} \\, dx = \\left[ 6e^{0.5x} \\right]_0^k \n\\]\n\\[\n\\therefore 6e^{0.5k} - 6 = 75 \n\\]\n\\[\n6e^{0.5k} = 81 \n\\]\n\\[\ne^{0.5k} = 13.5 \n\\]\n\\[\n0.5k = \\ln(13.5) \n\\]\n\\[\nk = \\frac{\\ln(13.5)}{0.5} \\quad (= 5.21) \n\\]"
+  },
+  {
+    "query": "Q3 (b) Use the values given in the table below to find an approximation to \\(\\int_0^3 f(x) \\, dx\\), using Simpson’s Rule.  \n\n\\[\n\\begin{array}{c|ccccccc}\nx & 0 & 0.5 & 1 & 1.5 & 2 & 2.5 & 3 \\\\\n\\hline\nf(x) & 0.3 & 0.75 & 1.1 & 1.35 & 1.6 & 1.15 & 0.5 \\\\\n\\end{array}\n\\]",
+    "type": "NCEA",
+    "answer": "(d)  \n\\[\nx = x^{\\frac{1}{3}} \n\\]\n\\[\nx^6 = x \n\\]\n\\[\nx^6 - x = 0 \n\\]\n\\[\nx(x^5 - 1) = 0 \n\\]\n\\[\nx = 0 \\text{ or } x = 1 \n\\]\n\\[\n\\text{Area} = \\int_0^1 \\left( x^{\\frac{1}{3}} - x^2 \\right) \\, dx \n\\]\n\\[\n= \\left[ \\frac{3}{4} x^{\\frac{4}{3}} - \\frac{x^3}{3} \\right]_0^1 \n\\]\n\\[\n= \\left( \\frac{3}{4} - \\frac{1}{3} \\right) \n\\]\n\\[\n= \\frac{5}{12} \\text{ (or 0.417)} \n\\]"
+  },
+  {
+    "query": "Q3 (c) Find the value of \\(k\\) given that \\(\\int_0^k 3e^{0.5x} \\, dx = 75\\).",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\( y = (2x - 1)^4 \\)\n\nWhen \\( y = 0, (2x - 1)^4 = 0 \\)\n\n\\( x = \\frac{1}{2} \\)\n\n∴ \\( P \\) is the point \\( \\left( \\frac{1}{2}, 0 \\right) \\)\n\n\\( y = (2x - 1)^4 \\)\n\n\\(\\frac{dy}{dx} = 8(2x - 1)^3\\)\n\n\\(\\frac{dy}{dx} = 8\\)\n\nWhen \\( x = 1 \\), \\( y - 1 = 8(x - 1) \\)\n\n\\( y = 8x - 7 \\)\n\n\\[\n= \\int_{\\frac{1}{2}}^1 (2x - 1)^4 \\, dx\n\\]\n\nArea under the curve between \\( P \\) and \\( Q = \\left[ \\frac{1}{10} (2x - 1)^5 \\right]_{{\\frac{1}{2}}}^1 \\)\n\n\\[\n= \\frac{1}{10}\n\\]\n\nTangent intercepts x-axis when \\( 8x - 7 = 0 \\)\n\n\\( x = \\frac{7}{8} \\)\n\nArea under tangent \\( = \\frac{1}{2} \\times \\frac{1}{8} \\times 1 = \\frac{1}{16} \\)\n\nShaded area \\( = \\frac{1}{10} - \\frac{1}{16} \\)\n\n\\[\n= \\frac{3}{80}\n\\]"
+  },
+  {
+    "query": "Q1 (a) Find \\(\\int \\left( 2 + \\frac{2}{\\sqrt{x}} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{1}{2}x + 4x^2 + c\\)"
+  },
+  {
+    "query": "Q1 (b) Use the values given in the table below to find an approximation to \\(\\int_{2}^{5} f(x) \\, dx\\), using the Trapezium Rule.",
+    "type": "NCEA",
+    "answer": "Q1b: 6.8"
+  },
+  {
+    "query": "Q1 (c) Find \\(\\int_{0}^{\\frac{\\pi}{12}} \\cos 4x \\cdot \\cos 2x \\, dx\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\n\\begin{align*}\n\\int_0^{\\frac{\\pi}{12}} \\cos 4x \\cdot \\cos 2x \\, dx &= \\frac{1}{2} \\int_0^{\\frac{\\pi}{12}} (\\cos 6x + \\cos 2x) \\, dx \\\\\n&= \\frac{1}{2} \\left[ \\frac{\\sin 6x}{6} + \\frac{\\sin 2x}{2} \\right]_0^{\\frac{\\pi}{12}} \\\\\n&= \\frac{1}{2} \\left( \\frac{\\sin \\frac{\\pi}{2}}{6} + \\frac{\\sin \\frac{\\pi}{6}}{2} \\right) - (0 + 0) \\\\\n&= \\frac{1}{2} \\left( \\frac{1}{6} + \\frac{1}{4} \\right) \\\\\n&= \\frac{5}{24}\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "Q1d The graph below shows the curve \\( y = \\frac{6}{\\sqrt{3x+1}} \\).\n\nShow that the areas of regions A and B are equal.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1d: \n\\[\n\\begin{align*}\n\\int_0^{16} \\frac{6}{\\sqrt{3x+1}} \\, dx &= \\left[ 4(3x+1)^{\\frac{1}{2}} \\right]_0^{16} \\\\\n&= 4 \\times \\sqrt{49} - 4 \\times \\sqrt{1} \\\\\n&= 24 \\\\\n\\int_0^{5} \\frac{6}{\\sqrt{3x+1}} \\, dx &= \\left[ 4(3x+1)^{\\frac{1}{2}} \\right]_0^{5} \\\\\n&= 4 \\times \\sqrt{16} - 4 \\times \\sqrt{1} \\\\\n&= 12 \\\\\n\\text{Therefore area A is half the total area, so area A = area B.}\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(e) The rate of change of quantity \\( N \\) at any instant is given by the differential equation:\n\n\\[\n\\frac{dN}{dt} = kN\n\\]\n\nIf \\( N \\) has positive values \\( N_1 \\) and \\( N_2 \\) at times \\( t_1 \\) and \\( 2t_1 \\) respectively, prove that\n\n\\[\nk = \\frac{1}{t_1} \\ln \\left( \\frac{N_2}{N_1} \\right)\n\\]\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\n\\frac{dN}{dt} = kN\n\\]\n\n\\[\n\\int \\frac{1}{N} \\, dN = \\int k \\, dt\n\\]\n\n\\[\n\\ln N = kt + c\n\\]\n\n\\[\nc = \\ln N_1 - kt_1\n\\]\n\n\\[\n\\ln N_2 = k2t_1 + c\n\\]\n\n\\[\nc = \\ln N_2 - 2kt_1\n\\]\n\n\\[\n\\therefore \\ln N_2 - 2kt_1 = \\ln N_1 - kt_1\n\\]\n\n\\[\n\\ln N_2 - \\ln N_1 = 2kt_1 - kt_1\n\\]\n\n\\[\n\\ln \\left( \\frac{N_2}{N_1} \\right) = kt_1\n\\]\n\n\\[\nk = \\frac{1}{t_1} \\ln \\left( \\frac{N_2}{N_1} \\right)\n\\]"
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int (1 + 2e^{4x}) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q2 (a) \\( x + 0.5e^{4x} + c \\)"
+  },
+  {
+    "query": "Q2 (b) The graph of \\(y = f(x)\\) shown below has the \\(y\\)-axis as a line of symmetry. The areas of the shaded regions are shown. If \\(\\int_{-A}^{A} f(x) \\, dx = 5.8\\), what is the value of \\(\\int_{-B}^{B} f(x) \\, dx\\)?",
+    "type": "NCEA",
+    "answer": "Q2 (b) 8.2"
+  },
+  {
+    "query": "(c) Find \\( k \\) such that \\(\\int_{3}^{k} \\frac{8}{2x-5} \\, dx = 10\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\[\n\\int_3^k \\frac{8}{2x-5} \\, dx = \\left[ 4 \\ln |2x-5| \\right]_3^k \n\\]  \n\\[\n= 4 \\ln |2k-5| - 4 \\ln |1| \n\\]  \n\\[\n= 4 \\ln |2k-5| \n\\]  \n\\[\n\\therefore 4 \\ln (2k-5) = 10 \n\\]  \n\\[\n\\ln (2k-5) = 2.5 \n\\]  \n\\[\nk = \\frac{e^{2.5} + 5}{2} = 8.59 \n\\]"
+  },
+  {
+    "query": "(d) The diagram below shows the graph of the function \\( y = \\cos^2 x \\).\n\nFind the area of the shaded region.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\[\n\\int_0^\\pi \\cos^2 x \\, dx = \\left[ \\frac{1}{2} \\int_0^\\pi (\\cos 2x + 1) \\, dx \\right] \n\\]  \n\\[\n= \\frac{1}{2} \\left[ \\frac{\\sin 2x}{2} + x \\right]_0^\\pi \n\\]  \n\\[\n= \\frac{1}{2} \\left[ \\left( \\frac{\\sin 2\\pi}{2} + \\pi \\right) - \\left( \\sin 0 - 0 \\right) \\right] \n\\]  \n\\[\n= \\frac{\\pi}{2} \n\\]"
+  },
+  {
+    "query": "(e) The diagram below shows the graphs of the functions \\( y = (e^x)^2 \\) and \\( y = 20 - (e^x)^2 \\).\n\nFind the area of the region shaded in the diagram.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (e)  \n\\[\n(e^x)^2 = 20 - (e^x)^2 \n\\]  \n\\[\ne^{2x} = 20 - e^{2x} \n\\]  \n\\[\n2e^{2x} = 20 \n\\]  \n\\[\ne^{2x} = 10 \n\\]  \n\\[\nx = \\frac{\\ln 10}{2} (= 1.151) \n\\]  \nArea =  \n\\[\n\\int_0^{\\ln 10} (20 - e^{2x} - e^{2x}) \\, dx \n\\]  \n\\[\n= \\int_0^{\\ln 10} (20 - 2e^{2x}) \\, dx \n\\]  \n\\[\n= \\left[ 20x - e^{2x} \\right]_0^{\\ln 10} \n\\]  \n\\[\n= \\left( 20 \\times \\frac{\\ln 10}{2} - 10 \\right) - (0 - 1) \n\\]  \n\\[\n= 10 \\ln 10 - 9 \n\\]  \n\\[\n(= 14.03) \n\\]"
+  },
+  {
+    "query": "(a) Find \\(\\int 24(2x-1)^3 \\, dx\\).",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text from the image directly. However, you can use an OCR tool to extract the text and then provide it here for further assistance."
+  },
+  {
+    "query": "(b) Solve the differential equation \\(\\frac{dy}{dx} = 4 \\sec^2 2x\\), given that when \\(x = \\frac{\\pi}{8}\\), \\(y = 5\\).",
+    "type": "NCEA",
+    "answer": "Q3 (a)  \n\\( 3(2x - 1)^4 + c \\)  \nOR \\( 48x^4 - 96x^3 + 72x^2 - 24x + c \\)"
+  },
+  {
+    "query": "(c) Find \\(\\int_1^4 \\frac{x+1 - \\frac{x}{x+1}}{x+1} \\, dx\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q3 (b)  \n\\[\n\\begin{align*}\n\\frac{dy}{dx} &= 4\\sec^2 2x \\\\\ny &= 2\\tan 2x + c \\\\\nx &= \\frac{\\pi}{8}, \\, y = 5 \\\\\n5 &= 2\\tan\\left(\\frac{\\pi}{4}\\right) + c \\\\\n5 &= 2 + c \\\\\nc &= 3 \\\\\ny &= 2\\tan 2x + 3\n\\end{align*}\n\\]  \nPossible N2: \\( y = 2\\tan 2x \\)"
+  },
+  {
+    "query": "Q3d If \\(\\frac{dy}{dx} = \\frac{4x}{4x^2 - 3} + \\sqrt{x}\\) and \\(y(1) = 2\\), find \\(y(4)\\).",
+    "type": "NCEA",
+    "answer": "Q3 (c)  \n\\[\n\\begin{align*}\n\\int_1^4 \\left( x + 1 - \\frac{x}{x+1} \\right) \\, dx &= \\int_1^4 \\left( x + 1 + 1 - \\frac{1}{x+1} \\right) \\, dx \\\\\n&= \\left[ \\frac{x^2}{2} + 2x - \\ln(x+1) \\right]_1^4 \\\\\n&= (16 - \\ln 5) - (2.5 - \\ln 2) \\\\\n&= 13.5 - \\ln 5 + \\ln 2 \\\\\n&= 12.58\n\\end{align*}\n\\]  \nUsing substitution:  \n\\[\n\\begin{align*}\n\\left[ \\frac{u^2}{2} + u - \\ln u \\right]_2^5 &= \\left[ \\frac{(x+1)^2}{2} + x + 1 - \\ln(x+1) \\right]_1^4 \\\\\n&= (17.5 - \\ln 5) - (4 - \\ln 2)\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(e) An inverted right pyramid has a square base and a height of 1.5 m. The pyramid is initially filled with water to a depth of 1 m, as shown.\n\nThe energy required to pump water out of a tank of height \\( H \\) is given by:\n\n\\[ E = 9800 \\int_{H-d}^{H} (H-h)A(h) \\, dh \\]\n\nwhere  \n\\( E \\) is the energy in joules  \n\\( d \\) is the initial depth of the water in the tank  \n\\( h \\) is the depth of the water in the tank at any instant  \n\\( A(h) \\) is the area of the surface of the water at this instant.\n\nFind the energy required to pump the water out of the tank shown.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q3 (d)  \n\\[\n\\begin{align*}\ny &= \\int \\left( \\frac{4x}{4x^2 - 3} + \\sqrt{x} \\right) \\, dx \\\\\n&= \\left[ \\frac{1}{2} \\ln(4x^2 - 3) + \\frac{2}{3} x^{3/2} \\right] + c \\\\\ny(1) &= 2 \\\\\n2 &= \\frac{1}{2} \\ln(1) + \\frac{2}{3} + c \\\\\nc &= \\frac{4}{3} \\\\\ny(4) &= \\frac{1}{2} \\ln(61) + \\frac{2}{3} \\cdot 4^{3/2} + \\frac{4}{3} \\\\\ny &= 8.722\n\\end{align*}\n\\]  \nPossible N2: \\( \\frac{1}{2} \\ln(4x^2 - 3) \\)"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions. If you have another page with questions, please upload it, and I'll be happy to help extract the questions for you.",
+    "type": "NCEA",
+    "answer": "(e) \n\n\\( E = 9800 \\int_{1.5}^{H-d} (H-h)A(h) \\, dh \\)\n\n\\( = 9800 \\int_{0.5}^{1.5} (1.5-h)0.36h^2 \\, dh \\)\n\n\\( = 9800 \\int_{0.5}^{1.5} (0.54h^2 - 0.36h^3) \\, dh \\)\n\n\\( = 9800 \\left[ 0.18h^3 - 0.09h^4 \\right]_{0.5}^{1.5} \\)\n\n\\( = 9800 \\left[ (0.6075 - 0.4556) - (0.0225 - 0.0056) \\right] \\)\n\n\\( = 9800 [0.1519 - 0.0169] \\)\n\n\\( = 9800 \\times 0.135 \\)\n\n\\( = 1323 \\, J \\)"
+  },
+  {
+    "query": "Q1 (a) Find \\(\\int \\left( x + 2 + \\frac{3}{x} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{x^2}{2} + 2x + 3\\ln|x| + c\\)"
+  },
+  {
+    "query": "Q1 (b) For \\(t \\geq 0\\), the velocity of an object is given by \\(v(t) = 0.6 \\sqrt{t}\\) where \\(v\\) is the velocity of the object in cm s\\(^{-1}\\) and \\(t\\) is time in seconds from the start of the object’s motion. The object has a displacement of 5 cm at \\(t = 0\\). What will be the displacement of the object after 16 seconds?",
+    "type": "NCEA",
+    "answer": "Q1b: \n\\(v(t) = 0.6\\sqrt{t}\\)\n\n\\(s(t) = 0.4t^{\\frac{3}{2}} + c\\)\n\n\\(s = 5\\) when \\(t = 0, c = 5\\)\n\n\\(s(t) = 0.4t^{\\frac{3}{2}} + 5\\)\n\n\\(s(16) = 0.4 \\times 16^{\\frac{3}{2}} + 5\\)\n\n\\(= 30.6 \\, \\text{cm}\\)"
+  },
+  {
+    "query": "Q1 (c) Find \\(\\int_{4}^{8} \\frac{5x - 11}{x - 3} \\, dx\\). You must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\n\\int_4^8 \\frac{5x - 11}{x - 3} \\, dx\n\\]\n\n\\[\n= \\int_4^8 \\left(5 + \\frac{4}{x - 3}\\right) \\, dx\n\\]\n\n\\[\n= \\left[5x + 4 \\ln(x - 3)\\right]_4^8\n\\]\n\n\\[\n= \\left((5(8) + 4 \\ln 5) - (5(4) + 4 \\ln(1))\\right)\n\\]\n\n\\(= 26.44\\)"
+  },
+  {
+    "query": "Q1d The graph below shows the curve \\( y = x + \\frac{3}{x} \\) and the line \\( y = 4 \\).\n\nFind the shaded area.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1d:\n\n\\( x + \\frac{3}{x} = 4 \\)\n\n\\( x^2 + 3 = 4x \\)\n\n\\( x^2 - 4x + 3 = 0 \\)\n\n\\( (x - 1)(x - 3) = 0 \\)\n\n\\( x = 1 \\) or \\( x = 3 \\)\n\nArea \\( = \\int_{1}^{3} \\left( 4 - \\left( x + \\frac{3}{x} \\right) \\right) \\, dx \\)\n\n\\( = \\int_{1}^{3} \\left( 4 - x - \\frac{3}{x} \\right) \\, dx \\)\n\n\\( = \\left[ 4x - \\frac{x^2}{2} - 3 \\ln x \\right]_{1}^{3} \\)\n\n\\( = \\left[ 4(3) - \\frac{(3)^2}{2} - 3 \\ln 3 \\right] - \\left[ 4(1) - \\frac{(1)^2}{2} - 3 \\ln 1 \\right] \\)\n\n\\( = 0.704 \\)\n\nOR\n\nArea \\( = 8 - \\int_{1}^{3} \\left( x + \\frac{3}{x} \\right) \\, dx \\)\n\n\\( = 8 - \\left[ \\frac{x^2}{2} + 3 \\ln x \\right]_{1}^{3} \\)\n\n\\( = 8 - \\left[ \\frac{(3)^2}{2} + 3 \\ln 3 \\right] + \\left[ \\frac{(1)^2}{2} + 3 \\ln 1 \\right] \\)\n\n\\( = 0.704 \\)"
+  },
+  {
+    "query": "(e) Consider the differential equation \\(\\tan x \\frac{dy}{dx} = \\frac{\\sec^2 x}{y}\\), \\(0 < x < \\frac{\\pi}{2}\\).\n\nGiven that \\(y = 2\\) when \\(x = \\frac{\\pi}{4}\\), find the value(s) of \\(y\\) when \\(x = \\frac{\\pi}{3}\\).\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can help you with a description or analysis if you provide the text."
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int \\left( \\pi - \\frac{2}{x^2} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q2a: \\(\\frac{2}{x} \\pi x + \\frac{2}{x} + c\\)"
+  },
+  {
+    "query": "Q2 (b) Use the values given in the table below to find an approximation to \\(\\int_0^3 f(x) \\, dx\\), using Simpson’s Rule.\n\n\\[\n\\begin{array}{c|ccccccc}\nx & 0 & 0.5 & 1 & 1.5 & 2 & 2.5 & 3 \\\\\n\\hline\nf(x) & 1.1 & 1.8 & 2.1 & 2.4 & 2.7 & 1.8 & 1.3 \\\\\n\\end{array}\n\\]",
+    "type": "NCEA",
+    "answer": "Q2b: 6"
+  },
+  {
+    "query": "Q2 (c) Find \\(k\\) such that \\(\\int_1^k \\sqrt{9\\sqrt{3x} - 2} \\, dx = 126\\).\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q2c:  \n\\[\n\\begin{align*}\n\\int_1^k 9\\sqrt{3x-2} \\, dx &= \\left[ 9 \\times \\frac{2}{9} (3x-2)^{\\frac{3}{2}} \\right]_1^k \\\\\n&= \\left[ 2(3x-2)^{\\frac{3}{2}} \\right]_1^k \\\\\n&= 2(3k-2)^{\\frac{3}{2}} - 2 = 126 \\\\\n2(3k-2)^{\\frac{3}{2}} &= 128 \\\\\n(3k-2)^{\\frac{3}{2}} &= 64 \\\\\n3k-2 &= 16 \\\\\nk &= 6\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "Q1d: If \\(\\frac{dy}{dx} = \\sqrt{y} \\cdot \\cos 4x\\) and \\(y = 1\\) when \\(x = \\frac{\\pi}{8}\\), find the value of \\(y\\) when \\(x = \\frac{\\pi}{4}\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2d:  \n\\[\n\\begin{align*}\n\\frac{dy}{dx} &= \\sqrt{y} \\cdot \\cos 4x \\\\\n\\int \\frac{1}{\\sqrt{y}} \\, dy &= \\int \\cos 4x \\, dx \\\\\n2\\sqrt{y} &= \\frac{\\sin 4x}{4} + c \\\\\ny &= 1 \\text{ when } x = \\frac{\\pi}{8} \\\\\n2 &= \\sin \\frac{\\pi}{4} + c \\\\\n2 &= \\frac{1}{\\sqrt{2}} + c \\\\\nc &= 1.75 \\\\\n2\\sqrt{y} &= \\frac{\\sin 4x}{4} + 1.75 \\\\\nx &= \\frac{\\pi}{4} \\\\\n2\\sqrt{y} &= \\frac{\\sin \\pi}{4} + 1.75 \\\\\n\\sqrt{y} &= \\frac{7}{8} \\\\\ny &= \\frac{49}{64} \\approx 0.765625\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(e) The graph below shows the curve \\( y = x + 2\\sqrt{x - 3} \\).\n\nFind the shaded area.\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\( x + 2\\sqrt{x} - 3 = 0 \\)\n\n\\((\\sqrt{x} + 3)(\\sqrt{x} - 1) = 0\\)\n\n\\( x = 1 \\)\n\nArea = \\(\\int_{1}^{4} (x + 2\\sqrt{x} - 3) \\, dx + \\int_{1}^{4} (x + 2\\sqrt{x} - 3) \\, dx\\)\n\n= \\(\\left[ \\frac{x^2}{2} + \\frac{4}{3}x^{3/2} - 3x \\right]_{1}^{4} + \\left[ \\frac{x^2}{2} + \\frac{4}{3}x^{3/2} - 3x \\right]_{1}^{4}\\)\n\n= \\(\\left( \\frac{1}{2} + \\frac{4}{3} - 3 \\right) - \\left( \\frac{8}{2} + \\frac{32}{3} - 12 \\right) - \\left( \\frac{1}{2} + \\frac{4}{3} - 3 \\right)\\)\n\n= \\(\\frac{7}{6} \\left[ \\frac{20}{3} + \\frac{7}{6} \\right]\\)\n\n= \\(\\frac{27}{3}\\)\n\n= 9"
+  },
+  {
+    "query": "Q3 (a) Find \\(\\int \\sec 2x \\tan 2x \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q3 (a)  \n\\(\\frac{1}{2} \\sec 2x + c\\)"
+  },
+  {
+    "query": "Q3 (b) If \\(\\frac{dy}{dx} = \\cos 2x\\) and \\(y = 1\\) when \\(x = \\frac{\\pi}{12}\\), find the value of \\(y\\) when \\(x = \\frac{\\pi}{4}\\).\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q3 (b)  \n\\(y = \\frac{1}{2} \\sin 2x + c\\)  \n\\(1 = \\frac{1}{2} \\times 1 + c\\)  \n\\(c = \\frac{3}{4}\\)  \n\\(\\Rightarrow y = \\frac{1}{2} \\sin 2x + \\frac{3}{4}\\)  \n\\(y = \\frac{1}{2} \\sin \\frac{\\pi}{2} + \\frac{3}{4}\\)  \n\\(y = \\frac{5}{4} (= 1.25)\\)"
+  },
+  {
+    "query": "(c) An object originally moving at a constant velocity suddenly starts to accelerate. From the start of the object’s acceleration the motion of the object can be modelled by the differential equation\n\n\\[\n\\frac{dv}{dt} = t + e^{0.2t} \\quad \\text{for } 0 \\leq t \\leq 15\n\\]\n\nwhere \\( v \\) is the velocity of the object in m s\\(^{-1}\\) and \\( t \\) is the time in seconds after the object starts to accelerate.\n\nWhen \\( t = 0 \\), the velocity of the object was 8 m s\\(^{-1}\\).\n\nFind the velocity of the object when \\( t = 10 \\).\n\nYou must use calculus and give the results of any integration needed to solve this problem.",
+    "type": "NCEA",
+    "answer": "Q3 (c)  \n\\(\\frac{dv}{dt} = a(t) = t + 5e^{0.2t}\\)  \n\\(v = \\frac{1}{2} t^2 + 5e^{0.2t} + c\\)  \n\\(t = 0, v = 8\\)  \n\\(8 = 5 + c\\)  \n\\(c = 3\\)  \n\\(\\therefore v = \\frac{1}{2} t^2 + 5e^{0.2t} + 3\\)  \n\\(t = 10, v = \\frac{1}{2} 10^2 + 5e^2 + 3\\)  \n\\(= 89.95 \\, \\text{m s}^{-1}\\)"
+  },
+  {
+    "query": "Q1d In radioactive decay, the rate at which the radioactive substance decays at any instant is proportional to the number of radioactive atoms present at that instant.\n\nThis can be modelled by the differential equation\n\n\\[\n\\frac{dN}{dt} = kN\n\\]\n\nwhere \\( N \\) is the number of radioactive atoms present and \\( t \\) is the time in days.\n\nA quantity of manganese-52 is produced.\n\nManganese-52 is a radioactive isotope of manganese.\n\nManganese-52 has a half-life of 5.6 days (i.e. after 5.6 days, half of any atoms of manganese-52 would have decayed).\n\nHow long would it take for 95% of the manganese-52 to decay?\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to extract text directly from images. However, I can help you with a description or analysis of the content if you provide the text or details."
+  },
+  {
+    "query": "Q1e The graph below shows the curves \\( y = \\cos x \\) and \\( y = \\cos^3 x \\) for \\( 0 \\leq x \\leq \\frac{\\pi}{2} \\).\n\nFind the shaded area.\n\n*You must use calculus and give the results of any integration needed to solve this problem.*",
+    "type": "NCEA",
+    "answer": "Q1c:\n\nArea = \\(\\int_{0}^{\\frac{\\pi}{2}} (\\cos x - \\cos^3 x) \\, dx\\)  \n= \\(\\int_{0}^{\\frac{\\pi}{2}} \\cos x (1 - \\cos^2 x) \\, dx\\)  \n= \\(\\int_{0}^{\\frac{\\pi}{2}} \\cos x (\\sin^2 x) \\, dx\\)  \n= \\(\\left[ \\frac{1}{3} \\sin^3 x \\right]_{0}^{\\frac{\\pi}{2}}\\)  \n= \\(\\left( \\frac{1}{3} \\left( \\sin \\left( \\frac{\\pi}{2} \\right) \\right)^3 - \\frac{1}{3} (\\sin(0))^3 \\right)\\)  \n= \\(\\frac{1}{3}\\)"
+  },
+  {
+    "query": "Q1a. Find \\(\\int \\left( \\frac{x}{3} + \\frac{3}{x} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{x^2}{6} + 3\\ln|x| + c\\)"
+  },
+  {
+    "query": "Q1b. The gradient function of a curve is \\(\\frac{dy}{dx} = \\frac{8}{x^3}\\).\n\n(i) Find the equation of the curve if it passes through the point (1,3).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1b(i): \n\\[\n\\begin{align*}\n\\frac{dy}{dx} &= \\frac{8}{x^3} \\\\\ny &= \\int 8x^{-3} \\, dx \\\\\ny &= -4x^{-2} + c \\\\\n3 &= -4 + c \\\\\nc &= 7 \\\\\ny &= -4x^{-2} + 7\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(ii) Find the area enclosed by the curve, the \\(x\\)-axis, and the lines \\(x = 1\\) and \\(x = 2\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1b(ii): \n\\[\n\\begin{align*}\ny &= -4x^{-2} + 7 \\\\\n\\text{Area} &= \\int_{1}^{2} \\left(-4x^{-2} + 7\\right) \\, dx \\\\\n&= \\left[4x^{-1} + 7x\\right]_{1}^{2} \\\\\n&= \\left(\\frac{4}{2} + 14\\right) - \\left(4 + 7\\right) \\\\\n&= 5\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(c) An object’s motion can be modelled by the differential equation \\( a(t) = 2 - \\sin 2t \\), where \\( t \\geq 0 \\).\n\n\\( a \\) is the acceleration of the object, in m s\\(^{-2}\\)  \nand \\( t \\) is time in seconds.\n\nAt \\( t = 0 \\), the object has a velocity of 1 m s\\(^{-1}\\) and a displacement of 3 m.\n\nWhat is the displacement of the object at time \\( t = 5 \\)?\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\n\\begin{align*}\na(t) &= 2 - \\sin 2t \\\\\nv(t) &= \\int (2 - \\sin 2t) \\, dt \\\\\n&= 2t + \\frac{\\cos 2t}{2} + c \\\\\n1 &= 0 + \\frac{\\cos 0}{2} + c \\\\\nc &= 0.5 \\\\\nv(t) &= 2t + \\frac{\\cos 2t}{2} + 0.5 \\\\\ns(t) &= \\int \\left(2t + \\frac{\\cos 2t}{2} + 0.5\\right) \\, dt \\\\\ns(t) &= t^2 + \\frac{\\sin 2t}{4} + 0.5t + k \\\\\nt = 0, s = 3 &\\Rightarrow k = 3 \\\\\ns(s) &= s^2 + \\frac{\\sin 10}{4} + 0.5 \\times 5 + 3 \\\\\n&= 30.5 + \\frac{1}{4} \\sin 10 \\\\\n&= 30.36\n\\end{align*}\n\\]"
+  },
+  {
+    "query": "(d) A water tank developed a leak.\n\n6 hours after the tank started to leak, the volume of water in the tank was 400 litres.\n\n10 hours after the tank started to leak, the volume of water in the tank was 256 litres.\n\nThe rate at which the water leaks out of the tank at any instant is proportional to the square root of the volume of the water in the tank at that instant.\n\nHow much water was in the tank at the instant it started to leak?\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1d (i)  \n\\[\n\\frac{dV}{dt} = k \\sqrt{V}\n\\]\n\\[\n\\int \\frac{1}{\\sqrt{V}} \\, dV = \\int k \\, dt\n\\]\n\\[\n\\int V^{-0.5} \\, dV = \\int k \\, dt\n\\]\n\\[\n2\\sqrt{V} = kt + c\n\\]"
+  },
+  {
+    "query": "(a) Find \\(\\int (e^{4x} + 4\\sqrt{x}) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1d (ii)  \n\\[\nT = 6, \\, V = 400, \\, 40 = 6k + c\n\\]\n\\[\nT = 10, \\, V = 256, \\, 32 = 10k + c\n\\]\n\\[\nk = -2, \\, c = 52\n\\]\n\\[\n\\therefore 2\\sqrt{V} = -2t + 52\n\\]"
+  },
+  {
+    "query": "(b) If \\(\\int_1^5 h(x) \\, dx = 6\\) what is the value of \\(\\int_1^5 (h(x) + 2) \\, dx\\)?",
+    "type": "NCEA",
+    "answer": "Q1d (iii)  \n\\[\nt = 0\n\\]\n\\[\n2\\sqrt{V} = 52\n\\]\n\\[\n\\sqrt{V} = 26\n\\]\n\\[\nV = 676 \\, (\\text{litres})\n\\]"
+  },
+  {
+    "query": "(c) Find \\(\\int_0^{\\frac{\\pi}{8}} \\sin 6x \\sin 2x \\, dx\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Sure, here are the extracted answers:\n\n**TWO (a)**\n\\[\n\\frac{e^x}{4} + \\frac{8}{3}x^2 + c\n\\]"
+  },
+  {
+    "query": "Q1d The diagram below shows part of the graph of the function \\( g(x) = \\frac{6}{3x - 4} \\).\n\nThe area of the shaded region is 4.\n\nFind the value of \\( k \\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "**(b)**\n14"
+  },
+  {
+    "query": "(e) The diagram below shows the graph of a curve \\( y = f(x) \\), which satisfies the differential equation \\(\\frac{dy}{dx} = \\frac{2}{ye^{0.5x}}\\).\n\nPoints P and Q are the points on the graph of the curve that have x-coordinates of 3.\n\nWhat is the vertical distance between points P and Q?\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "**(c)**\n\\[\n\\int_0^{\\frac{\\pi}{8}} \\sin 6x \\cdot \\sin 2x \\, dx = \\frac{1}{2} \\int_0^{\\frac{\\pi}{8}} (\\cos 4x - \\cos 8x) \\, dx\n\\]\n\\[\n= \\frac{1}{2} \\left[ \\frac{\\sin 4x}{4} - \\frac{\\sin 8x}{8} \\right]_0^{\\frac{\\pi}{8}}\n\\]\n\\[\n= \\frac{1}{2} \\left[ \\frac{\\sin \\frac{\\pi}{2}}{4} - \\frac{\\sin \\pi}{8} \\right] - 0\n\\]\n\\[\n= \\frac{1}{8}\n\\]"
+  },
+  {
+    "query": "Q3 (a) Find \\(\\int (x + \\sqrt{x})^2 \\, dx\\).",
+    "type": "NCEA",
+    "answer": "**(d)**\n\\[\n\\int_2^k \\frac{6}{3x-4} \\, dx = \\left[ 2 \\ln (3x-4) \\right]_2^k\n\\]\n\\[\n= 2 \\ln (3k-4) - 2 \\ln (2) = 4\n\\]\n\\[\n2 \\ln (3k-4) = 4 + 2 \\ln (2)\n\\]\n\\[\n\\ln (3k-4) = 2 + \\ln (2)\n\\]\n\\[\n3k-4 = e^2 \\cdot e^{\\ln 2}\n\\]\n\\[\n3k-4 = 2e^2\n\\]\n\\[\nk = \\frac{2e^2 + 4}{3}\n\\]\n\\[\nk = 6.26\n\\]"
+  },
+  {
+    "query": "Q3 (b) Use the values given in the table below to find an approximation to \\(\\int_1^{2.5} f(x) \\, dx\\) using the Trapezium Rule.\n\n\\[\n\\begin{array}{c|ccccccc}\nx & 1 & 1.25 & 1.5 & 1.75 & 2 & 2.25 & 2.5 \\\\\n\\hline\nf(x) & 0.8 & 1.1 & 1.5 & 1.9 & 2.2 & 2.1 & 2.4 \\\\\n\\end{array}\n\\]",
+    "type": "NCEA",
+    "answer": "**(e)**\n\\[\n\\frac{dy}{dx} = \\frac{2}{y e^{0.5x}}\n\\]\n\\[\n\\int y \\, dy = \\int 2 e^{-0.5x} \\, dx\n\\]\n\\[\n\\frac{y^2}{2} = -4e^{-0.5x} + c\n\\]\n\\[\nx = 0 \\text{ and } y = 1\n\\]\n\\[\n\\frac{1}{2} = -4 + c\n\\]\n\\[\nc = 4.5\n\\]\n\\[\n\\frac{y^2}{2} = -4e^{-0.5x} + 4.5\n\\]\nAt \\( x = 3 \\):\n\\[\n\\frac{y^2}{2} = -4e^{-1.5} + 4.5\n\\]\n\\[\ny = 2.686\n\\]\nDistance = 5.372"
+  },
+  {
+    "query": "Q3 (c) Consider the differential equation \\(\\frac{dy}{dx} = \\frac{\\sec^2 2x}{y}\\).\n\nGiven that \\(y = 2\\) when \\(x = \\frac{3\\pi}{8}\\), find the value(s) of \\(y\\) when \\(x = \\pi\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "The image provided is a marking schedule and does not contain specific answers to questions. It outlines the criteria for different levels of achievement (N0, N1, N2, A3, A4, M5, M6, E7, E8) in the NCEA Level 3 Calculus exam. If you have specific questions or need further assistance, please provide more details."
+  },
+  {
+    "query": "Q3d The diagram below shows part of the graph of the function \\( y = \\frac{3x - 2}{x + 2} \\).\n\nFind the shaded area.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract text using OCR software like Adobe Acrobat or online tools. If you have any questions about the content or need further assistance, feel free to ask!"
+  },
+  {
+    "query": "(e) The graph below shows the functions \\( y = (ke^x)^2 \\) and \\( y = k \\), where \\( k \\) is a constant greater than 1.\n\nShow that the shaded area is \\(\\frac{k}{2} \\left( k - 1 + \\ln \\frac{1}{k} \\right)\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem. Clearly show each step of your working.",
+    "type": "NCEA",
+    "answer": "(c) \\(\\left( ke^x \\right)^2 = k\\)\n\n\\(k^2 e^{2x} = k\\)\n\n\\(e^{2x} = \\frac{1}{k}\\)\n\n\\(x = \\frac{\\ln \\frac{1}{k}}{2}\\)\n\nArea \\(= k^2 \\int_{\\frac{\\ln \\frac{1}{k}}{2}}^{0} e^{2x} dx - \\int_{\\frac{\\ln \\frac{1}{k}}{2}}^{0} k \\, dx\\)\n\n\\[\n= \\frac{k^2}{2} \\left[ e^{2x} \\right]_{\\frac{\\ln \\frac{1}{k}}{2}}^{0} - \\left[ kx \\right]_{\\frac{\\ln \\frac{1}{k}}{2}}^{0}\n\\]\n\n\\[\n= \\frac{k^2}{2} \\left( 1 - e^{\\ln \\frac{1}{k}} \\right) - \\left( 0 - k \\cdot \\frac{\\ln \\frac{1}{k}}{2} \\right)\n\\]\n\n\\[\n= \\frac{k^2}{2} \\left( 1 - \\frac{1}{k} \\right) + \\frac{k}{2} \\cdot \\frac{1}{k} \\ln k\n\\]\n\n\\[\n= \\frac{k^2}{2} - \\frac{k}{2} + \\frac{k}{2} \\ln \\frac{1}{k}\n\\]\n\n\\[\n= \\frac{k}{2} \\left( k - 1 + \\ln \\frac{1}{k} \\right)\n\\]\n\nOR\n\nArea \\(= \\int_{0}^{\\frac{\\ln \\frac{1}{k}}{2}} \\left( k^2 e^{2x} - k \\right) dx\\)\n\n\\[\n= \\left[ \\frac{k^2}{2} e^{2x} - kx \\right]_{0}^{\\frac{\\ln \\frac{1}{k}}{2}}\n\\]\n\n\\[\n= \\left( \\frac{k^2}{2} - 0 \\right) - \\left( \\frac{k^2}{2} \\cdot \\frac{1}{k} - \\frac{k^2}{2} \\ln \\frac{1}{k} \\right)\n\\]\n\n\\[\n= \\frac{k^2}{2} - \\frac{k}{2} + \\frac{k}{2} \\ln \\frac{1}{k}\n\\]\n\n\\[\n= \\frac{k}{2} \\left( k - 1 - \\ln \\frac{1}{k} \\right)\n\\]"
+  },
+  {
+    "query": "Q1 (a) Find \\(\\int \\left( \\frac{4}{x} - \\sec^2 x \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\( 4[\\ln|x| - \\tan x + c \\)"
+  },
+  {
+    "query": "Q1 (b) The graph of the function \\(y = f(x)\\) below is symmetrical about the \\(y\\)-axis. The areas of the shaded regions are given.\n\nFind \\(\\int_{-3}^{3} f(x) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1b: 6.4"
+  },
+  {
+    "query": "Q1 (c) Find \\(\\int_{0}^{\\frac{\\pi}{4}} \\sin^2(2x) \\, dx\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1c: \n\\[\n\\int_0^{\\frac{\\pi}{4}} \\sin^2(2x) \\, dx \n= \\int_0^{\\frac{\\pi}{4}} \\left( \\frac{1}{2} - \\frac{1}{2} \\cos(4x) \\right) \\, dx \n= \\left[ \\frac{x}{2} - \\frac{1}{8} \\sin 4x \\right]_0^{\\frac{\\pi}{4}} \n= \\left( \\frac{\\pi}{8} + \\frac{1}{8} \\sin \\pi \\right) - (0 - 0) \n= \\frac{\\pi}{8}\n\\]"
+  },
+  {
+    "query": "Q1d The graph below shows part of the function \\( y = \\frac{4}{\\sqrt[3]{x} - 2} \\).\n\nFind the value of \\( k \\) such that the shaded region has an area of 8.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1d: \n\\[\ny = \\frac{4}{\\sqrt{3x-2}} = 4(3x-2)^{-\\frac{1}{2}}\n\\]\nArea \\( = \\int_4^k 4(3x-2)^{-\\frac{1}{2}} \\, dx \\)\n\\[\n= \\left[ \\frac{8}{3} (3x-2)^{\\frac{1}{2}} \\right]_4^k \n= \\frac{8}{3} \\sqrt{3k-2} - \\frac{8}{3} \\times 1 = 8\n\\]\n\\[\n\\sqrt{3k-2} - 1 = 3 \n\\]\n\\[\n\\sqrt{3k-2} = 4 \n\\]\n\\[\n3k-2 = 16 \n\\]\n\\[\nk = 6\n\\]"
+  },
+  {
+    "query": "(e) The graph below shows the functions \\( y = (e^x)^2 \\) and \\( y = 3e^x + 10 \\).\n\nFind the exact value of the shaded area.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1e:\n\nLimits of integration\n\n\\((e^x)^2 = 3e^x + 10\\)\n\n\\((e^x)^2 - 3e^x - 10 = 0\\)\n\n\\((e^x - 5)(e^x + 2) = 0\\)\n\n\\(e^x = 5 \\quad \\text{or} \\quad e^x = -2 \\quad \\text{no}\\)\n\n\\(x = \\ln 5\\)\n\nArea \\(= \\int_0^{\\ln 5} (3e^x + 10) \\, dx - \\int_0^{\\ln 5} e^{2x} \\, dx\\)\n\n\\(= \\int_0^{\\ln 5} (3e^x + 10 - e^{2x}) \\, dx\\)\n\n\\(= \\left[ 3e^x + 10x - \\frac{e^{2x}}{2} \\right]_0^{\\ln 5}\\)\n\n\\(= \\left( 3e^{\\ln 5} + 10 \\ln 5 - \\frac{e^{2 \\ln 5}}{2} \\right) - \\left( 3 + 0 - \\frac{1}{2} \\right)\\)\n\n\\(= (15 + 10 \\ln 5 - 12.5) - 2.5\\)\n\n\\(= 10 \\ln 5\\)"
+  },
+  {
+    "query": "Q2a. Find \\(\\int (e^{3x} - \\sqrt{x}) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q2 (a)  \n\\(\\frac{e^x}{3} - \\frac{2}{3x^2} + c\\)"
+  },
+  {
+    "query": "Q2b. Find the value of \\(k\\), given that \\(\\int_{1}^{k} \\frac{2}{\\sqrt{x}} \\, dx = 8\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2 (b)  \n\\[\n\\int_{4}^{k} \\frac{2}{\\sqrt{x}} \\, dx = 8\n\\]\n\\[\n\\int_{4}^{k} 2x^{-\\frac{1}{2}} \\, dx = 8\n\\]\n\\[\n\\left[ 4\\sqrt{x} \\right]_{4}^{k} = 8\n\\]\n\\[\n4\\sqrt{k} - 4 = 8\n\\]\n\\[\n4\\sqrt{k} = 12\n\\]\n\\[\n\\sqrt{k} = 3\n\\]\n\\[\nk = 9\n\\]"
+  },
+  {
+    "query": "Q2c. Consider the differential equation \\(\\frac{dy}{dx} = \\frac{1}{3y^2(x-1)}\\), where \\(x > 1\\).\n\nGiven that \\(y = -1\\) when \\(x = 2\\), find the value(s) of \\(x\\) which give a \\(y\\) value of 1.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q2 (c)  \n\\[\n\\frac{dy}{dx} = \\frac{1}{3y^2(x-1)}\n\\]\n\\[\n\\int 3y^2 \\, dy = \\int \\frac{1}{x-1} \\, dx\n\\]\n\\[\ny^3 = \\ln|x-1| + c\n\\]\n\\[\nx = 2, \\, y = -1\n\\]\n\\[\n-1 = \\ln(1) + c\n\\]\n\\[\nc = -1\n\\]\nWhen \\(y = 1\\)  \n\\[\n1 = \\ln(x-1) - 1\n\\]\n\\[\n\\ln(x-1) = 2\n\\]\n\\[\nx = e^2 + 1 (\\approx 8.389)\n\\]"
+  },
+  {
+    "query": "Q1d An object’s acceleration can be modelled by the equation \\( a(t) = 0.9e^{0.3t} \\) where \\( a \\) is the acceleration of the object in m s\\(^{-2}\\), and \\( t \\) is the time in seconds from the start of timing. The object had a velocity of 10 m s\\(^{-1}\\) after 2 seconds. How far did the object travel during the 5th second of its motion? *You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q2 (d)  \n\\[\na(t) = 0.9e^{0.3t}\n\\]\n\\[\nv(t) = 3e^{0.3t} + c\n\\]\nWhen \\(t = 2, \\, v = 10\\)  \n\\[\n10 = 3e^{0.6} + c\n\\]\n\\[\nc = 4.534\n\\]\n\\[\nv(t) = 3e^{0.3t} + 4.534\n\\]\nDistance travelled in 5th second of motion  \n\\[\n= \\int_{4}^{5} (3e^{0.3t} + 4.534) \\, dt\n\\]\n\\[\n= \\left[ 10e^{0.3t} + 4.534t \\right]_{4}^{5}\n\\]\n\\[\n= (10e^{1.5} + 4.534 \\times 5) - (10e^{1.2} + 4.534 \\times 4)\n\\]\n\\[\n= 16.1497 \\, \\text{m}\n\\]"
+  },
+  {
+    "query": "(e) A cylindrical tank of height 150 cm is originally full of oil. The tank starts to leak out of a hole in its side. The height \\( h \\), in cm, of the oil left in the tank after it has been leaking for \\( t \\) minutes can be modelled by the differential equation\n\n\\[\n\\frac{dh}{dt} = -\\frac{1}{4} \\sqrt{(h-6)^3}.\n\\]\n\nFind how long it takes for the oil in the tank to be 15 cm above the bottom of the tank.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1e:\n\n\\[\n\\int \\frac{dh}{dt} = -\\frac{1}{4} \\sqrt[3]{(h-6)^2}\n\\]\n\n\\[\n\\int (h-6)^{-\\frac{2}{3}} \\, dh = \\int -\\frac{1}{4} \\, dt\n\\]\n\n\\[\n-2(h-6)^{\\frac{1}{3}} = -\\frac{t}{4} + c\n\\]\n\n\\[\n(h-6)^{\\frac{1}{3}} = \\frac{t}{8} + k\n\\]\n\n\\[\n\\frac{1}{\\sqrt[3]{h-6}} = \\frac{t}{8} + k\n\\]\n\nWhen \\( t = 0, h = 150 \\)\n\n\\[\n\\frac{1}{\\sqrt[3]{144}} = k\n\\]\n\n\\[\nk = \\frac{1}{12}\n\\]\n\n\\[\n\\frac{1}{\\sqrt[3]{h-6}} = \\frac{t}{8} + \\frac{1}{12}\n\\]\n\n\\[\nh = 15\n\\]\n\n\\[\n\\frac{1}{\\sqrt[3]{9}} = \\frac{t}{8} + \\frac{1}{12}\n\\]\n\n\\[\n\\frac{t}{8} = \\frac{1}{4}\n\\]\n\n\\[\nt = 2\n\\]"
+  },
+  {
+    "query": "(a) Find \\(\\int (2x+5)^3 \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q3 (a)  \n\\(\\frac{1}{8}(2x+5)^4 + c\\)"
+  },
+  {
+    "query": "(b) Use the values given in the table below to find an approximation to \\(\\int_0^2 f(x) \\, dx\\) using the Trapezium Rule.\n\n\\[\n\\begin{array}{c|cccccc}\nx & 0 & 0.4 & 0.8 & 1.2 & 1.6 & 2.0 \\\\\n\\hline\nf(x) & 3.6 & 4.2 & 4.8 & 5.4 & 4.5 & 3.2 \\\\\n\\end{array}\n\\]",
+    "type": "NCEA",
+    "answer": "Q3 (b)  \n8.92"
+  },
+  {
+    "query": "(c) Find \\(\\int_5^8 \\frac{4x-5}{x-3} \\, dx\\).\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q3 (c)  \n\\[\n\\int_5^8 \\frac{4x-5}{x-3} \\, dx \n\\]\n\\[\n4x-5 = 4 + \\frac{7}{x-3}\n\\]\n\\[\n\\int_5^8 \\frac{4x-5}{x-3} \\, dx = \\int_5^8 \\left(4 + \\frac{7}{x-3}\\right) \\, dx\n\\]\n\\[\n= [4x + 7\\ln|x-3|]_5^8\n\\]\n\\[\n= (32 + 7\\ln5) - (20 + 7\\ln2)\n\\]\n\\[\n= 18.41\n\\]"
+  },
+  {
+    "query": "Q3d The graph below shows part of the curve \\( y = x + \\cos x \\) and the line \\( y = x \\).\n\nFind the shaded area.  \n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q3 (d)  \nLimits of integration  \n\\(x = x + \\cos x\\)  \n\\(\\cos x = 0\\)  \n\\(x = -\\frac{\\pi}{2}, \\frac{\\pi}{2}\\)  \nArea = \\(\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} (x + \\cos x) \\, dx - \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} x \\, dx\\)  \n\\[\n= \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} (\\cos x) \\, dx\n\\]\n\\[\n= [\\sin x]_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\n\\]\n\\[\n= 1 - (-1)\n\\]\n\\[\n= 2\n\\]"
+  },
+  {
+    "query": "Q1e The graph below shows part of the curve given by the equation \\( y = \\frac{2}{x} \\).\n\nPoints P and Q lie on the curve with \\( x \\)-coordinates \\( k \\) and \\( 3k \\) respectively, where \\( k > 0 \\).\n\nPoint R is such that PR is parallel to the \\( x \\)-axis and QR is parallel to the \\( y \\)-axis.\n\nThe shaded area can be written in the form \\( a + b \\ln c \\), where \\( a, b, \\) and \\( c \\) are integers.\n\nFind the values of \\( a, b, \\) and \\( c \\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q3 (e)  \nArea of rectangle = \\(2k \\times \\frac{2}{k} = 4\\)  \nArea under curve = \\(\\int_k^{3k} \\frac{2}{x} \\, dx\\)  \n\\[\n= [2 \\ln x]_k^{3k}\n\\]\n\\[\n= 2 \\ln 3k - 2 \\ln k\n\\]\n\\[\n= \\ln 9k^2 - \\ln k^2\n\\]\n\\[\n= \\ln \\left(\\frac{9k^2}{k^2}\\right)\n\\]\n\\[\n= \\ln 9\n\\]\nShaded area = \\(4 - \\ln 9\\)  \n\\(a = 4, b = -1, \\text{ and } c = 9.\\)"
+  },
+  {
+    "query": "The page appears to be blank, so there are no questions to extract.",
+    "type": "NCEA",
+    "answer": "I'm unable to extract answers from the image provided. It appears to be a marking schedule or rubric rather than a page containing specific questions and answers. If you have another page with questions and answers, feel free to share it!"
+  },
+  {
+    "query": "Q1 (a) Find \\(\\int \\left( 3x + 2 + \\frac{1}{3x + 2} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q1a: \\(\\frac{3x^2}{2} + 2x + \\frac{1}{3} \\ln(3x + 2) + c\\)"
+  },
+  {
+    "query": "Q1 (b) An object’s velocity can be modelled by the equation \\(v(t) = \\sec^2 t\\), where \\(v\\) is the velocity of the object in km hr\\(^{-1}\\), and \\(t\\) is the time in hours from the start of timing. Initially the object was 3 km from a point P.\n\nFind the distance of this object from the point P after \\(\\frac{\\pi}{4}\\) hours.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1b:  \n\\(d = \\int \\sec^2 t \\, dt\\)  \n\\(\\Rightarrow d = \\tan t + c\\)  \n\\(t = 0\\) and \\(d = 3\\) give \\(3 = \\tan 0 + c\\)  \n\\(\\Rightarrow c = 3\\)  \ni.e. \\(d = \\tan t + 3\\)  \n\\(t = \\frac{\\pi}{4} \\Rightarrow d = \\tan \\frac{\\pi}{4} + 3\\)  \n\\(d = 1 + 3 = 4 \\, \\text{km}\\)"
+  },
+  {
+    "query": "(c) The graph below shows the functions \\( y = \\sqrt{x} \\) and \\( y = x^2 \\).\n\nFind the shaded area.\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1c:  \nFor point of intersection between the two curves, solve \\(\\sqrt{x} = \\frac{x^2}{8}\\),  \nGiving \\(x = 0\\) and \\(x = 4\\).  \nArea = \\(\\int_{0}^{4} \\left( \\sqrt{x} - \\frac{x^2}{8} \\right) \\, dx\\)  \n\\[= \\left[ \\frac{2}{3} x^{\\frac{3}{2}} - \\frac{x^3}{3 \\times 8} \\right]_{0}^{4}\\]  \n\\[= \\left[ \\frac{16}{3} - \\frac{64}{24} \\right] - [0] = \\frac{8}{3} \\, \\text{units}^2\\]"
+  },
+  {
+    "query": "(d) Consider the differential equation \\(\\frac{dy}{dx} = y(2x - 3x^2)\\).\n\nGiven that \\( y = 1 \\) when \\( x = 2 \\), find the value(s) of \\( y \\) when \\( x = 1 \\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1d:  \n\\(\\frac{dy}{dx} = y(2x - 3x^2)\\)  \nSeparating the variables gives:  \n\\(\\int \\frac{1}{y} \\, dy = \\int (2x - 3x^2) \\, dx\\)  \n\\(\\ln y = x^2 - x^3 + c \\quad \\#(1)\\)  \n\\(x = 2\\) and \\(y = 1\\) gives:  \n\\(\\ln 1 = 4 - 8 + c = c = 4\\)  \ni.e. \\(\\ln y = x^2 - x^3 + 4\\)  \n\\(x = 1 \\Rightarrow \\ln y = 1 - 1 + 4\\)  \n\\(\\Rightarrow \\ln y = 4\\)  \n\\(y = e^4 = 54.6\\)"
+  },
+  {
+    "query": "(e) The shaded region in the diagram below is bounded by the three graphs:\n\n\\[ y^2 = 10 - x \\]\n\\[ y = 3x \\]\n\\[ y = -\\sin\\left(\\frac{\\pi x}{10}\\right) \\]\n\nFind the area of the shaded region.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "I'm unable to perform OCR on images directly. However, I can guide you on how to extract the text using OCR software like Adobe Acrobat, Tesseract, or online OCR tools. Once you have the text, feel free to share it here, and I can help you format or analyze it further."
+  },
+  {
+    "query": "The page you provided is blank, so there are no questions to extract. If you have another page with content, feel free to share it!",
+    "type": "NCEA",
+    "answer": "Sure, here are the extracted answers:\n\n**Q2 (a):**\n\\[\n\\int 4e^{2x-1} \\, dx = 2e^{2x-1} + c\n\\]"
+  },
+  {
+    "query": "Q2 (a) Find \\(\\int 4e^{2x-1} \\, dx\\).",
+    "type": "NCEA",
+    "answer": "**Q2 (b):**\n\\[\ny = \\int (4x+1)^{\\frac{1}{2}} \\, dx\n\\]\n\\[\ny = \\frac{1}{4} (4x+1)^{\\frac{3}{2}} + c\n\\]\n\\[\ny = \\frac{1}{2} (4x+1)^{\\frac{1}{2}} + c\n\\]\n\\[\nx = 6 \\text{ and } y = 7.5 \\text{ gives:}\n\\]\n\\[\n7.5 = \\frac{1}{2} \\times 25 + c \\Rightarrow c = 5\n\\]\n\\[\n\\text{i.e. } y = \\frac{1}{2} (4x+1)^{\\frac{1}{2}} + 5\n\\]"
+  },
+  {
+    "query": "Q2 (b) Solve the differential equation \\(\\frac{dy}{dx} = \\left(4x+1\\right)^{-\\frac{1}{2}}\\), where \\(x \\geq 0\\), given that when \\(x = 6\\), \\(y = 7.5\\). You must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "**Q2 (c):**\n\\[\n\\int_{2}^{6} \\frac{3 + \\frac{6}{2x-3}}{2x-3} \\, dx = 3k\n\\]\n\\[\n\\Rightarrow [3x + 3\\ln(2x-3)]_{2}^{6} = 3k\n\\]\n\\[\n\\Rightarrow 3k + 3\\ln(2k-3) - 6 = 3k\n\\]\n\\[\n\\Rightarrow 3\\ln(2k-3) = 6\n\\]\n\\[\n\\Rightarrow \\ln(2k-3) = 2\n\\]\n\\[\n\\Rightarrow 2k-3 = e^2\n\\]\n\\[\n\\Rightarrow k = \\frac{e^2 + 3}{2} = 5.1945\n\\]"
+  },
+  {
+    "query": "(c) Find the value of \\( k \\), given that\n\n\\[\n\\int_{2}^{k} \\frac{6x - 3}{2x - 3} \\, dx = 3k.\n\\]",
+    "type": "NCEA",
+    "answer": "**Q2 (d):**\n\\[\n= -\\frac{1}{2} \\int \\frac{2\\cos 2x - 2\\sin 2x}{\\cos 2x - \\sin 2x} \\, dx\n\\]\n\\[\n= -\\frac{1}{2} \\ln(\\cos 2x - \\sin 2x) + c\n\\]"
+  },
+  {
+    "query": "(d) Find\n\n\\[\n\\int \\frac{\\cos 2x + \\sin 2x}{\\cos 2x - \\sin 2x} \\, dx.\n\\]",
+    "type": "NCEA",
+    "answer": "Sure, here are the extracted answers:\n\n1. \\(\\frac{dv}{dt} = -kv^2\\)\n2. \\(\\int \\frac{1}{v^2} dv = \\int -k \\, dt\\)\n3. \\(\\int v^{-2} dv = \\int -k \\, dt\\)\n4. \\(v^{-1} = -kt + c\\) \\((\\#(1))\\)\n5. \\(-\\frac{1}{v} = -kt + c\\)\n6. \\(\\frac{1}{v} = kt + d\\)\n7. \\(t = 1\\) and \\(v = p\\) gives: \\(\\frac{1}{p} = k + d\\) \\(\\text{eq(1)}\\)\n8. \\(t = 2\\) and \\(v = \\frac{4}{5}p\\) gives: \\(\\frac{1}{\\frac{4}{5}p} = 2k + d\\)\n9. \\(\\frac{5}{4p} = 2k + d\\) \\(\\text{eq(2)}\\)\n10. \\(\\text{eq(2)} - \\text{eq(1)} = \\frac{5}{4p} - \\frac{1}{p} = k\\)\n11. i.e. \\(k = \\frac{1}{4p}\\)\n12. Then \\(\\text{eq(1)}\\) gives \\(\\frac{1}{p} = \\frac{1}{4p} + d\\)\n13. \\(d = \\frac{3}{4p}\\)\n14. i.e. \\(\\frac{1}{v} = \\frac{1}{4p}t + \\frac{3}{4p}\\)\n15. \\(t = 0\\) gives \\(\\frac{1}{v} = 0 + \\frac{3}{4p}\\) \\((\\#(2))\\)\n16. i.e. \\(v = \\frac{4}{3}p\\)\n17. i.e. The container had \\(\\frac{4}{3}p\\) litres of chocolate initially."
+  },
+  {
+    "query": "(e) A cake factory has a container of liquid chocolate that is used in the manufacture of chocolate cakes.\n\nThe liquid chocolate is pumped out of the container so that the rate of change of the volume of liquid chocolate remaining in the container is proportional to the square of the volume of liquid chocolate remaining.\n\nAfter one hour of use on a particular day, the volume of chocolate remaining is \\( p \\) litres, where \\( p \\) is a positive constant.\n\nAfter a further one hour, there are only \\( \\frac{4}{5} p \\) litres of chocolate remaining in the container.\n\nWrite a differential equation that models this situation, and solve it to calculate how much liquid chocolate was in the container at the start of the day, giving your answer in terms of \\( p \\).",
+    "type": "NCEA",
+    "answer": "Q3a: Area = \\(\\frac{1}{3} \\times 3 \\times \\left[ 10 + 14 + 4(13 + 15) + 2(16) \\right]\\)  \n= \\(1 \\times [24 + 112 + 32]\\)  \n= 168 m\\(^2\\)  \nUnits not required."
+  },
+  {
+    "query": "The page you provided is blank, so there are no questions to extract. If you have another page with content, feel free to share it!",
+    "type": "NCEA",
+    "answer": "Q3b:  \n\\[\n= \\int \\left( 1 - \\frac{3}{x^2} \\right) \\, dx \n\\]  \n\\[\n= \\int \\left( 1 - 3x^{-2} \\right) \\, dx \n\\]  \n\\[\n= x - \\frac{3x^{-2+1}}{-2+1} + c \n\\]  \n\\[\n= x - 6x^{-1} + c \n\\]"
+  },
+  {
+    "query": "Q3 (a) A garden designer wants to find an approximation of the area of a section of a garden, shaded below. They take some measurements and these are shown in the diagram. Using these measurements, and Simpson’s Rule, find an approximation of the area of the garden section.",
+    "type": "NCEA",
+    "answer": "Q3c:  \n\\[\n= \\int_0^{\\frac{\\pi}{3}} 5 \\sin 3x \\sin x \\, dx \n\\]  \n\\[\n= \\frac{5}{2} \\int_0^{\\frac{\\pi}{3}} \\left[ \\cos 2x - \\cos 4x \\right] \\, dx \n\\]  \n\\[\n= \\frac{5}{2} \\left[ \\frac{1}{2} \\sin 2x - \\frac{1}{4} \\sin 4x \\right]_0^{\\frac{\\pi}{3}} \n\\]  \n\\[\n= \\frac{5}{2} [0.6495 - 0] \n\\]  \n\\[\n= \\frac{5}{2} \\times 0.6495 \n\\]  \n\\[\n= 1.6238 \\, \\text{units}^2 \\quad \\text{or} \\quad \\frac{15\\sqrt{3}}{16} \n\\]"
+  },
+  {
+    "query": "Q3 (b) Find \\(\\int \\left( \\frac{\\sqrt{x} - 3}{\\sqrt{x}} \\right) \\, dx\\).",
+    "type": "NCEA",
+    "answer": "Q3d:  \n\\[\nv = \\int \\frac{2t}{4e^{2t} - 3} \\, dt \n\\]  \n\\[\nv = \\frac{1}{8} \\ln (4e^{2t} - 3) + c \n\\]  \n\\(t = 0\\) and \\(v = 5\\) gives  \n\\[\n5 = \\frac{1}{8} \\ln 1 + c \\Rightarrow c = 5 \n\\]  \ni.e. \\(v = \\frac{1}{8} \\ln (4e^{2t} - 3) + 5\\)  \n\\(t = 4\\) gives  \n\\(v = 6.1732 \\, \\text{m s}^{-1}\\)"
+  },
+  {
+    "query": "Q3c The graph below shows the function \\( y = 5 \\sin(3x) \\sin(x) \\).\n\nFind the shaded area.\n\n*You must use calculus and show the results of any integration needed to solve the problem.*",
+    "type": "NCEA",
+    "answer": "Q1c (i): \\(-\\ln(1-y) = -\\ln(1+x) + c\\)"
+  },
+  {
+    "query": "Q1d An object’s acceleration can be modelled by the equation \\( a = \\frac{e^{2t}}{4e^{2t} - 3} \\).\n\nwhere \\( t \\geq 0 \\) and \\( a \\) is the acceleration of the object in m s\\(^{-2}\\) and \\( t \\) is the time, in seconds, from the start of timing.\n\nAt \\( t = 0 \\) seconds, the object had a velocity of 5 m s\\(^{-1}\\).\n\nFind the object’s velocity when \\( t = 4 \\) seconds.",
+    "type": "NCEA",
+    "answer": "Q1c (ii): \\(c = \\ln 3 = 1.09863\\)"
+  },
+  {
+    "query": "Q1e. Consider the differential equation \\((1-x^2)(1+y)\\frac{dy}{dx}+(1-x)(1-y^2)=0\\).\n\nGiven that \\(y=0\\) when \\(x=2\\), find the value(s) of \\(y\\) when \\(x=6\\).\n\nYou must use calculus and show the results of any integration needed to solve the problem.",
+    "type": "NCEA",
+    "answer": "Q1c (iii): \\(\\ln(1-y) = \\ln\\left(\\frac{1+x}{3}\\right)\\)"
+  },
+  {
+    "query": "The page provided does not contain any questions. It appears to be a blank page for extra space, labeled for writing question numbers if needed.",
+    "type": "NCEA",
+    "answer": "Q1c (iv): \\(1-y = \\frac{1+x}{3}\\)"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions.",
+    "type": "NCEA",
+    "answer": "Q1c (v): \\(y = \\frac{2-x}{3}\\)"
+  },
+  {
+    "query": "The page you provided is blank and does not contain any questions.",
+    "type": "NCEA",
+    "answer": "Q1c (vi): \\(x = 6\\) gives \\(y = -\\frac{4}{3}\\)"
+  }
+]

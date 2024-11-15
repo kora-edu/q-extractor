@@ -176,8 +176,8 @@ def validate_and_fix_data(json_file):
     print(f"Validation and fixing complete. Fixed data saved to 'exam_data_fixed.json'.")
 
 def main():
-    base_path = r'.\PapersPDF\NCEAL3CALC' 
-    topics = ['91579_INT']
+    base_path = r'C:\Users\OKH20\OneDrive - University of Canterbury\Projects\KORA\KORAedu\q-extractor\q-extractorPYMUPDF\PapersPDF\NCEAL3CALC'
+    topics = ['91579_INT']  # Define your topics here
     data = []
 
     for topic in topics:
