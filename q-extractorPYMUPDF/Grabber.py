@@ -23,27 +23,6 @@ def extract_text_from_pdf(pdf_path):
     """
     Extract text from a PDF file without skipping any pages.
     """
-    # md_text = pymupdf4llm.to_markdown(pdf_path)
-    # pathlib.Path("./output.md"+pdf_path+".pdf").write_bytes(md_text.encode())
-    # return md_text
-  
-    # full_md_txt, images, out_meta = convert_single_pdf(pdf_path, models)
-    # return full_md_txt
-   
-
-    #text = ""
-    # try: 
-    #     reader = PdfReader(pdf_path)
-    #     num_pages = len(reader.pages)
-    #     for i in range(num_pages):
-    #         page_text = reader.pages[i].extract_text()
-    #         if page_text:
-    #             text += page_text
-    #     # Replace multiple newlines and tabs with a single space
-    #     text = re.sub(r'[\n\t]+', ' ', text)
-    # except Exception as e:
-    #     print(f"Error reading {pdf_path}: {e}")
-    # return text
 
 def encode_image_to_base64(image):
     img_byte_arr = BytesIO()
@@ -68,11 +47,11 @@ def extract_items(pdf_path, item_type):
     for base64_image in base64_images:
         prompt = (
             f"Extract all the {item_type} from the following page using OCR instead of plainly reading"
-            f"including their associated numbering and ensuring accurate representation of LaTeX equations "
+            r"including their associated numbering and ensuring accurate representation of LaTeX equations, make sure it is all valid compilable latex instead of natural expressions e.g \frac{}{} instead of / "
             f"with a high DPI OCR process (e.g., Q1a, Q1b, Q1c (i), etc.) If a question has multiple parts e.g Q1d (i), (ii) etc, the first answer for 1d is always the (i)"
             f"Provide each {item_type[:-1]} separated by '<END>'."
         )
-        
+
         try:
             response = client.chat.completions.create(
                 model="gpt-4o",
@@ -176,7 +155,7 @@ def validate_and_fix_data(json_file):
     print(f"Validation and fixing complete. Fixed data saved to 'exam_data_fixed.json'.")
 
 def main():
-    base_path = r'C:\Users\OKH20\OneDrive - University of Canterbury\Projects\KORA\KORAedu\q-extractor\q-extractorPYMUPDF\PapersPDF\NCEAL3CALC'
+    base_path = r'.\PapersPDF\NCEAL3CALC'
     topics = ['91579_INT']  # Define your topics here
     data = []
 

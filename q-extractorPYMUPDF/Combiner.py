@@ -71,7 +71,7 @@ def process_files(file_list, directory):
         print(f"Processing {file_path}...")
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-
+            
         for item in data:
             query = item.get('query', '')
             answer = item.get('answer', '')

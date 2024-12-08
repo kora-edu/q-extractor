@@ -1,16 +1,18 @@
 import subprocess
 import os
 import json
+from datetime import date
 
 data_path = 'JBdata5.json'
 with open(data_path, 'r') as f:
     jbdata = json.load(f)
 
+date = date.today()
 
 questions = [
     {
         "text": q["query"].strip('"'),
-        "type": "multiple_choice" if "options" in q else "written",
+        "type": "multiple_choice" if "options" in q else "written", #is multi if q's entry contains an "options" row
         "points": 5, #temporary, each q will be assigned accordingly by model
         "options": q.get("options", [])  #default to empty list if no options
     }
@@ -29,10 +31,12 @@ def generate_latex_code(questions):
 \usepackage{unicode-math}
 \usepackage{amsmath}
 \usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
 
 \begin{document}
 \title{json -> latex convert test}
-\author{}
+\author{kora}
 \date{}
 \maketitle
 \section*{Questions}
@@ -42,7 +46,7 @@ def generate_latex_code(questions):
 """
     for q in questions:
         latex_content += rf"\question[{q['points']}] " + q['text'] + "\n"   
-        latex_content += r"\fillwithlines{5cm}" 
+        latex_content += r"\fillwithlines{3cm}"
         latex_content += "\n"  
     latex_content += r"""
 \end{questions}

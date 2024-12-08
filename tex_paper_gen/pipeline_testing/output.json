@@ -1,0 +1,42 @@
+[
+        {
+            "tag": "NCEA-Differentiation",
+            "question": "\\( \\text{Find the derivative of } f(x) = x^3 - 4x + 2. \\)",
+            "answer": "\\( \\frac{d}{dx}(x^3 - 4x + 2) = 3x^2 - 4 \\)"
+        },
+        {
+            "tag": "NCEA-Integration",
+            "question": "\\( \\text{Evaluate the integral } \\int (2x^2 + 3x - 1) dx. \\)",
+            "answer": "\\( \\int (2x^2 + 3x - 1) dx = \\frac{2}{3}x^3 + \\frac{3}{2}x^2 - x + C \\)"
+        },
+        {
+            "tag": "NCEA-Complex",
+            "question": "\\( \\text{Given } f(x) = e^{2x}, \\text{ find the equation of the tangent line to the curve at } x=1. \\)",
+            "answer": "\\[ y - e^2 = 2e^2 (x - 1) \\]"
+        },
+        {
+            "tag": "NCEA-Other",
+            "question": "\\( \\text{Determine the value of } \\lim_{h \\to 0} \\frac{(3+h)^2 - 9}{h}. \\)",
+            "answer": "\\[ \\lim_{h \\to 0} \\frac{(3+h)^2 - 9}{h} = \\lim_{h \\to 0} \\frac{6h + h^2}{h} = 6. \\]"
+        },
+        {
+            "tag": "NCEA-Differentiation",
+            "question": "\\( \\text{Find the derivative of } g(x) = \\ln(x^2 + 1). \\)",
+            "answer": "\\[ \\frac{d}{dx}(\\ln(x^2 + 1)) = \\frac{2x}{x^2 + 1} \\]"
+        },
+        {
+            "tag": "NCEA-Integration",
+            "question": "\\( \\text{Evaluate } \\int \\sin(3x) dx. \\)",
+            "answer": "\\[ \\int \\sin(3x) dx = -\\frac{1}{3}\\cos(3x) + C \\]"
+        },
+        {
+            "tag": "NCEA-Complex",
+            "question": "\\( \\text{Find the area between the curve } y=x^2 \\text{ and the x-axis from } x=0 \\text{ to } x=1. \\)",
+            "answer": "\\[ \\int_{0}^{1} x^2 dx = \\left[\\frac{x^3}{3}\\right]_0^1 = \\frac{1}{3}. \\]"
+        },
+        {
+            "tag": "NCEA-Other",
+            "question": "\\( \\text{Solve the differential equation } y' = 2x, \\text{ given that } y(0) = 5. \\)",
+            "answer": "\\[ y(x) = x^2 + C \\;\\text{ and by substituting }\\; y(0)=5, \\;\\text{ we get }\\; y(x) = x^2 + 5. \\]"
+        }
+    ]
