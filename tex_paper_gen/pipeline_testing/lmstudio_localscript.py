@@ -19,7 +19,7 @@ exam_schema = {  #strucutred output for valid json object
                 "properties": {
                     "question": {"type": "string"},
                     "answer": {"type": "string"},
-                    "tags": {
+                    "type": {
                         "type": "array",
                         "items": {"type": "string"}
                     }
@@ -69,13 +69,17 @@ def query_model(input_text):
 def generate_questions():
     """Generate NCEA questions using the model with the input file."""
     prompt = (
-        "Generate 10 'NCEA' math questions (school system in New Zealand) "
-        "surrounding their covered topics around calculus / complex numbers"
-        "Include respective answers for each question. Also update the tags to NCEA-Integration, NCEA-Differentiation, NCEA-Complex,"
-        "based on what sort of question you generate. The latex must Generate LuaLaTeX compatible "
-        "LaTeX code that properly mixes text and mathematical expressions. Use \\text{} for text segments"
-        "and proper math delimiters ($...$) for inline equations, and \\[ ... \\] for display equations."
-    )
+    "Generate 10 'NCEA' math questions (school system in New Zealand) "
+    "based on topics including calculus and complex numbers."
+    "For each question, provide the correct answer and tag it with NCEA-Integration, NCEA-Differentiation, or NCEA-Complex based on its content."
+    "Your response must be LuaLaTeX compatible. Use \\text{} for text segments (e.g., \\text{This is a text segment})."
+    "For inline equations, use $...$ delimiters and for display equations, use \\[ ... \\]."
+    "Example of inline equation: The function is given by $f(x) = 2x + \\text{constant}$."
+     "- Correct Display equation example: \\[ I = \\int_0^1 x^2 dx \\]\n"
+    "Incorrect usage should be avoided, for example:\n"
+    " Ensure every equation uses proper LaTeX syntax: always use double backslashes (\\) before commands like \\frac and \\text"
+)
+
 
     response = query_model(prompt)
     if not response:

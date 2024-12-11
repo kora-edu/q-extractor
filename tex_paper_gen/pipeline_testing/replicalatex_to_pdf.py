@@ -44,11 +44,11 @@ def generate_latex_code(questions):
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{setspace}
 
-
 \begin{document}
 \title{json -> latex convert test}
 \author{kora}
 \date{}
+
 \maketitle
 \section*{Questions}
 \begin{questions}
@@ -56,9 +56,14 @@ def generate_latex_code(questions):
 \bracketedpoints
 """
     for q in questions:
-        latex_content += rf"\question[{q['points']}] " + q['text'] + "\n"   
-        latex_content += r"\fillwithlines{3cm}"
-        latex_content += "\n"  
+        latex_content += rf"\question[{q['points']}]" + q['text'] + "\n" 
+        if q["type"] == "multiple_choice":
+            for i, option in enumerate(q["options"], start=1):
+                latex_content += rf"({chr(ord('A') + (i-1))}).~{option}\par\n"
+        else: 
+            latex_content += r"\fillwithlines{3cm}"
+            latex_content += "\n"  
+
     latex_content += r"""
 \end{questions}
 \end{document}
