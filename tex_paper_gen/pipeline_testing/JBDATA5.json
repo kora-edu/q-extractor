@@ -5,9 +5,9 @@
         "answer": "\\(2 + \\sqrt{5}\\)"
     },
     {
-        "query": "[NCEA] One root of the equation \\( z^3 - 3z + p = 0 \\) is \\( z = 2 - 3i \\). If \\( p \\) is a real number, find the value of \\( p \\) and the other roots of the equation.",
+        "query": "[NCEA] One root of the equation $ z^3 - 3z + p = 0 $ is \\( z = 2 - 3i \\). If \\( p \\) is a real number, find the value of \\( p \\) and the other roots of the equation.",
         "type": "NCEA",
-        "answer": "Since \\( z = 2 - 3i \\) is a root and \\( p \\) is real, the complex conjugate \\( z = 2 + 3i \\) must also be a root. The quadratic factor formed by these roots is:\n\\[\n(z - (2 - 3i))(z - (2 + 3i)) = (z - 2 + 3i)(z - 2 - 3i) = (z - 2)^2 - (3i)^2 = z^2 - 4z + 13\n\\]\nThe polynomial can be expressed as:\n\\[\n(z^2 -"
+        "answer": "Since \\(z = 2 - 3i\\) is a root and \\( p \\) is real, the complex conjugate \\( z = 2 + 3i \\) must also be a root. The quadratic factor formed by these roots is:\n\\[\n(z - (2 - 3i))(z - (2 + 3i)) = (z - 2 + 3i)(z - 2 - 3i) = (z - 2)^2 - (3i)^2 = z^2 - 4z + 13\n\\]\nThe polynomial can be expressed as:\n\\[\n(z^2 -"
     },
     {
         "query": "[NCEA] \"If \\( z = 1 + i \\) and \\( w = \\frac{1}{z} + i \\), find the exact value of \\(\\arg(w)\\).\"",

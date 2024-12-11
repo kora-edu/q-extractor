@@ -1,0 +1,41 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5] \text{Find the derivative of f(x) = $\frac{x^3 - 4x + 1}{\sqrt[3]{x}}.$}
+\fillwithlines{3cm}
+\question[5] \text{Evaluate the integral of } $g(x) = x^2e^x$ \text{ from } x=0 \text{ to } x=1.
+\fillwithlines{3cm}
+\question[5] \text{Solve for the complex number } z = a + bi, \text{ given that } |z| = 5 \text{ and } $\arg(z) = \frac{\pi}{3}$ \text{ radians.}
+\fillwithlines{3cm}
+\question[5] \text{Find the indefinite integral of } $h(x) = 3x^2 - \sin(2x)$.
+\fillwithlines{3cm}
+\question[5] \text{If }$f(x) = (2x - 1)^5$, \text{ find the derivative of } f. \text{(Apply the chain rule)}
+\fillwithlines{3cm}
+\question[5] \text{What is the argument of the complex number } z = -3 + 3i?
+\fillwithlines{3cm}
+\question[5] \text{Evaluate the definite integral of } k(x) = x + e^{-x}, \text{ from } x=0 \text{ to } x=2.
+\fillwithlines{3cm}
+\question[5] \text{Determine the derivative of } m(x) = (x+3)(x^2-4).
+\fillwithlines{3cm}
+\question[5] \text{Given a complex number } z = \frac{-1}{\sqrt{2}} + \frac{i}{\sqrt{2}}, \text{ find its conjugate and modulus.}
+\fillwithlines{3cm}
+\question[5] \text{Find the indefinite integral of } n(x) = \frac{x^3 + 4x}{(x+1)^2} \text{ using integration by parts or substitution.}
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

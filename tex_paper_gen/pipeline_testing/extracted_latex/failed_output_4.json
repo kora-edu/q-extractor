@@ -1,0 +1,41 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5] \(\text{Given the function } f(x) = x^3 - 4x + 1 \text{, find its derivative } f'(x).\)
+\fillwithlines{3cm}
+\question[5] \(\int (2x + 1)(x - 3) \, dx\)
+\fillwithlines{3cm}
+\question[5] \(\text{Find the derivative of } g(x) = \sin(3x) + e^{4x}.\)
+\fillwithlines{3cm}
+\question[5] \(\text{Evaluate } \int_{-1}^2 (6x - x^2) \, dx.\)
+\fillwithlines{3cm}
+\question[5] \(\text{Find the complex number } z = a + bi \text{ such that } |z| = 5 \text{ and } \arg(z) = \frac{π}{4}.\)
+\fillwithlines{3cm}
+\question[5] \(\text{If } z = 3 - 4i, \text{ find the conjugate } Ɲ \text{ and modulus } |z| \text{ of } z.\)
+\fillwithlines{3cm}
+\question[5] \(\int x^2 e^{x} \, dx.\)
+\fillwithlines{3cm}
+\question[5] \(\text{If } f(x) = x^3 - 6x^2 + 11x - 6, \text{ find } f''(x).\)
+\fillwithlines{3cm}
+\question[5] \(\int_{0}^{π/4} \sin(x)^2 \cos(x) \, dx.\)
+\fillwithlines{3cm}
+\question[5] \(\text{If } z = 2 + i \text{ and } w = -3 + 4i, \text{ find the sum } z + w.\)
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

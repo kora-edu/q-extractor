@@ -3,7 +3,7 @@ import os
 import json
 from datetime import date
 
-data_path = 'JBdata5.json'
+data_path = 'output_1.json'
 with open(data_path, 'r') as f:
     jbdata = json.load(f)
 
@@ -11,7 +11,7 @@ date = date.today()
 
 questions = [
     {
-        "text": q["query"].strip('"'),
+        "text": q["question"].strip('"'),
         "type": "multiple_choice" if "options" in q else "written", #is multi if q's entry contains an "options" row
         "points": 5, #temporary, each q will be assigned accordingly by model
         "options": q.get("options", [])  #default to empty list if no options

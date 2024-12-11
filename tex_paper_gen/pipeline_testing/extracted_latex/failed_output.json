@@ -1,0 +1,41 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5] Find the derivative of the function $f(x) = x^3 - 4x^2 + 5x - 7$.
+\fillwithlines{3cm}
+\question[5] Given $g(x) = \frac{1}{2}x^2 - 4\ln(x)$, find the second derivative of $g(x)$.
+\fillwithlines{3cm}
+\question[5] Calculate the indefinite integral $\int (6x^3 + 8x^2 - 5x + 1)dx$.
+\fillwithlines{3cm}
+\question[5] Find the area under the curve $y = 2x^3 - x^2 + 4x - 1$ from $x=0$ to $x=2$. 
+\fillwithlines{3cm}
+\question[5] Determine the critical points of $h(x) = x^4 - 8x^2 + 10$ and classify them as local maxima, minima, or neither.
+\fillwithlines{3cm}
+\question[5] Evaluate the integral $\int_{1}^{4} \frac{x^3 + 2x - 5}{x^2} dx$.
+\fillwithlines{3cm}
+\question[5] Given $f(x) = e^{2x}(3x^2 + x)$, find the derivative of $f(x)$. Simplify your answer.
+\fillwithlines{3cm}
+\question[5] Find the equation of the tangent line to the curve $y = \sin(x) - x\cos(x)$ at $x=0$.
+\fillwithlines{3cm}
+\question[5] Calculate the volume of a solid formed by rotating the area between $y = x^2$, $y = 4 - x^2$ about the y-axis. 
+\fillwithlines{3cm}
+\question[5] Given a function $f(x) = \sqrt{x} + \frac{4}{x^3}$, find its derivative and evaluate it at $x=1$.
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

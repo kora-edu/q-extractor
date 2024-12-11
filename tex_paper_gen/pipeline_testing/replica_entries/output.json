@@ -1,9 +1,9 @@
 [
-        {
-            "tag": "NCEA-Differentiation",
-            "question": "\\( \\text{Find the derivative of } f(x) = x^3 - 4x + 2. \\)",
-            "answer": "\\( \\frac{d}{dx}(x^3 - 4x + 2) = 3x^2 - 4 \\)"
-        },
+    {
+        "tag": "NCEA-Differentiation",
+        "question": "\\( \\text{Find the derivative of } f(x) = x^3 - 4x + 2. \\)",
+        "answer": "\\( \\frac{d}{dx}(x^3 - 4x + 2) = 3x^2 - 4 \\)"
+    },
         {
             "tag": "NCEA-Integration",
             "question": "\\( \\text{Evaluate the integral } \\int (2x^2 + 3x - 1) dx. \\)",

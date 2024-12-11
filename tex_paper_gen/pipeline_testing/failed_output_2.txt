@@ -1,0 +1,54 @@
+```json
+[
+    {
+        "question": "Given the function f(x) = x^3 - 4x + 1, find the derivative of f at x = 2.",
+        "answer": "-7",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "If g(x) = \sin(x) + 2\cos(x), evaluate g'(x) when x = \frac{\pi}{4}.\n\n",
+        "answer": "\sqrt{2}",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Find the indefinite integral of $\\int (3x^2 - 5x + 1) dx$.",
+        "answer": "$x^3 - \\frac{5}{2}x^2 + x + C$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Evaluate the definite integral of $\\int_{0}^{1} (4x^3 + 2x) dx$. ",
+        "answer": "$5/2$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Consider a complex number z = 3 - 4i. Find the conjugate of z and calculate |z|.",
+        "answer": "The conjugate is $3 + 4i$, and the modulus is $5$. ",
+        "tags": ["NCEA-Complex"]
+    },
+    {
+        "question": "Given a complex number w = \cos(\theta) + i\sin(\theta), find the argument of w if $\theta$ = $\frac{\pi}{3}$. ",
+        "answer": "$\\frac{\\pi}{3}$",
+        "tags": ["NCEA-Complex"]
+    },
+    {
+        "question": "Find the derivative of $h(x) = e^x \sin(x)$ at x = 0.",
+        "answer": "1",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Evaluate $\int (2x\cos(x^2)) dx$ using substitution.",
+        "answer": "$\\sin(x^2) + C$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "If a complex number z satisfies $|z - 1 - i| = \sqrt{5}$, find the center and radius of the circle described by this equation.",
+        "answer": "Center at (1, 1), Radius is $\sqrt{5}$. ",
+        "tags": ["NCEA-Complex"]
+    },
+    {
+        "question": "Consider $f(x) = \\frac{x^2 + 4}{x - 2}$; find the limit as x approaches infinity.",
+        "answer": "$\\infty$",
+        "tags": ["NCEA-Differentiation", "NCEA-Integration"]
+    }
+]
+```

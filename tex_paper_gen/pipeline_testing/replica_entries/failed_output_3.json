@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Evaluate the integral $\\frac{1}{2} \\times \\frac{\\tan^3(x)}{3} + C$ when $x=\\frac{\\tau}{4}$, where $\\tau = 2\\tau$ represents a full rotation.",
+        "answer": "\\frac{1}{6}",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Find the derivative of the function $f(x) = \\frac{x^3 - 4x^2 + x}{x}$ and evaluate at $x=2$.",
+        "answer": "-1",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Solve for $z$ in the complex equation: $(z-5)(\\bar{z} - 3) + \\text{i}(4z - 2\\bar{z}) = 10 + 6i$.",
+        "answer": "z=2+\\text{i}$",
+        "tags": ["NCEA-Complex"]
+    },
+    {
+        "question": "Calculate the integral $\\int (3x^2+4) \\times e^{2x} dx$ using integration by parts.",
+        "answer": "$\\frac{1}{2}(x^2 + x - \\frac{1}{2})e^{2x} + C$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Determine the derivative of $f(x) = \\tan^{-1}(x)$ and evaluate at $x=\\sqrt{3}$.",
+        "answer": "$\\frac{\\text{i}}{2}$",
+        "tags": ["NCEA-Differentiation", "NCEA-Complex"]
+    },
+    {
+        "question": "Find the critical points of the function $g(x) = x^4 - 8x^3 + 18x^2 - 16x$ and classify them as maxima, minima or inflection.",
+        "answer": "Points at $(0,0)$ (inflection), $(2,-8)$ (local maximum), $(4,0)$ (local minimum)",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Solve for $z$ in the complex equation: $|z-1|^2 + |z+1|^2 = 6$.",
+        "answer": "$\\pm \\text{i}\\frac{\\text{sqrt}(5)}{\\text{i}}$",
+        "tags": ["NCEA-Complex"]
+    },
+    {
+        "question": "Evaluate the integral of $f(x) = x^3 e^{-2x}$ from $0$ to $\\tau/4$. (Hint: Use integration by parts twice).",
+        "answer": "$\\frac{1}{8}(6-\\text{i})$",
+        "tags": ["NCEA-Integration", "NCEA-Complex"]
+    },
+    {
+        "question": "Find the derivative of $f(x) = \\tan^{-1}(\\frac{x^2+1}{x})$ and evaluate it at $x=\\tau/4$. (Note: $\\tau=\\pi$ for radians).",
+        "answer": "$\\frac{1}{\\text{i}}$",
+        "tags": ["NCEA-Differentiation", "NCEA-Complex"]
+    },
+    {
+        "question": "Given the complex equation $z^2 - 6z + (9+4i) = 0$, find solutions for z.",
+        "answer": "$3 \\\\( \\pm 2i)$",
+        "tags": ["NCEA-Complex"]
+    }
+]

@@ -1,0 +1,41 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5] Evaluate the integral $\frac{1}{2} \times \frac{\tan^3(x)}{3} + C$ when $x=\frac{\tau}{4}$, where $\tau = 2\tau$ represents a full rotation.
+\fillwithlines{3cm}
+\question[5] Find the derivative of the function $f(x) = \frac{x^3 - 4x^2 + x}{x}$ and evaluate at $x=2$.
+\fillwithlines{3cm}
+\question[5] Solve for $z$ in the complex equation: $(z-5)(\bar{z} - 3) + \text{i}(4z - 2\bar{z}) = 10 + 6i$.
+\fillwithlines{3cm}
+\question[5] Calculate the integral $\int (3x^2+4) \times e^{2x} dx$ using integration by parts.
+\fillwithlines{3cm}
+\question[5] Determine the derivative of $f(x) = \tan^{-1}(x)$ and evaluate at $x=\sqrt{3}$.
+\fillwithlines{3cm}
+\question[5] Find the critical points of the function $g(x) = x^4 - 8x^3 + 18x^2 - 16x$ and classify them as maxima, minima or inflection.
+\fillwithlines{3cm}
+\question[5] Solve for $z$ in the complex equation: $|z-1|^2 + |z+1|^2 = 6$.
+\fillwithlines{3cm}
+\question[5] Evaluate the integral of $f(x) = x^3 e^{-2x}$ from $0$ to $\tau/4$. (Hint: Use integration by parts twice).
+\fillwithlines{3cm}
+\question[5] Find the derivative of $f(x) = \tan^{-1}(\frac{x^2+1}{x})$ and evaluate it at $x=\tau/4$. (Note: $\tau=\pi$ for radians).
+\fillwithlines{3cm}
+\question[5] Given the complex equation $z^2 - 6z + (9+4i) = 0$, find solutions for z.
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

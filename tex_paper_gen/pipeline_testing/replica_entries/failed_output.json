@@ -1,0 +1,53 @@
+
+[
+    {
+        "question": "Find the derivative of the function $f(x) = x^3 - 4x^2 + 5x - 7$.",
+        "answer": "$f'(x) = 3x^2 - 8x + 5$",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Given $g(x) = \\frac{1}{2}x^2 - 4\\ln(x)$, find the second derivative of $g(x)$.",
+        "answer": "$g''(x) = 1 - \\frac{4}{x^2}$",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Calculate the indefinite integral $\\int (6x^3 + 8x^2 - 5x + 1)dx$.",
+        "answer": "$\\frac{3}{2}x^4 + \\frac{8}{3}x^3 - \\frac{5}{2}x^2 + x + C$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Find the area under the curve $y = 2x^3 - x^2 + 4x - 1$ from $x=0$ to $x=2$. ",
+        "answer": "$\\frac{64}{3}$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Determine the critical points of $h(x) = x^4 - 8x^2 + 10$ and classify them as local maxima, minima, or neither.",
+        "answer": "Critical points: $(0, 10)$ (local maximum), $\\pm \\sqrt{2}$ with values $-6$ (local minima)",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Evaluate the integral $\\int_{1}^{4} \\frac{x^3 + 2x - 5}{x^2} dx$.",
+        "answer": "$\\frac{169}{12}$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Given $f(x) = e^{2x}(3x^2 + x)$, find the derivative of $f(x)$. Simplify your answer.",
+        "answer": "$f'(x) = e^{2x}(6x^2 + 8x + 1)$",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Find the equation of the tangent line to the curve $y = \\sin(x) - x\\cos(x)$ at $x=0$.",
+        "answer": "$y=x$",
+        "tags": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "Calculate the volume of a solid formed by rotating the area between $y = x^2$, $y = 4 - x^2$ about the y-axis. ",
+        "answer": "$V=\\frac{128\\pi}{15}$",
+        "tags": ["NCEA-Integration"]
+    },
+    {
+        "question": "Given a function $f(x) = \\sqrt{x} + \\frac{4}{x^3}$, find its derivative and evaluate it at $x=1$.",
+        "answer": "$f'(1)=-6$",
+        "tags": ["NCEA-Differentiation"]
+    }
+]
