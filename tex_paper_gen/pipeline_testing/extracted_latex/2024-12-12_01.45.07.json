@@ -1,0 +1,41 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5]Evaluate the definite integral $rac{	ext{d}}{	ext{dx}}igg(rac{x^3}{3} - 5x + Cigg)$ from $x = 1$ to $x = 2$. Simplify your answer.
+\fillwithlines{3cm}
+\question[5]	ext{Find the derivative of } f(x) = 	ext{e}^{3x}	ext{ at } x = 0.
+\fillwithlines{3cm}
+\question[5]	ext{Given the function } f(x) = rac{x^2 + 4x - 5}{	ext{i}(x-1)}, 	ext{ find the limit as } x 	o 1.$
+\fillwithlines{3cm}
+\question[5]	ext{Determine the indefinite integral of } f(x) = 4x^3 - 2x + rac{1}{x}.
+\fillwithlines{3cm}
+\question[5]	ext{What is the derivative of } f(z) = z^3 - 5z^2 + 6	ext{i}, 	ext{ where } z 	ext{ is a complex number?}
+\fillwithlines{3cm}
+\question[5]	ext{Evaluate the integral } rac{	ext{d}}{	ext{dx}}igg( 	ext{i}x + x^2 - 3 igg) 	ext{ from } x = 0 	ext{ to } x = 1.$
+\fillwithlines{3cm}
+\question[5]	ext{Find the limit of } f(z) = rac{z^2 - 4}{z - 2}, 	ext{ as } z 	o 2. 	ext{(Hint: Use complex numbers)}
+\fillwithlines{3cm}
+\question[5]	ext{Differentiate the function } g(x) = x^{rac{3}{2}} - rac{1}{x} + e^{2x}.$
+\fillwithlines{3cm}
+\question[5]	ext{Calculate the integral } igg(	ext{i}z^3 - z^2 + 6	ext{i}igg) dz 	ext{ along the path from } z = 0 	ext{ to } z = 1.$
+\fillwithlines{3cm}
+\question[5]	ext{Find the derivative of } h(x) = 	ext{ln}(x^2 + 1)$.
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

@@ -1,0 +1,39 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5]\[ f(x) = x^3 - 4x^2 + 5 \] Find the derivative of $f(x)$ with respect to $x$.
+\fillwithlines{3cm}
+\question[5]\[ g(z) = z^4 + 3iz^2 - i \] Evaluate the derivative of $g(z)$ at $z=1$. Use your result to determine if there is a local maximum or minimum for real values of $x$ around $x=1$.
+\fillwithlines{3cm}
+\question[5]\[ h(x) = e^{2x} - x^3 + 5 \] Find the integral of $h(x)$ from $0$ to $1$. Use proper notation for your answer.
+\fillwithlines{3cm}
+\question[5]\[ p(z) = z^2 + i \] Find $p(3i)$ and determine if the point is on the unit circle. Explain your reasoning.
+\fillwithlines{3cm}
+\question[5]\[ q(x) = x^4 - 6x^3 + 9x^2 \] Determine $q'(x)$ and find all critical points.
+\fillwithlines{3cm}
+\question[5]\[ r(t) = e^{-t}(	ext{cos}(t) + i	ext{sin}(t)) \] Determine the derivative $r'(t)$ and evaluate it at $t=0$. Interpret your result geometrically.
+\fillwithlines{3cm}
+\question[5]\[ t(z) = \frac{z}{z-1} \] Evaluate the limit of $t(z)$ as $z	o 1$. Explain your reasoning.
+\fillwithlines{3cm}
+\question[5]\[ u(x) = 	ext{cos}(x)^2 - x^2 + 1 \] Compute the integral of $u(x)$ from $-rac{	ext{pi}}{4}$ to $rac{	ext{pi}}{4}$. Simplify your answer.
+\fillwithlines{3cm}
+\question[5]\[ v(z) = z^3 - iz + i \] Solve $v(z) = 0$ for $z$. Express your answer in the form of $a+bi$.
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

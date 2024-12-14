@@ -1,0 +1,42 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5]Let $f(x) = e^{2x}$. Find the derivative of $f$ at $x=1$, denoted as $f'(1)$.
+\fillwithlines{3cm}
+\question[5]\text{For the function } $g(x) = x^3 - 6x^2 + 9x + 5$, \text{ find the value of } x \text{ at which } g'(x) = 0.
+\fillwithlines{3cm}
+\question[5]\text{Evaluate the definite integral: } $I = \frac{d}{dx} \bigg|_{x=0}^{x=\frac{\pi}{2}} x\sin(x)$.
+\fillwithlines{3cm}
+\question[5]\text{Find the area under the curve of } $y = x^2 + 3x - 4$ \text{ between } x = 1 \text{ and } x = 3.
+\fillwithlines{3cm}
+\question[5]\text{Given } $f(x) = e^x$ \text{ and } $g(x) = x^2$, \text{ find the derivative of their product at } x=1.
+\fillwithlines{3cm}
+\question[5]\text{Calculate the integral of } $\frac{\sin(2x)}{4 + \cos^2(x)}$. \text{ Let this result be denoted as } K.
+\fillwithlines{3cm}
+\question[5]\text{If } z = 3 + 4i, \text{ calculate } |z| \text{ and find the conjugate of } z.
+\fillwithlines{3cm}
+\question[5]\text{Solve for } x \text{ if } $(x + 2) + i(3 - x^2)$ \text{ is purely imaginary.}
+\fillwithlines{3cm}
+\question[5]\text{Evaluate the complex integral of } $\frac{\exp(iz)}{z^2 + 4}$, \text{ along a path that encloses only the positive imaginary axis, centered at the origin.}
+\fillwithlines{3cm}
+\question[5]\text{Given } $f(x) = x^4 + ax^3 + bx^2 + cx + d$ \text{ where } a, b, c, d \text{ are constants. If the function has two distinct stationary points at } x=1 \text{ and } x=-1, \text{ what is } f''(0)?
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

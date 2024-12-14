@@ -1,0 +1,41 @@
+
+\documentclass[12pt,addpoints]{exam}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+
+\begin{document}
+\title{json -> latex convert test}
+\author{kora}
+\date{}
+
+\maketitle
+\section*{Questions}
+\begin{questions}
+\pointsinrightmargin
+\bracketedpoints
+\question[5]Find the derivative of $f(x) = 3x^2 - 4x + 7$. What is the value of this derivative at $x=2$?
+\fillwithlines{3cm}
+\question[5]Evaluate the integral $\bigintsss_{1}^{3} (x^3 - x + 2) dx$
+\fillwithlines{3cm}
+\question[5]Given $g(x) = \frac{d}{dx}(x^3 - 6x + 1)$, find the coordinates of the turning point(s) on the graph of $y=g(x)$
+\fillwithlines{3cm}
+\question[5]Let $h(x) = e^{x^2}$. Find the equation of the tangent line to the graph of $y=h(x)$ at $x=1$
+\fillwithlines{3cm}
+\question[5]Evaluate $\int_{0}^{\frac{\pi}{4}} x \sec^2(x) \, dx$.
+\fillwithlines{3cm}
+\question[5]Given $z = 3 + 4i$, find the modulus and argument of $z$
+\fillwithlines{3cm}
+\question[5]If $z_1 = 2 - i$ and $z_2 = 1 + 3i$, calculate $z_1 	imes z_2$. Express the answer in standard form $a + bi$
+\fillwithlines{3cm}
+\question[5]Given the complex number $z=-oot	oplength{3}(rac{	ext{Ï€}}{4})$, find its conjugate $ar{z}$
+\fillwithlines{3cm}
+\question[5]Find the derivative of $y = e^{x^2 + 5}$ with respect to $x$. Simplify your answer.
+\fillwithlines{3cm}
+\question[5]Let $f(x) = x^4 - 8x^3 + 16x^2$. Find the second derivative of this function.
+\fillwithlines{3cm}
+
+\end{questions}
+\end{document}

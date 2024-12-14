@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.21)  12 DEC 2024 00:41
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.21)  12 DEC 2024 01:30
  restricted system commands enabled.
 **X:/coding/KORA/tex_paper_gen/pipeline_testing/extracted_latex/2024-12-12_00.1
 9.12.json
@@ -321,36 +321,36 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 .12.aux)
 \openout1 = 2024-12-12_00.19.12.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 10.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 10.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 10.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 9.
 
 Package fontspec Info: 
 (fontspec)             Font family 'latinmodern-math.otf(0)' created for font
@@ -391,15 +391,15 @@ f]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=1;"
 e=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 10.
+(Font)              `operators' in the math version `normal' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 10.
+ line 9.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 10.
+(Font)              `operators' in the math version `bold' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 10.
+t line 9.
 
 Package fontspec Info: 
 (fontspec)             Font family 'latinmodern-math.otf(2)' created for font
@@ -424,15 +424,15 @@ thfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
 e=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 10.
+(Font)              `symbols' in the math version `normal' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 10.
+t line 9.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 10.
+(Font)              `symbols' in the math version `bold' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 10.
+t line 9.
 
 Package fontspec Info: 
 (fontspec)             Font family 'latinmodern-math.otf(3)' created for font
@@ -457,17 +457,16 @@ thfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
 e=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-0.
+(Font)              `largesymbols' in the math version `normal' on input line 9
+.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 10.
+t line 9.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 10.
-
+(Font)              `largesymbols' in the math version `bold' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 10.
+t line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -511,26 +510,26 @@ t line 10.
 ! Missing $ inserted.
 <inserted text> 
 $
-l.31 ...ate the definite integral of } k(x) = x + e^
-                                                  {-x}, \text{ from } x=0 \t...
+l.33 ...etermine the derivative of } m(x) = (x+3)(x^
+                                                  2-4).
 ? 
 ! Emergency stop.
 <inserted text> 
 $
-l.31 ...ate the definite integral of } k(x) = x + e^
-                                                  {-x}, \text{ from } x=0 \t...
+l.33 ...etermine the derivative of } m(x) = (x+3)(x^
+                                                  2-4).
 End of file on the terminal!
 
 
 
 Here is how much of LuaTeX's memory you used:
- 9865 strings out of 475684
- 100000,953878 words of node,token memory allocated 3199 words of node memory still in use:
-   29 hlist, 1 vlist, 8 rule, 13 disc, 3 local_par, 1 dir, 2 math, 91 glue, 16 k
-ern, 11 penalty, 168 glyph, 49 attribute, 91 glue_spec, 49 attribute_list, 1 tem
-p, 1 shape, 9 write nodes
-   avail lists: 2:180,3:72,4:7,5:58,6:12,7:797,8:17,9:182,10:6,11:25
- 32667 multiletter control sequences out of 65536+600000
+ 9882 strings out of 475684
+ 100000,953878 words of node,token memory allocated 4159 words of node memory still in use:
+   40 hlist, 1 vlist, 11 rule, 16 disc, 4 local_par, 1 dir, 4 math, 125 glue, 20
+ kern, 17 penalty, 228 glyph, 68 attribute, 91 glue_spec, 68 attribute_list, 1 t
+emp, 1 shape, 12 write nodes
+   avail lists: 2:144,3:65,4:7,5:54,6:11,7:701,8:17,9:168,10:6,11:22
+ 32684 multiletter control sequences out of 65536+600000
  49 fonts using 18175315 bytes
  86i,6n,89p,336b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

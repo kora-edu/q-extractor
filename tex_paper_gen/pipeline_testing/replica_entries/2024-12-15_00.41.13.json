@@ -1,0 +1,52 @@
+[
+    {
+        "question": "\\( \\text{Given the function } f(x) = 3x^4 - 5x^3 + 7, \\text{ find } f'(x). \\)",
+        "answer": "$f'(x) = 12x^3 - 15x^2$",
+        "type": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "\\( \\text{If the rate of change of a quantity is given by } g(x) = 4e^{2x}, \\text{ find the function } G(x). \\)",
+        "answer": "$G(x) = 2e^{2x} + C$",
+        "type": ["NCEA-Integration"]
+    },
+    {
+        "question": "\\( \\text{Evaluate: } \\frac{d}{dx}(x^3 - 4x^{-1}) \\)",
+        "answer": "$\\frac{d}{dx}(x^3 - 4x^{-1}) = 3x^2 + \\frac{4}{x^2}$",
+        "type": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "\\( \\text{Find the derivative of } h(x) = (2x-1)^5. \\)",
+        "answer": "$h'(x) = 10(2x - 1)^4$",
+        "type": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "\\( \\text{If } f(z) = z^3 + 2z^2 + iz, \\text{ where } i = \\sqrt{-1}, \\text{ find the real part of } f(1+i). \\)",
+        "answer": "$\\text{Real part is } 0$",
+        "type": ["NCEA-Complex"]
+    },
+    {
+        "question": "\\( \\text{Find } \\frac{d}{dx}(e^{2x}) + \\frac{d}{dx}(\\tan(x)) \\)",
+        "answer": "$\\frac{d}{dx}(e^{2x}) + \\frac{d}{dx}(\\tan(x)) = 2e^{2x} + \\frac{1}{\\cos^2(x)}$",
+        "type": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "\\( \\text{Evaluate } \\text{Re}(z) + \\text{Im}(z), \\text{ where } z = 3 + i. \\)",
+        "answer": "$\\text{The result is } 4$",
+        "type": ["NCEA-Complex"]
+    },
+    {
+        "question": "\\( \\text{Find the integral of } p(x) = x^2e^{-x}. \\)",
+        "answer": "\n\\begin{aligned}\n&\\text{Integrating by parts, let } u = x^2, dv = e^{-x}dx;\\\\\n&du = 2xdx, v = -e^{-x}\\\\\n&p(x)dx = -x^2e^{-x} + \\text{integral of } 2xe^{-x}, \\text{ leading to a solution involving further integration by parts.}\\text{Final result is: } -x^2e^{-x}-2xe^{-x}-2e^{-x}+C\\text{.} \\\\\\[0.5em]\n&-x^2e^{-x}-2xe^{-x}-2e^{-x} + C \\text{ where } C \\text{ is a constant of integration}\\text{.}\\\\\n\\end{aligned}",
+        "type": ["NCEA-Integration"]
+    },
+    {
+        "question": "\\( \\text{If } y = \\frac{\\sin(2x)}{\\cos(3x)}, \\text{ find the derivative using quotient rule.} \\)",
+        "answer": "$y' = \\frac{(2\\cos(2x))(\\cos(3x)) - (-3\\sin(3x))(\\sin(2x))}{\\cos^2(3x)}$",
+        "type": ["NCEA-Differentiation"]
+    },
+    {
+        "question": "\\( \\text{Given } q(z) = z + i, \\text{ find the modulus of } q(i). \\)",
+        "answer": "$\\text{The result is } \\sqrt{2}$",
+        "type": ["NCEA-Complex"]
+    }
+]

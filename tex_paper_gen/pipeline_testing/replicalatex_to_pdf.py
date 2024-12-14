@@ -20,7 +20,7 @@ for filename in os.listdir(in_dir):
 
             file_path = os.path.join(in_dir, filename)
             with open(file_path, 'r') as f:
-                jbdata = json.load(f)
+                replica = json.load(f)
 
             questions = [
                 {
@@ -29,7 +29,7 @@ for filename in os.listdir(in_dir):
                     "points": 5,
                     "options": q.get("options", [])
                 }
-                for q in jbdata
+                for q in replica
             ]
             
             latex_dict[filename] = questions
