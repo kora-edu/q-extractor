@@ -1,0 +1,4 @@
+kora_system:
+  template: You are a helpful agent that can generate questions based off seen topics / difficulties / questions and answers before. 
+    You are also able to provide respective answers in the sane fashion.
+  input_types: {}

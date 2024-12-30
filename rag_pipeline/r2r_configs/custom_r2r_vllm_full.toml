@@ -1,0 +1,110 @@
+[app]
+# app settings are global available like `r2r_config.agent.app`
+project_name = "kora_100" 
+
+
+[agent]
+system_instruction_name = "rag_agent"
+
+# tool_names = ["local_search", "web_search"]
+tool_names = ["local_search"]
+
+  [agent.generation_config]
+  model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8"
+
+
+[auth]
+provider = "r2r"
+access_token_lifetime_in_minutes = 60
+refresh_token_lifetime_in_days = 7
+require_authentication = false
+require_email_verification = false
+default_admin_email = "admin@example.com"
+default_admin_password = "change_me_immediately"
+
+
+[completion]
+provider = "litellm"
+concurrent_request_limit = 10
+
+  [completion.generation_config]
+  model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8"
+  api_base = "http://127.0.0.1:8000/v1"
+
+  temperature = 0.3
+  top_p = 1
+  max_tokens_to_sample = 1024
+  stream = false
+  add_generation_kwargs = { }
+
+
+[database]
+provider = "postgres"
+
+# KG settings
+batch_size = 256
+
+  [database.graph_creation_settings]
+    generation_config = { model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8" } # and other params, model used for relationshipt extraction
+    #clustering_mode = "remote"
+
+  [database.graph_entity_deduplication_settings]
+    generation_config = { model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8" } # and other params, model used for deduplication
+
+  [database.graph_enrichment_settings]
+    generation_config = { model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8" } # and other params, model used for node description and graph clustering
+
+  [database.graph_search_settings]
+    generation_config = { model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8" }
+
+  [database.limits]
+    # Default fallback limits if no route or user-level overrides are found
+    global_per_min = 300
+    monthly_limit = 10000
+
+  [database.route_limits]
+    # Set the `v3/retrieval/search` route to have a maximum of 5 requests per minute
+    "/v3/retrieval/search" = { route_per_min = 120 }
+    "/v3/retrieval/rag" = { route_per_min = 30 }
+
+[embedding]
+provider = "litellm"
+#base_model = "hosted_vllm/text-embedding-nomic-embed-text-v1.5" #need to use litellm proxy server since two models on same instance ?
+base_model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8"
+base_dimension = 768
+batch_size = 128  
+#rerank_model = "bge-reranker-v2-m3"
+add_title_as_prefix = true
+concurrent_request_limit = 2
+quantization_settings = { quantization_type = "FP32" }
+
+[file]
+provider = "postgres"
+
+[ingestion]
+provider = "r2r"
+chunking_strategy = "recursive"
+chunk_size = 1024
+chunk_overlap = 512
+excluded_parsers = ["mp4"]
+
+document_summary_model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8"
+
+  [ingestion.chunk_enrichment_settings]
+    enable_chunk_enrichment = false 
+    strategies = ["semantic", "neighborhood"]
+    forward_chunks = 3
+    backward_chunks = 3
+    semantic_neighbors = 10
+    semantic_similarity_threshold = 0.7
+    generation_config = { model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8" }
+
+  [ingestion.extra_parsers]
+    pdf = "zerox"
+
+[orchestration]
+#provider = "simple"
+provider = "hatchet"
+kg_creation_concurrency_limit = 32
+ingestion_concurrency_limit = 4
+kg_concurrency_limit = 8
