@@ -29,7 +29,7 @@ concurrent_request_limit = 10
 
   [completion.generation_config]
   model = "hosted_vllm/Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8"
-  api_base = "http://127.0.0.1:8000/v1"
+  api_base = "http://localhost:8000/v1"
 
   temperature = 0.3
   top_p = 1
