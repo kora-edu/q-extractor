@@ -371,7 +371,6 @@ services:
       fi;
       echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc;
       source ~/.bashrc;
-      r2r serve --full --config-path=/app/config/custom_r2r.toml & 
       exec uvicorn core.main.app_entry:app --host $${R2R_HOST} --port $${R2R_PORT}
     '
 
@@ -413,8 +412,7 @@ services:
     sh -c "
       echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc;
       source ~/.bashrc;
-      python3 -m vllm.entrypoints.openai.api_server
-      --model Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8
+      vllm serve Qwen/Qwen2.5-14B-Instruct-GPTQ-Int8
       --quantization gptq_marlin
       --dtype auto
       --max-model-len 2048"

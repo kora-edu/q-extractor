@@ -295,7 +295,7 @@ services:
       - PYTHONUNBUFFERED=1
       - R2R_PORT=${R2R_PORT:-7272}
       - R2R_HOST=${R2R_HOST:-0.0.0.0}
-      - R2R_CONFIG_PATH=/app/config/custom_r2r_vllm_full.toml
+      - R2R_CONFIG_PATH=/app/custom_r2r_vllm_full.toml
 
       # R2R
       - R2R_CONFIG_NAME=${R2R_CONFIG_NAME:-}
@@ -371,7 +371,6 @@ services:
         fi;
         echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc;
         source ~/.bashrc;
-        r2r serve --full --config-path=/app/config/custom_r2r.toml & 
         exec uvicorn core.main.app_entry:app --host $${R2R_HOST} --port $${R2R_PORT}
       '
       
@@ -384,7 +383,7 @@ services:
       retries: 5
     restart: on-failure
     volumes:
-      - ./custom_r2r_vllm_full.toml:/app/config/custom_r2r_vllm_full.toml:ro
+      - ./custom_r2r_vllm_full.toml:/app/custom_r2r_vllm_full.toml:ro
       - hatchet_api_key:/hatchet_api_key:ro
     extra_hosts:
       - host.docker.internal:host-gateway
